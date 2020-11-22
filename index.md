@@ -49,7 +49,7 @@ Licence [CC-BY-SA V4](https://creativecommons.org/licenses/by-sa/4.0/)
 
 ---
 
-### Contexte juridique  > Le droit d'auteur
+### Le droit d'auteur
 
 * Ensemble des droits d'un auteur sur ses oeuvres de l'esprit et droits du public à en jouir sous conditions.
 * Concept philosophique (John Locke, 17éme : l'homme étant prprétaire de lui-même, ses oeuvre s lui apartiennent)
@@ -58,11 +58,11 @@ Licence [CC-BY-SA V4](https://creativecommons.org/licenses/by-sa/4.0/)
     - *patrimoniaux* : droits liés à l'sploitation économique de l"oeuvre. Limit"s dans le temps.
     - *moraux* : droitqs inaliénables et perpétuels liés à al réputation des auteurs. 
 * Le plagiat est juridiqueemnt nommé "contrefacon' en droit français. C'est le fait de faire passer pour sienne l'idée d'une autre personnes.
-* Articles [L335-2-1, L335-3](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006279235/2009-06-14) du code de la propriété intellectuelle: interdisent copie et utilisation d’un logiciel sans l’accord du titulaire des droits d' auteur
+* Articles [L335-2-1, L335-3](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006279235/2009-06-14) du code de la propriété intellectuelle (CPI): interdisent copie et utilisation d’un logiciel sans l’accord du titulaire des droits d' auteur.
 
 ---
 
-## Contexte juridique > Comment prouver la paternité du logiciel ?
+## Comment prouver la paternité du logiciel ?
 
 * Il faut uen preuve *d'antériorité*
 * Dépot auprès de l'agence Européenne APP (Agence pour la Protection des Programmes)
@@ -72,7 +72,7 @@ Licence [CC-BY-SA V4](https://creativecommons.org/licenses/by-sa/4.0/)
 
 ---
 
-## Contexte juridique > Les droits patrimoniaux du logiciels en France
+## Les droits patrimoniaux du logiciels en France
 
 * Valables 70 ans après l’année de décès de l’auteur (article L 122-6 du CPI)
 * Droit de reproduction : droit de dupliquer l'oeuvre sur tout support qui en permet la communication au public
@@ -81,7 +81,7 @@ Licence [CC-BY-SA V4](https://creativecommons.org/licenses/by-sa/4.0/)
 
 ---
 
-## Contexte juridique > Les droits moraux du logiciels en France
+## Les droits moraux du logiciels en France
 
 * Perpétuels
 * Aménagés pour les logiciels
@@ -92,40 +92,122 @@ Licence [CC-BY-SA V4](https://creativecommons.org/licenses/by-sa/4.0/)
 
 ---
 
-## Contexte juridique > Copyright
+## Le Copyright
 
-* Le droit d'auteur est appliqué dans les pays Européens (hors UK et Irlande) et le Copyright dans les pays anglo-saxons (USA, Canada, ...)
+* Le droit d'auteur est appliqué dans les pays Européens (hors UK et Irlande) et le Copyright dans les pays anglo-saxons (USA, Canada, ...) 
 * Le droit d'auteur vise la protection des auteurs. Le copyright vise la protection des oeuvres.
 * Différence surtout sur les droits moraux: l'employeur est considédé comme le créateur.
-* Le copyright ne protege que les oeeuvres sur support matériel. 
-* Les droits d'auteur protége toute oeuvre (discours, choregraphie...)
+* Le copyright ne protege que les oeeuvres sur support matériel alors que le droit d'auteur protége toute oeuvre (discours, choregraphie...)
 * La convention de Berne (1971) ratifiée par 166 états permet une harminisation.
+<img style="float: right;" src="resources/copyright.webp">
 * Obtention gratuite et automatique du droit d'auter.
     - Il faut demander expliocitement une renonciatioh à son droit d'auteur
     - Signe © encore largement utilisé à titre informatif uniquement (rapelle la protection juridique)
-![copyright](resources/)
+
 
 ---
 
-## Contexte juridique > les brevets 
+## Les brevets 
 
-Toutefois en France le débat a été tranché dès 1968 avec l’adoption de la loi du 2 janvier 1968 qui expliquait le refus de l’application du droit des brevets au logiciel par son inaptitude à remplir le caractère industriel exigé pour les inventions brevetables.L 611-10 du Code de la propriété intellectuelle prévoit l’exclusion explicite de brevetabilité des logiciels
+* Le droit d'auteur/copyright concerne des oeuvres
+* Les bvrevets conservent des inventions.
+* Prorpiété industrielle. Donne le droit d'exploiter uen invention.
+* En France, les logiciels ne sont pas brevetables (L 611-10 du CPI, loi du 2 janvier 1968) car ne remplit pas le caractère industriel.
+* Interdiction reaffirmée au niveau eurpéen en 2005 après une longue lutte.
+* Seuls cas : logiciels au sein d'une invention non logicielle brevetable (exemple : ABS)
 
-e législateur n’a pas précisé la notion de logiciel, cet oubli est volontaire dans la mesure où il ne voulait pas enfermer le logiciel dans « un carcan législatif » et permettre une adaptation plus efficace du droit d’auteur au logiciel.
+---
+## Le domaine public
+* Tout création pour lequel auun droit d'auteur ne s'applique (expiration, renomciation, innapolicabilité)
+<img style="float: right;" src="resources/public-domain.png">
 
-C’est donc la jurisprudence qui a délimité les contours de la notion.
+* Tout logiciel tombe dans le domaine tublic à l'échéance des droits patrimoniaux
+* S'il y renonciation explicite aux droits par l'auteur (via licencnes WTFPLv2, Zeo Clause BSD, CC0)
 
-Du point de vue technique le logiciel se définit comme un processus comprenant deux phases, à savoir une phase d’analyse et une phase de programmation.
-
-
-
-### Contexte juridique > Des risques importants en cas de non respect des licences
+---
+### Des risques importants en cas de non respect des licences
 
 * 2008: Microsoft gagne 1.8M€ contre un réseau de conterefacon (cours appel Paris)
 * 2009: 8000 € de frais de justice pour Edu4 et perte du contrat pour avoir fait passé VLC (logiciel libre) comme développé par lui.
 * 2014 : Oracle demande 12 M€ à l'AFPA pour non utilisation non prévue d'un de ses logiciels (débouté).
 * 2019 : Procès de la Société Entr’ouvert contre Orange qui a utilisé sa librairie pour un projet DGME sans respecter sa licence (GPL V2).
-* Piratage de logiciels : le code de la propriété intellectuelle prévoit jusqu'à 300.000 € d'amende et 3 ans d'emprimmnnement pour les personnes physiques et 750K€ d'amendes pour les personnes morales.
+* Piratage de logiciels : le CPI prévoit jusqu'à 300.000 € d'amende et 3 ans d'emprimmnnement pour les personnes physiques et 750K€ d'amendes pour les personnes morales.
+
+---
+
+## Les licneces prorpitaires
+* Synonimes: "non libre", "privatif/privateur"
+* Droit d'auteur + contrat de licence (CLUF) = Licence propriétaire.
+* L'objectif est de contrôler la diffusion d'un logiciel pour en tirer un bénéfice
+* Le code source n'est pas disponibles (sauf exceptions contralctuelles)
+* Location (et pas achat) temporaire ou perspetuelle de droits d'usage contractualisés par un CLUF
+* Un logiciel peut être vendu à une autre société (transfert du droit d'auteur patrimonial)
+
+---
+### Modèle écopnomique
+* Les utilisateurs payent pour pouvoir utiliser le logiciel
+* Dans certains cas, le logiciel est gratuit de façon definitive (Freeware) ou temporaire (Shareware)
+   - Attention, un freeware n'a rien à voir avec avec un logiciel libre : ici "free" = "gratuit"
+* Les grands logiciels/progiciels proposent souvent plusieurs versions du logiciels plus ou moins cher en fonction des fonctionnailités
+    - Souvent la version de base est gratuire (freemium)
+    - Puis versions "silver , gold, platinium" ou similaires
+    
+
+---
+### les modes de facturation
+* Facturation souvent très complexe :
+    - besoin d'experts (métier de "compliance manager")
+<img style="float: right; width: 200px" src="resources/complex.svg">
+* Critères principaux :
+    - à l'utilisateur nommé
+    - à un nombre d'utilisateurs simultanés
+    - à la puissance utilisée (nombre de CPU)
+    - à l'installation (par serveur/station)
+* Rapidement très technique : 
+    - Quid des machines virtuelles ? (chez Oracle, on paye totu le serveur physique)
+    - Quid des containeurs ?
+    - Quids des environnements hors production (DEV, recette, pré-production...) ?
+
+---
+
+### Les pieges principaux
+- Tarifs négotiés sur un lot puis passage automatique aux prix publics dès qu'il y a dépassement
+- Introduire une fonctionnailité rapidement indispensable dans une version plus chère (exemple : intégration à un IDP)
+- Modifier ou offuscer les formats de donnée pour ralentir les conturents propriétaires ou libre
+- Contrats et produits complexes favorisant l'utilisation d'options payantes non incluses puis faire un audit
+- Pousseer à la consommation en mode "illimité" au tarrif négotié precédent puis refaire un bilan tous les 5 ans pour renogier à la hausse sur un nouvelle base.
+- Couts de support exorbitant (20% du prix par an ou plus) et presque jamais utilisés.
+- Prix d'ami sur des logiciels qui finissent dans une armoire ou sur une population bien plus faible qu'envisagée.
+- Engagement sur des années alors que le prosduit n'est pas utilisé ou ne convient pas.
+- Pour les plateformes de developpement : quid de nos developpements si la société fait faillite ? prévoir clause.
+- Idem pour les données et les produits SaaS : prévoir contractuellement des solutions de reversibilité.
+
+---
+### Méthode de controle de la diffusion
+
+* Contrats
+* DRM
+* Clés
+* Serveurs de licences
+* Audits
+* Mouchards (dans mises à jour)
+
+---
+### Les logiciels propriétaires : cauchemards des architectes et des chefs de projets
+* Reversibilité
+* Disponibilité (jetons/serveurs de jetons)
+* L'archi est orientée cout au lieu d'ere aligné sur les exigences du projet
+
+
+### Quels logiciels propriétaires n'ont pas d'équivantes libres ?
+* Les logiciels de gestion des licneces proprétaires (Compliance Management)
+* Firmwares, logiciels industriels et embarqués.
+* Grands ERP
+* Progiciels (nombreux métiers : médical, comptabilité, grande distribution ...)
+* Outils de conception avancés (exemple: CAO)
+* Domaines de niche (exemple: musique proferssionelle)
+
+
 
 
 xDes procédures civiles et pénales peuvent être entreprises contre toute personne physique ou morale soupçonnée de piratage de logiciel protégé. Une personne physique risque une amende qui peut aller jusqu'à 150 000 euros et une peine d’emprisonnement de 2 ans maximum
@@ -166,12 +248,9 @@ Si l’auteur du logiciel est un salarié qui opère dans le cadre de ses foncti
 
 x Toutefois, afin de faire cesser la contrefaçon, vous devez prouver que vous êtes bien l’auteur du logiciel contrefait. Pour ce faire, il vous faudra notamment constituer une ou des preuves d’antériorité pouvant établir la date à laquelle les éléments constitutifs de votre logiciel ont été créés. L’horodatage par la Blockchain est l’une des méthodes que vous pouvez utiliser dès à présent pour protéger vos créations logicielles.  dépôt des éléments précités auprès de l’APP (Agence pour la Protection des Programmes) : http://www.app.asso.fr/formulaires (Enregistrement des programmes auprès du répertoire international d’identification des œuvres numériques dont le numéro d’enregistrement est admis comme moyen de preuve dans plus de 200 pays et notamment les États membres de l’Union européenne, la Suisse, le Maroc, les États-Unis, la Chine et la Russie).Il existe d’autres moyens de rapporter la preuve de la titularité des droits sur un logiciel ainsi que de leur antériorité mais ceux-ci sont moins efficaces qu’un dépôt auprès de l’APP : le dépôt d’une enveloppe e-Soleau à l’INPI, l’envoi recommandé à soi-même, le dépôt chez un notaire ou un huissier…
 
-Grâce à la Convention de Berne qui prévoit que les éléments protégeables par un droit d’auteur bénéficient, dans tout État partie à la Convention, de la même protection que celle que ces États accordent aux créations de leurs propres ressortissants, sans aucune formalité.
-
-A ce jour, 172 États ont ratifié la Convention de Berne, dont la plupart des grandes puissances industrielles (Union européenne, États-Unis, Chine, Japon, Inde).
-
-La Convention de Berne oblige, par ailleurs, tous ses États membres à un « minimum » de protection au titre de ce droit d’auteur.
-
+xGrâce à la Convention de Berne qui prévoit que les éléments protégeables par un droit d’auteur bénéficient, dans tout État partie à la Convention, de la même protection que celle que ces États accordent aux créations de leurs propres ressortissants, sans aucune formalité.
+x ce jour, 172 États ont ratifié la Convention de Berne, dont la plupart des grandes puissances industrielles (Union européenne, États-Unis, Chine, Japon, Inde).
+xLa Convention de Berne oblige, par ailleurs, tous ses États membres à un « minimum » de protection au titre de ce droit d’auteur.
 De manière générale, l’auteur français d’un logiciel bénéficie ainsi dans ces États de droits patrimoniaux à peu près équivalents à ceux exposés ci-dessus pour la France et ce, pour une durée minimale de 50 ans à compter du décès de leur(s) auteur(s).
 
 
@@ -190,3 +269,15 @@ Jean-Pierre Desbenoit (DGAC) : « Oracle ne nous a pas pris au sérieux, nous le
 
 https://www.murielle-cahen.com/publications/logiciel-auteur.asp
 https://www.jurifiable.com/conseil-juridique/propriete-intellectuelle/copyright#:~:text=Le%20copyright%20rel%C3%A8ve%20d'une%20logique%20principalement%20%C3%A9conomique.&text=Il%20prot%C3%A8ge%20les%20personnes%20qui,prot%C3%A8ge%20avant%20tout%20les%20cr%C3%A9ateurs.
+
+e législateur n’a pas précisé la notion de logiciel, cet oubli est volontaire dans la mesure où il ne voulait pas enfermer le logiciel dans « un carcan législatif » et permettre une adaptation plus efficace du droit d’auteur au logiciel.
+C’est donc la jurisprudence qui a délimité les contours de la notion.
+Du point de vue technique le logiciel se définit comme un processus comprenant deux phases, à savoir une phase d’analyse et une phase de programmation.
+
+https://fr.wikipedia.org/wiki/Logiciel_propri%C3%A9taire
+
+
+
+Freemium
+Main article: Freemium
+Freemium works by offering a product or service free of charge (typically digital offerings such as software, content, games, web services or other) while charging a premium for advanced features, functionality, or related products and services. For example, a fully functional feature-limited version may be given away for free, with advanced features disabled until a license fee is paid. The word "freemium" is a portmanteau combining the two aspects of the business model: "free" and "premium". It has become a popular model especially in the antivirus industry.
