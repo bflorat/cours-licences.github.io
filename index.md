@@ -8,6 +8,9 @@ Copyright © 2020 [Bertrand Florat](http://www.florat.net/contact)
 
 Licence [CC-BY-SA V4](https://creativecommons.org/licenses/by-sa/4.0/)
 
+_L'université de Nantes n’entend donner aucune approbation ni improbation aux opinions émises
+dans ce cours. Ces opinions doivent être considérées comme propres à l’auteur._
+
 ![Université de Nantes](resources/logo-univ.png)
 
 ---
@@ -59,7 +62,7 @@ Licence [CC-BY-SA V4](https://creativecommons.org/licenses/by-sa/4.0/)
 
 ---
 
-## Comment prouver la paternité du logiciel ?
+## Comment prouver la paternité du logiciel&nbsp;?
 
 * Il faut une preuve *d'antériorité*
 * Dépôt auprès de l'agence Européenne APP (Agence pour la Protection des Programmes)
@@ -130,13 +133,27 @@ Licence [CC-BY-SA V4](https://creativecommons.org/licenses/by-sa/4.0/)
 
 ---
 
-## Les licences prioritaires
+## Les licences propriétaires
 * Synonymes: "non libre", "privatif/privateur"
 * Droit d'auteur + contrat de licence (CLUF) = Licence propriétaire.
 * L'objectif est de contrôler la diffusion d'un logiciel pour en tirer un bénéfice
 * Le code source n'est pas disponibles (sauf exceptions contractuelles)
 * Location (et pas achat) temporaire ou perpétuelle de droits d'usage contractualisés par un CLUF
 * Un logiciel peut être vendu à une autre société (transfert du droit d'auteur patrimonial)
+
+---
+
+## Historique
+* Jusqu'au milieu des années 1970:
+    - pas encore de micro-informatique (mainframes)
+    - hardware et software vendus ensemble
+    - c'est surtout le hardware qui est important
+    - Le code source est libre d'être étudié ou modifié. Inutilisable sans avoir acheté le materiel associé.
+* Milieu des années 1970 : 
+    - création du concept de logiciel propriétaire (surtout pour micro-informatique)
+    - lettre de Bill Gates en 1976 demandant d'arrêtrer 'le vol' de Windows
+    - Premières lois ('Copyright Act') en octobre 1976 pour protéger les auteurs de logiciels
+    - Rapidement, la majorité des logiciels devient propriétaire
 
 ---
 ### Modèle économique
@@ -176,7 +193,7 @@ Licence [CC-BY-SA V4](https://creativecommons.org/licenses/by-sa/4.0/)
 - Quid en cas de faillite ? (cas AGD)
     * prévoir clause de reversibilité ou contrat d’escrow (sources déposées chez tiers de confiance)
     * encore pire si plateforme de développement (PaaS ou pas)
-- Idem pour les données et les produits SaaS : prévoir contractuellement des solutions de réversibilité
+- SaaS : prévoir contractuellement des solutions de réversibilité
 - Favorise la corruption / le copinage
 
 ---
@@ -187,7 +204,7 @@ Licence [CC-BY-SA V4](https://creativecommons.org/licenses/by-sa/4.0/)
 * Appels d'API sur Internet
 * DRM sur les binaires
 * Audits (spécialités d'Oracle ou IBM entre autres)
-* Mouchards (dans mises à jour)
+* Mouchards (dans mises à jour par exemple)
 
 ---
 ### L'impact projet 
@@ -218,7 +235,7 @@ Licence [CC-BY-SA V4](https://creativecommons.org/licenses/by-sa/4.0/)
 * Progiciels métiers : médical, comptabilité, grande distribution...
 * Outils de conception avancés (exemple: CAO)
 * Domaines de niche (exemple: musique professionnelle)
-* Et bien sur les logiciels de gestion des licences propriétaires (Compliance Management)  ;-)
+* Et bien sûr les logiciels de gestion de licences (Compliance Management)  ;-)
 ---
 
 
@@ -294,3 +311,7 @@ https://fr.wikipedia.org/wiki/Logiciel_propri%C3%A9taire
 Freemium
 Main article: Freemium
 Freemium works by offering a product or service free of charge (typically digital offerings such as software, content, games, web services or other) while charging a premium for advanced features, functionality, or related products and services. For example, a fully functional feature-limited version may be given away for free, with advanced features disabled until a license fee is paid. The word "freemium" is a portmanteau combining the two aspects of the business model: "free" and "premium". It has become a popular model especially in the antivirus industry.
+
+
+https://pastel.archives-ouvertes.fr/tel-00467849/document
+types d'editeurs open source, chercher mandriva
