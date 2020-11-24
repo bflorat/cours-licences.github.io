@@ -18,9 +18,9 @@ dans ce cours. Ces opinions doivent être considérées comme propres à l’aut
 
 ## Agenda
 
-| Motivations | Contexte juridique | Licences propriétaires | Licences libres
+| Motivations | Contexte juridique | Licences propriétaires | Licences libres | Bilan
 | ------------- |-------------| -------------|-------------|
-|<ul><li><smaller>qu'est ce que ce cours va m'apporter&nbsp;?</smaller></li><li>en quoi est-ce important&nbsp;?</li></ul> | <ul><li>les droits d'auteur</li><li>le copyright</li> <li>le domaine public</li></ul>| <ul><li>historique</li><li>fonctionnement</li> <li>analyse</li></ul>| <ul><li>historique</li><li>fonctionnement</li> <li>analyse</li></ul>
+|<ul><li><smaller>qu'est ce que ce cours va m'apporter&nbsp;?</smaller></li><li>en quoi est-ce important&nbsp;?</li></ul> | <ul><li>les droits d'auteur</li><li>le copyright</li> <li>le domaine public</li></ul>| <ul><li>historique</li><li>fonctionnement</li></ul>| <ul><li>historique</li><li>fonctionnement</li></ul>| Analyse comparée
 
 ---
 
@@ -124,7 +124,6 @@ dans ce cours. Ces opinions doivent être considérées comme propres à l’aut
 
 ---
 ### Des risques importants en cas de non respect des licences
-
 * 2008: Microsoft gagne 1.8M€ contre un réseau de contrefaçon (cours appel Paris)
 * 2009: 8000 € de frais de justice pour Edu4 et perte du contrat pour avoir fait passé VLC (logiciel libre) comme développé par lui.
 * 2014 : Oracle demande 12 M€ à l'AFPA pour non utilisation non prévue d'un de ses logiciels (débouté).
@@ -197,7 +196,7 @@ dans ce cours. Ces opinions doivent être considérées comme propres à l’aut
 - Favorise la corruption / le copinage
 
 ---
-### Méthode de contrôle de la diffusion
+### Méthodes de contrôle de la diffusion
 * Contrats (CLUF) engageant le client
 * Clés (fournies par l'éditeur et à installer)
 * Serveurs de licences (_on premise_)
@@ -229,16 +228,60 @@ dans ce cours. Ces opinions doivent être considérées comme propres à l’aut
 
 ---
 
-### Quels logiciels propriétaires n'ont pas équivalents libres ?
+### Quels logiciels propriétaires n'ont pas d'équivalents libres ?
 * Firmwares, logiciels industriels et embarqués.
 * Grands ERP
 * Progiciels métiers : médical, comptabilité, grande distribution...
 * Outils de conception avancés (exemple: CAO)
 * Domaines de niche (exemple: musique professionnelle)
 * Et bien sûr les logiciels de gestion de licences (Compliance Management)  ;-)
+
+---
+## Les logiciels libres
+
+* Définition : "_Un logiciel libre est un logiciel dont l'utilisation, l'étude, la modification et la duplication par autrui en vue de sa diffusion sont permises, techniquement et légalement, ceci afin de garantir certaines libertés induites, dont le contrôle du programme par l'utilisateur et la possibilité de partage entre individus._" (Wikipedia)
+* Deux types de statuts juridiques possibles : 
+    - les logiciels dans le domaine public (sans droit d'auteur patrimonial)
+    - et les logiciels sous un licence libre (GPL, BSD...) avec __respect du droit d'auteur__
+
+---
+### Historique
+* Entre les années 60 à mi-70, tous les logiciels était libres de fait mais de façon non formailisée
+* Mi-1970 : emergeance des logiciels propriétaires et de la micro-informatique
+<img style="float: right;" src="resources/rms.png">
+* 1980 : certains commencent à prendre consience des restictions sur les libertées
+    - 1980, RMS (Richard Stallman) constate qu'il ne peut modifier un driver d'impression Xerox.
+* 1983: Lancement du projet GNU (Gnu’s Not Unix) par Richard Matthew Stallman (RMS)
+* 1985: Création de la FSF (Free Software Fondation)
+* 1989: Base légale du libre: la GPL V1 (General Public Licence) 
+* 1991: Linus Torvalds démarre le projet de noyau Linux
+* 1994: Sortie de Linux 1.0 en GPL, apparition du système GNU/Linux
+* 1998: Scission de l’Open Source Initiative (OSI)
+* 2007: GPL V3
+
 ---
 
+### Les quatre libertés fondamentales
 
+* Liberté 0 : La liberté d'__exécuter__ le programme, pour tous les usages et sans aucune restriction
+* Liberté 1 : La liberté d'__étudier__ le fonctionnement du programme
+* Liberté 2 : La liberté de __redistribuer__ le logiciel
+* Liberté 3 : La liberté d'__améliorer__ le programme et de __redistribuer le programme amélioré__
+
+---
+
+### Le copyleft
+Afin d’assurer ces libertés, les logiciels Open Source se basent sur:
+- (Toujours) le __droit d’auteur__ (copyright) qui prévient le plagiat. 
+<img style="float: right;" src="resources/copyleft.png">
+- (Souvent)  __la gauche d’auteur__ (copyleft) qui complète le copyright et assure la propagation des libertés par réciprocité
+* Concept inventé par Don Hopkins et Richard Stallman en 1984 (Jeu de mot avec “Copyright”)
+* Tout code dérivé à la base sous licence de type copyleft doit conserver sa  licence d’origine
+* Le copyleft impose que toute modification publiée apportée à un logiciel copyleft et distribué soit versée à la communauté
+* __On ne partage qu'avec ceux qui veulent partager__
+* Pour les détracteurs (anciennement Microsoft par exemple) : "Virus"
+
+---
 
 xDes procédures civiles et pénales peuvent être entreprises contre toute personne physique ou morale soupçonnée de piratage de logiciel protégé. Une personne physique risque une amende qui peut aller jusqu'à 150 000 euros et une peine d’emprisonnement de 2 ans maximum
 En France les concepteurs de logiciels avec licence sont protégés par les lois qui régissent les droits d’auteur, la propriété intellectuelle et la protection juridique des programmes d’ordinateur. Les articles L.335-3, L.122-4 et L.335-2 du code de la propriété intellectuelle interdisent la copie et l’installation d’un logiciel sans l’accord du détenteur des droits d’auteur
