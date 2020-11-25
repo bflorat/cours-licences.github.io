@@ -270,18 +270,33 @@ dans ce cours. Ces opinions doivent être considérées comme propres à l’aut
 
 ---
 
-### Le copyleft
+### Le Copyleft
 Afin d’assurer ces libertés, les logiciels Open Source se basent sur:
 - (Toujours) le __droit d’auteur__ (copyright) qui prévient le plagiat. 
 <img style="float: right;" src="resources/copyleft.png">
 - (Souvent)  __la gauche d’auteur__ (copyleft) qui complète le copyright et assure la propagation des libertés par réciprocité
-* Concept inventé par Don Hopkins et Richard Stallman en 1984 (Jeu de mot avec “Copyright”)
-* Tout code dérivé à la base sous licence de type copyleft doit conserver sa  licence d’origine
-* Le copyleft impose que toute modification publiée apportée à un logiciel copyleft et distribué soit versée à la communauté
 * __On ne partage qu'avec ceux qui veulent partager__
+* Concept inventé par Don Hopkins et Richard Stallman en 1984
+* Tout code à la base sous licence copyleft doit conserver sa  licence d’origine
+* Le copyleft impose que toute modification publiée apportée à un logiciel copyleft et __distribué__ soit versée à la communauté
+* Distribué ? _"Quand une organisation transfère des copies à d'autres organisations ou à des particuliers, c'est une distribution"_, [pas en interne](https://www.gnu.org/licenses/gpl-faq.fr.html#InternalDistribution) de l'organisation.
 * Pour les détracteurs (anciennement Microsoft par exemple) : "Virus"
 
 ---
+
+### Droits et devoirs des auteurs
+
+* Droits
+    - Le logiciel appartient toujours aux auteurs via le droit d’auteur, il n’y __aucune perte de propriété__
+    - Les auteurs ont le droit de __changer la licence__ ou d’utiliser plusieurs licences pour toute version ancienne ou future leur appartenant
+    - L’auteur a le droit (il est même encouragé) de tirer __profit__ pécuniairement de sa création
+* Devoirs
+    - Les auteurs doivent __fournir le code source__ gratuitement ou contre rémunération (limité au prix de la copie biniare)
+    - __Responsabilité limitée__: les licences libres possèdent toutes des clauses de dégagement de responsabilité (tout comme la quasi-totalité des logiciels propriétaires)
+
+---
+
+
 
 xDes procédures civiles et pénales peuvent être entreprises contre toute personne physique ou morale soupçonnée de piratage de logiciel protégé. Une personne physique risque une amende qui peut aller jusqu'à 150 000 euros et une peine d’emprisonnement de 2 ans maximum
 En France les concepteurs de logiciels avec licence sont protégés par les lois qui régissent les droits d’auteur, la propriété intellectuelle et la protection juridique des programmes d’ordinateur. Les articles L.335-3, L.122-4 et L.335-2 du code de la propriété intellectuelle interdisent la copie et l’installation d’un logiciel sans l’accord du détenteur des droits d’auteur
@@ -358,3 +373,5 @@ Freemium works by offering a product or service free of charge (typically digita
 
 https://pastel.archives-ouvertes.fr/tel-00467849/document
 types d'editeurs open source, chercher mandriva
+
+https://www.gnu.org/licenses/gpl-faq.fr.html
