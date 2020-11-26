@@ -284,6 +284,10 @@ Afin d’assurer ces libertés, les logiciels Open Source se basent sur:
 
 ---
 
+### Catégorisation des licences
+
+<img src="resources/categories_ll.png">
+---
 ### Droits et devoirs des auteurs
 
 * Droits
@@ -296,7 +300,49 @@ Afin d’assurer ces libertés, les logiciels Open Source se basent sur:
 
 ---
 
+### La compatibilité des licences
+* Certaines licences sont comptatibles entre elles
+* Décrit la possibilité ou non de mélanger du code source ou des binaires sous licences différentes
+* Clauses sont souvent complexes mais simplification coté GPL V3
+<img src="resources/quick-guide-gplv3-compatibility.png">
 
+<a href='https://www.gnu.org/licenses/quick-guide-gplv3.html'>Source</a>
+
+---
+
+### Le multi-licences
+* Un même produit peut disposer de plusieurs licences ("Multi-licencing")
+* Licence multiple libre / libre ou libre / propriétaire (exemple: MySQL Community en GPL et MySQL Enterprise Edition propriétaire)
+* Soit l'utilisateur peut choisir la licence qui s'appplique, soit c'est imposé par l'auteur, soit toutes s'appliquent en même temps
+* Rare et réalisé en général par des sociétés.
+* Objectif:  
+  - S’assurer un revenu en vendant un logiciel en mode propriétaire tout en le faisant évoluer via la communauté (exemples: Mono, MySQL, QT).
+  - Résoudre des incompatibilités de licence entre plusieurs projets lors d’une fusion.
+  - Segmentation de marché (prix différents : version community, premium...)
+* Risqué car brouille la visibilité du projet et peut décourager les contributeurs ou conduire à un fork supérieur plébiscité par la communauté (MariaDB).
+
+---
+
+
+### Modèle économique
+
+
+### Bilan
+
+---
+
+### Les licences propriétaires
+
+SWOT
+
+---
+### Les licences libres
+
+SWOT
+
+
+
+---
 
 xDes procédures civiles et pénales peuvent être entreprises contre toute personne physique ou morale soupçonnée de piratage de logiciel protégé. Une personne physique risque une amende qui peut aller jusqu'à 150 000 euros et une peine d’emprisonnement de 2 ans maximum
 En France les concepteurs de logiciels avec licence sont protégés par les lois qui régissent les droits d’auteur, la propriété intellectuelle et la protection juridique des programmes d’ordinateur. Les articles L.335-3, L.122-4 et L.335-2 du code de la propriété intellectuelle interdisent la copie et l’installation d’un logiciel sans l’accord du détenteur des droits d’auteur
