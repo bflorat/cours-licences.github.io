@@ -323,8 +323,31 @@ Afin d’assurer ces libertés, les logiciels Open Source se basent sur:
 
 ---
 
-
 ### Modèle économique
+* Sociétés  :
+    - Conseil
+    - Développement à “libération conditionnelle” et en dual licensing 
+    - Les deux (le conseil sur son propre produit étant un avantage concurrentiel  considérable)
+
+* Organisations et bénévoles : 
+    - Rémunérations très faibles en général (ex: dons Paypal)
+    - Rémunération forfaitaire pour développement spécifique (Bounty)
+    - Matériel (serveurs, postes de développement etc..)
+    - Motivations intrinséques (sans retour directs) : créativité, travailler en équipe, altruisme, réputation/CV...
+
+### Les pièges les plus courants
+* (surtout surtout des entreprises) : subir les rodmap produit
+* Fausse sécurité sur des produits Open Source mais developpé uniquement par une entreprise
+* Partir sur une technologie peu supportée puis abandonnée
+    - Le plus important : nombre d'utilisateurs
+* Solution gratuire mais supprot exhorbitant ou contraignant (exemple: Redhat)
+* Penser que nos MR seront acceptées dans tous les cas
+* Penser que Libre = Domaine Public et ignorer les clauses des licences
+* Risques juridiques en cas de non maitrise (Copyleft)
+* Risques de réécriture de projets si non respect des licences
+* Risques de changement de licence (exemple: MongoDB)
+
+__Conseil : privilégier els projets issus de communautés, pas d'entreprises__
 
 
 ### Bilan
