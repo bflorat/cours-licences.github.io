@@ -19,8 +19,8 @@ dans ce cours. Ces opinions doivent être considérées comme propres à l’aut
 ## Agenda
 
 | Motivations | Contexte juridique | Licences propriétaires | Licences libres | Bilan
-| ------------- |-------------| -------------|-------------|
-|<ul><li><smaller>qu'est ce que ce cours va m'apporter&nbsp;?</smaller></li><li>en quoi est-ce important&nbsp;?</li></ul> | <ul><li>les droits d'auteur</li><li>le copyright</li> <li>le domaine public</li></ul>| <ul><li>historique</li><li>fonctionnement</li></ul>| <ul><li>historique</li><li>fonctionnement</li></ul>| Analyse comparée
+| ------------- |-------------| -------------|-------------|-------------|
+|<ul><li><smaller>qu'est ce que ce cours va m'apporter&nbsp;?</smaller></li><li>en quoi est-ce important&nbsp;?</li></ul> | <ul><li>les droits d'auteur</li><li>le copyright</li> <li>le domaine public</li></ul>| <ul><li>historique</li><li>fonctionnement</li></ul>| <ul><li>historique</li><li>fonctionnement</li></ul> | analyse comparée
 
 ---
 
@@ -78,6 +78,7 @@ dans ce cours. Ces opinions doivent être considérées comme propres à l’aut
 * Droit de reproduction : droit de dupliquer l’œuvre sur tout support qui en permet la communication au public
 * Droit de modification : droit de s'opposer à la traduction, adaptation ou toute autre modification du logiciel
 * Droit de mise sur le marché : l'auteur peut vendre ou donner son œuvre à sa guise
+* Oeuvre réalisé sous contrat de travail : __Les droits d'auteur patrimoniaux appartiennent à l'employeur__ (Article L113-9 du CPI)
 
 ---
 
@@ -95,13 +96,16 @@ dans ce cours. Ces opinions doivent être considérées comme propres à l’aut
 ## Le Copyright
 
 * Le droit d'auteur est appliqué dans les pays Européens (hors UK et Irlande) et le Copyright dans les pays anglo-saxons (USA, Canada, ...) 
+<img style="float: right;" src="resources/copyright.webp">
 * Le droit d'auteur vise la protection _des auteurs_. Le copyright vise la protection _des œuvres_.
 * Différence surtout sur les droits moraux : l'employeur est considéré comme le créateur
 * Le copyright ne protège que les œuvres sur support matériel alors que le droit d'auteur protége toute œuvre (discours, spectacle vivant...)
 * La __convention de Berne__ (1971) ratifiée par 166 états permet une harmonisation
-    - Obtention gratuite et automatique du droit d'auteur  <img style="float: right;" src="resources/copyright.webp">
+    - Obtention gratuite et automatique du droit d'auteur  
     - Il faut demander explicitement une renonciation à son droit d'auteur
-- Signe © encore largement utilisé à titre informatif uniquement (rappelle la protection juridique)
+
+<div class='note ad'>
+ Signe © encore largement utilisé à titre informatif uniquement (rappelle la protection juridique)</div>
 
 ---
 
@@ -256,7 +260,7 @@ dans ce cours. Ces opinions doivent être considérées comme propres à l’aut
 * 1989: Base légale du libre: la GPL V1 (General Public Licence) 
 * 1991: Linus Torvalds démarre le projet de noyau Linux
 * 1994: Sortie de Linux 1.0 en GPL, apparition du système GNU/Linux
-* 1998: Scission de l’Open Source Initiative (OSI)
+* 1998: Scission de l’Open Source Initiative (OSI) orienté business
 * 2007: GPL V3
 
 ---
@@ -267,6 +271,22 @@ dans ce cours. Ces opinions doivent être considérées comme propres à l’aut
 * Liberté 1 : La liberté d'__étudier__ le fonctionnement du programme
 * Liberté 2 : La liberté de __redistribuer__ le logiciel
 * Liberté 3 : La liberté d'__améliorer__ le programme et de __redistribuer le programme amélioré__
+
+---
+
+### Définition de l'OSI (Open Source Initiative)
+<img style="float: right;" src="resources/osi.png">
+
+1. Free Redistribution
+2. Source Code
+3. Derived Works
+4. Integrity of The Author's Source Code
+5. No Discrimination Against Persons or Groups
+6. No Discrimination Against Fields of Endeavor
+7. Distribution of License
+8. License Must Not Be Specific to a Product
+9. License Must Not Restrict Other Software
+10. License Must Be Technology-Neutral
 
 ---
 
@@ -287,6 +307,49 @@ Afin d’assurer ces libertés, les logiciels Open Source se basent sur:
 ### Catégorisation des licences
 
 <img src="resources/categories_ll.png">
+
+Voir aussi [la liste officielle sur gnu.org](https://www.gnu.org/licenses/license-list.html)
+---
+
+
+### Zoom sur la GPL (GNU General Public License)
+* Objectif: assurer la liberté des utilisateurs
+* Créée par RMS (Richard Stallman) et la FSF
+* V1 en 1989, V2 en cours en 1991. V3 en 2007 
+* Très utilisée
+* Meilleure garantie des libertés des utilisateurs et la redistribution de la connaissance grâce au copyleft
+* V3 : 
+   - anti-tivoïsation (GPL mais DRM empechant la modification sur hardware)
+   - permissions additionnelles
+   - simplification comptabilité avec les autres licences
+
+<div class='ad note'>
+<b>Exemples :</b>Linux, Git, Ansible, Drupal, Wordpress, Notepadd++, MariaDB, GCC
+</div>
+
+---
+# Zoom sur la LGPL (Lesser General Public License)
+* Objectif: assurer la liberté des utilisateurs et permettre de distribuer des programmes propriétaires linkés avec des librairies libres non modifiées. 
+* Créée par RMS (Richard Stallman) et la FSF en 1991 puis revue en 1999.
+* Apporte les mêmes libertés au programme lui-même que la GPL (les modifications d’une librairie LGPL ne peuvent être redistribuées qu’en LGPL).
+* V3 en 2007 avec mêmes avancées que la GPL
+<div class='ad note'>
+<b>Exemples : JFreechart, Jasper, GTK, Hibernate, librairie GNU C++…</b>  
+</div>
+---
+# Zoom sur la l'AGPL (Affero General Public License)
+* Objectif: Obliger les services accessibles par le réseau de publier le code source de leurs améliorations
+* V3 en 2007
+<div class='ad note'>
+<b>Exemples : BerkeleyDB, Ghostscript, iText, Mattermost, MongoDB jusqu'en 2018, Nextcloud, OnlyOffice</b>  
+</div>
+
+---
+# Les licences permissives
+* Le plus courantes : BSD, MIT, apache
+
+
+
 ---
 ### Droits et devoirs des auteurs
 
@@ -303,6 +366,10 @@ Afin d’assurer ces libertés, les logiciels Open Source se basent sur:
 ### La compatibilité des licences
 * Certaines licences sont comptatibles entre elles
 * Décrit la possibilité ou non de mélanger du code source ou des binaires sous licences différentes
+
+<div class='danger admonition'><p class="title">Attention : pas de bijection</p>
+Licence A comptible avec B n'implique pas B comptatible avec A</div>
+
 * Clauses sont souvent complexes mais simplification coté GPL V3
 <img src="resources/quick-guide-gplv3-compatibility.png">
 
@@ -321,6 +388,18 @@ Afin d’assurer ces libertés, les logiciels Open Source se basent sur:
   - Segmentation de marché (prix différents : version community, premium...)
 * Risqué car brouille la visibilité du projet et peut décourager les contributeurs ou conduire à un fork supérieur plébiscité par la communauté (MariaDB).
 
+---
+
+### Les exceptions
+
+* Une exception à une licence libre est un texte accordant des droits supplémentaires à l’utilisateur par rapport à la licence d’origine.
+
+* Exemple : GNU classpath 
+>"Linking this library statically or dynamically with other modules is making a combined work based on this library. Thus, the terms and conditions of the GNU General Public License cover the whole combination.
+<b>As a special exception, the copyright holders of this library give you permission to link this library</b> with independent modules to produce an executable, regardless of the license terms of these independent modules"
+* Qt : 
+>The right to use open source licenses not compatible with
+the GNU [GPL] version 2.0 or GNU [GPL] version 3.0 [...].
 ---
 
 ### Modèle économique
@@ -370,6 +449,11 @@ SWOT
 xDes procédures civiles et pénales peuvent être entreprises contre toute personne physique ou morale soupçonnée de piratage de logiciel protégé. Une personne physique risque une amende qui peut aller jusqu'à 150 000 euros et une peine d’emprisonnement de 2 ans maximum
 En France les concepteurs de logiciels avec licence sont protégés par les lois qui régissent les droits d’auteur, la propriété intellectuelle et la protection juridique des programmes d’ordinateur. Les articles L.335-3, L.122-4 et L.335-2 du code de la propriété intellectuelle interdisent la copie et l’installation d’un logiciel sans l’accord du détenteur des droits d’auteur
 personne morale, les sanctions possibles comprennent une amende pouvant s’élever jusqu’à 750 000 euros
+
+---
+## Références
+
+* Cours "Les licences logicielles" IUT de Nantes par Damien Raude-Morvan
 
 ## TODO
 - charte particiation libre
@@ -444,3 +528,5 @@ https://pastel.archives-ouvertes.fr/tel-00467849/document
 types d'editeurs open source, chercher mandriva
 
 https://www.gnu.org/licenses/gpl-faq.fr.html
+
+https://philippe.scoffoni.net/agpl-resout-tous-les-probleme-open-souce-et-cloud-computing/
