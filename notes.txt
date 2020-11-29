@@ -1,0 +1,81 @@
+## TODO
+- charte particiation libre
+https://www.bignonlebray.com/blog/la-licence-libre-est-un-contrat-son-non-respect-ne-constitue-pas-contrefacon/
+l’utilisation d’un logiciel diffusé sous licence open source de type GNU/GPL (v. 2) vaut bien acceptation d’un contrat de licence, et d’autre part qu’un manquement à cette licence constitue une inexécution du contrat qui doit être réparée par la mise en œuvre de la responsabilité contractuelle de l’utilisateur du logiciel.
+
+
+xDes procédures civiles et pénales peuvent être entreprises contre toute personne physique ou morale soupçonnée de piratage de logiciel protégé. Une personne physique risque une amende qui peut aller jusqu'à 150 000 euros et une peine d’emprisonnement de 2 ans maximum
+En France les concepteurs de logiciels avec licence sont protégés par les lois qui régissent les droits d’auteur, la propriété intellectuelle et la protection juridique des programmes d’ordinateur. Les articles L.335-3, L.122-4 et L.335-2 du code de la propriété intellectuelle interdisent la copie et l’installation d’un logiciel sans l’accord du détenteur des droits d’auteur
+personne morale, les sanctions possibles comprennent une amende pouvant s’élever jusqu’à 750 000 euros
+
+---
+
+https://www.usine-digitale.fr/article/oracle-attention-aux-mauvais-presages.N454282
+audits Oracle : 12M AFPA 2014
+
+
+
+x Le terme de plagiat n’apparaît pas formellement dans le Code de la propriété intellectuelle. En droit français, le plagiat est qualifié juridiquement de contrefaçon. Nous pouvons néanmoins définir le plagiat au regard de l’article L 122-4 du Code de la propriété intellectuelle qui dispose que « toute représentation ou reproduction intégrale ou partielle faite sans le consentement de l’auteur (…) est illicite. » Peuvent également constituer un plagiat au regard de cet article, les traductions, adaptations, transformations, arrangements ou reproductions d’une œuvre. Plus généralement, le plagiat consiste à s’approprier l’idée d’un autre en la faisant passer pour sienne.
+: jusqu’à 3 ans d’emprisonnement et 300 000 € d’amende.
+
+
+https://www.cncpi.fr/ba-ba/FAQ_questions_reponses/Comment_peut-on_proteger_un_logiciel/
+Que recouvre la brevetabilité des logiciels ?
+L’ensemble du logiciel ne sera souvent pas breveté. Seule l’invention technique découlant du logiciel pourra être couverte. Autrement dit, ce seront uniquement les éléments techniques utilisés par ce logiciel qui seront brevetés.
+
+La protection par le droit d’auteur s’acquiert sans formalité. Le logiciel est donc protégé dès sa création et cela pour une durée de 70 ans à compter du décès de l’auteur ou, s’il s’agit d'une personne morale (société, association, etc), à compter de la date à laquelle le logiciel a été rendu public. Il n'est donc pas nécessaire d'apposer sur son logiciel le fameux symbole Copyright que l'on retrouve souvent sur les sites internet. 
+
+Toutefois, votre logiciel ne sera protégé que s’il est original . Autrement dit, s’il est le résultat d’un processus créatif qui vous est propre et s’il représente un réel apport intellectuel.
+
+Titulaire droit auteur :
+Si le logiciel est une oeuvre de collaboration entre divers auteurs, ces derniers seront alors co-titulaires des droits sur leur logiciel commun. Les décisions concernant son exploitation devront donc être prises à l’unanimité;
+
+Si le logiciel a été créé à l’initiative d’une personne physique ou morale qui l’édite, le publie et le divulgue, alors cette personne sera considérée comme étant propriétaire du logiciel ;
+
+Si le logiciel est une oeuvre de commande, l’auteur reste titulaire des droits sur son logiciel sauf dans le cas où un contrat de licence ou de cession a été signé ; enfin
+
+Si l’auteur du logiciel est un salarié qui opère dans le cadre de ses fonctions ou sur instruction de l’employeur , ce dernier obtiendra automatiquement les droits patrimoniaux sur le logiciel développé par son salarié.
+
+x Toutefois, afin de faire cesser la contrefaçon, vous devez prouver que vous êtes bien l’auteur du logiciel contrefait. Pour ce faire, il vous faudra notamment constituer une ou des preuves d’antériorité pouvant établir la date à laquelle les éléments constitutifs de votre logiciel ont été créés. L’horodatage par la Blockchain est l’une des méthodes que vous pouvez utiliser dès à présent pour protéger vos créations logicielles.  dépôt des éléments précités auprès de l’APP (Agence pour la Protection des Programmes) : http://www.app.asso.fr/formulaires (Enregistrement des programmes auprès du répertoire international d’identification des œuvres numériques dont le numéro d’enregistrement est admis comme moyen de preuve dans plus de 200 pays et notamment les États membres de l’Union européenne, la Suisse, le Maroc, les États-Unis, la Chine et la Russie).Il existe d’autres moyens de rapporter la preuve de la titularité des droits sur un logiciel ainsi que de leur antériorité mais ceux-ci sont moins efficaces qu’un dépôt auprès de l’APP : le dépôt d’une enveloppe e-Soleau à l’INPI, l’envoi recommandé à soi-même, le dépôt chez un notaire ou un huissier…
+
+xGrâce à la Convention de Berne qui prévoit que les éléments protégeables par un droit d’auteur bénéficient, dans tout État partie à la Convention, de la même protection que celle que ces États accordent aux créations de leurs propres ressortissants, sans aucune formalité.
+x ce jour, 172 États ont ratifié la Convention de Berne, dont la plupart des grandes puissances industrielles (Union européenne, États-Unis, Chine, Japon, Inde).
+xLa Convention de Berne oblige, par ailleurs, tous ses États membres à un « minimum » de protection au titre de ce droit d’auteur.
+De manière générale, l’auteur français d’un logiciel bénéficie ainsi dans ces États de droits patrimoniaux à peu près équivalents à ceux exposés ci-dessus pour la France et ce, pour une durée minimale de 50 ans à compter du décès de leur(s) auteur(s).
+
+
+Selon l’article 52 de la Convention sur le brevet européen, repris par l’article L. 611-10 du Code de la propriété intellectuelle, un programme d’ordinateur en tant que tel n’est pas brevetable.
+
+La protection par brevet ne peut être envisagée que dans des cas très spécifiques : par exemple, si le logiciel s’insère dans une invention brevetable et constitue une étape dans le fonctionnement de celle-ci (système ABS d’une voiture, par exemple).
+
+x La société Entr’ouvert, considérant que la mise à disposition de sa bibliothèque logicielle par Orange à la DGME violait les termes de la licence GNU GPL (Version 2), a assigné la société Orange en contrefaçon de ses droits d’auteur sur ce logiciel.
+x Le Tribunal, relevant que cette licence libre était un contrat d’adhésion, « dont les clauses ne peuvent être discutées et négociées par celui qui s’oblige, mais qui comporte néanmoins […] des obligations réciproque à charge de chacune des parties« , a considéré que la relation entre la société Entr’ouvert et la société Orange pour l’utilisation de la licence afférente à cette bibliothèque logicielle était donc de nature contractuelle et non délictuelle.
+
+x https://www.legalstart.fr/fiches-pratiques/proteger-une-creation/protection-logiciel/
+
+
+https://www.cio-online.com/actualites/lire-jean-pierre-desbenoit-dgac-%C2%A0-%C2%A0oracle-ne-nous-a-pas-pris-au-serieux-nous-le-sortons-de-notre-si%C2%A0-8377.html
+Jean-Pierre Desbenoit (DGAC) : « Oracle ne nous a pas pris au sérieux, nous le sortons de notre SI 
+
+https://www.murielle-cahen.com/publications/logiciel-auteur.asp
+https://www.jurifiable.com/conseil-juridique/propriete-intellectuelle/copyright#:~:text=Le%20copyright%20rel%C3%A8ve%20d'une%20logique%20principalement%20%C3%A9conomique.&text=Il%20prot%C3%A8ge%20les%20personnes%20qui,prot%C3%A8ge%20avant%20tout%20les%20cr%C3%A9ateurs.
+
+e législateur n’a pas précisé la notion de logiciel, cet oubli est volontaire dans la mesure où il ne voulait pas enfermer le logiciel dans « un carcan législatif » et permettre une adaptation plus efficace du droit d’auteur au logiciel.
+C’est donc la jurisprudence qui a délimité les contours de la notion.
+Du point de vue technique le logiciel se définit comme un processus comprenant deux phases, à savoir une phase d’analyse et une phase de programmation.
+
+https://fr.wikipedia.org/wiki/Logiciel_propri%C3%A9taire
+
+
+
+Freemium
+Main article: Freemium
+Freemium works by offering a product or service free of charge (typically digital offerings such as software, content, games, web services or other) while charging a premium for advanced features, functionality, or related products and services. For example, a fully functional feature-limited version may be given away for free, with advanced features disabled until a license fee is paid. The word "freemium" is a portmanteau combining the two aspects of the business model: "free" and "premium". It has become a popular model especially in the antivirus industry.
+
+
+https://pastel.archives-ouvertes.fr/tel-00467849/document
+types d'editeurs open source, chercher mandriva
+
+https://www.gnu.org/licenses/gpl-faq.fr.html
+
+https://philippe.scoffoni.net/agpl-resout-tous-les-probleme-open-souce-et-cloud-computing/

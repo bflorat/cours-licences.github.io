@@ -13,14 +13,14 @@ dans ce cours. Ces opinions doivent être considérées comme propres à l’aut
 
 ![Université de Nantes](resources/logo-univ.png)
 
+<smaller>[Version sur une page](./?print-pdf)</smaller>
 ---
-
 
 ## Agenda
 
-| Motivations | Contexte juridique | Licences propriétaires | Licences libres | Bilan
-| ------------- |-------------| -------------|-------------|-------------|
-|<ul><li><smaller>qu'est ce que ce cours va m'apporter&nbsp;?</smaller></li><li>en quoi est-ce important&nbsp;?</li></ul> | <ul><li>les droits d'auteur</li><li>le copyright</li> <li>le domaine public</li></ul>| <ul><li>historique</li><li>fonctionnement</li></ul>| <ul><li>historique</li><li>fonctionnement</li></ul> | analyse comparée
+| Contexte juridique | Licences propriétaires | Licences libres | Bilan
+| -------------| -------------|-------------|-------------|
+| <li>les droits d'auteur <li>le copyright <li>le domaine public | <li>historique<li>fonctionnement| <li>historique<li>fonctionnement | analyse comparée
 
 ---
 
@@ -37,7 +37,6 @@ dans ce cours. Ces opinions doivent être considérées comme propres à l’aut
 * Comment m'assurer que mon code ne sera pas contrefait ?
 * Puis-je utiliser une librairie Libre dans un logiciel propriétaire&nbsp;?
 * J'utilise du code libre dans mon entreprise, dois-je redistribuer les modifications ?
-* etc.
 
 ---
 
@@ -55,8 +54,8 @@ dans ce cours. Ces opinions doivent être considérées comme propres à l’aut
 * Concept philosophique (John Locke, 17éme : l'homme étant propriétaire de lui-même, ses œuvres lui appartiennent)
 * Donne droit patrimonial (revenus) et moral à son auteur pour toute création
 * Deux types de droits : 
-    - *patrimoniaux* : droits liés à l’exploitation économique de l’œuvre. Limités dans le temps.
-    - *moraux* : droits inaliénables et perpétuels liés à la réputation des auteurs. 
+- *patrimoniaux* : droits liés à l’exploitation économique de l’œuvre. Limités dans le temps.
+- *moraux* : droits inaliénables et perpétuels liés à la réputation des auteurs. 
 * Le plagiat est juridiquement nommé "contrefaçon" en droit français. C'est le fait de faire passer pour sienne l'idée d'une autre personne.
 * Articles [L335-2-1, L335-3](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006279235/2009-06-14) du code de la propriété intellectuelle (CPI): interdisent copie et utilisation d’un logiciel sans accord du titulaire des droits d'auteur
 
@@ -78,7 +77,7 @@ dans ce cours. Ces opinions doivent être considérées comme propres à l’aut
 * Droit de reproduction : droit de dupliquer l’œuvre sur tout support qui en permet la communication au public
 * Droit de modification : droit de s'opposer à la traduction, adaptation ou toute autre modification du logiciel
 * Droit de mise sur le marché : l'auteur peut vendre ou donner son œuvre à sa guise
-* Oeuvre réalisé sous contrat de travail : __Les droits d'auteur patrimoniaux appartiennent à l'employeur__ (Article L113-9 du CPI)
+* Œuvre réalisé sous contrat de travail : __Les droits d'auteur patrimoniaux appartiennent à l'employeur__ (Article L113-9 du CPI)
 
 ---
 
@@ -99,13 +98,13 @@ dans ce cours. Ces opinions doivent être considérées comme propres à l’aut
 <img style="float: right;" src="resources/copyright.webp">
 * Le droit d'auteur vise la protection _des auteurs_. Le copyright vise la protection _des œuvres_.
 * Différence surtout sur les droits moraux : l'employeur est considéré comme le créateur
-* Le copyright ne protège que les œuvres sur support matériel alors que le droit d'auteur protége toute œuvre (discours, spectacle vivant...)
+* Le copyright ne protège que les œuvres sur support matériel alors que le droit d'auteur protège toute œuvre (discours, spectacle vivant...)
 * La __convention de Berne__ (1971) ratifiée par 166 états permet une harmonisation
-    - Obtention gratuite et automatique du droit d'auteur  
-    - Il faut demander explicitement une renonciation à son droit d'auteur
+- Obtention gratuite et automatique du droit d'auteur 
+- Il faut demander explicitement une renonciation à son droit d'auteur
 
 <div class='note ad'>
- Signe © encore largement utilisé à titre informatif uniquement (rappelle la protection juridique)</div>
+Signe © encore largement utilisé à titre informatif uniquement (rappelle la protection juridique)</div>
 
 ---
 
@@ -144,19 +143,24 @@ dans ce cours. Ces opinions doivent être considérées comme propres à l’aut
 * Location (et pas achat) temporaire ou perpétuelle de droits d'usage contractualisés par un CLUF
 * Un logiciel peut être vendu à une autre société (transfert du droit d'auteur patrimonial)
 
+<div class='ad note'>
+<b>CLUF : </b>Contrat de Licence Utilisateur Final. « EULA » (End User License Agreement ) en anglais.
+</div>
+
+
 ---
 
 ## Historique
 * Jusqu'au milieu des années 1970:
-    - pas encore de micro-informatique (mainframes)
-    - hardware et software vendus ensemble
-    - c'est surtout le hardware qui est important
-    - Le code source est libre d'être étudié ou modifié. Inutilisable sans avoir acheté le materiel associé.
+- pas encore de micro-informatique (mainframes)
+- hardware et software vendus ensemble
+- c'est surtout le hardware qui est important
+- Le code source est libre d'être étudié ou modifié. Inutilisable sans avoir acheté le matériel associé.
 * Milieu des années 1970 : 
-    - création du concept de logiciel propriétaire (surtout pour micro-informatique)
-    - lettre de Bill Gates en 1976 demandant d'arrêtrer 'le vol' de Windows
-    - Premières lois ('Copyright Act') en octobre 1976 pour protéger les auteurs de logiciels
-    - Rapidement, la majorité des logiciels devient propriétaire
+- création du concept de logiciel propriétaire (surtout pour micro-informatique)
+- lettre de Bill Gates en 1976 demandant d’arrêter 'le vol' de Windows
+- Premières lois ('Copyright Act') en octobre 1976 pour protéger les auteurs de logiciels
+- Rapidement, la majorité des logiciels devient propriétaire
 
 ---
 ### Modèle économique
@@ -164,38 +168,41 @@ dans ce cours. Ces opinions doivent être considérées comme propres à l’aut
 * Dans certains cas, le logiciel est gratuit de façon définitive (Freeware) ou temporaire (Shareware)
 - Attention, freeware != logiciel libre (ici "free" = "gratuit")
 * Les grands logiciels/progiciels proposent souvent plusieurs versions du logiciels plus ou moins cher en fonction des fonctionnalités
-    - Souvent la version de base est gratuite (freemium)
-    - Puis versions "Silver", "Gold Elite", "Platinium" ou similaires
+- Souvent la version de base est gratuite (freemium) voire Open Source (Open Core)
+- Puis versions "Silver", "Gold Elite", "Platinium" ou similaires
+* Ordre de grandeur: 
+- une base Oracle minimale : 37K€ /CPU + environ 20% de ce prix de support par an.
+- Les middlewares et base de données (Weblogic, Weblogic, Oracle, MS Windows...) représentent dans les grands comptes des budgets se comptant en dizaines à centaines de millions d'euros / an.
 
 ---
 ### les modes de facturation
 * Facturation souvent très complexe :
-    - besoin d'experts (métier de "compliance manager")
+- besoin d'experts (métier de "compliance manager")
 <img style="float: right; width: 200px" src="resources/complex.svg">
 * Critères principaux :
-    - à l'utilisateur nommé
-    - à un nombre d'utilisateurs simultanés (dits 'flottants')
-    - à la puissance utilisée (PVU = Processor Value Unit) dépend du nombre coeurs et leurs caractèristiques
-    - à l'installation (par serveur/station)
+- à l'utilisateur nommé
+- à un nombre d'utilisateurs simultanés (dits 'flottants')
+- à la puissance utilisée (PVU = Processor Value Unit) dépend du nombre cœurs et leurs caractéristiques
+- à l'installation (par serveur/station)
 * Rapidement très technique : 
-    - Quid des machines virtuelles ? (chez Oracle, on paye tout le serveur physique)
-    - Quid des containeurs ?
-    - Quid des environnements hors production (DEV, recette, pré-production...) ?
+- Quid des machines virtuelles ? (chez Oracle, on paye tout le serveur physique)
+- Quid des containeurs ?
+- Quid des environnements hors production (DEV, recette, pré-production...) ?
 
 ---
 
 ### Les pièges les plus courants
 - Tarifs négociés sur un lot puis passage automatique aux prix publics dès qu'il y a dépassement
-- Introduire une fonctionnailité rapidement indispensable dans une version plus chère (exemple : intégration à un IDP)
-- Enfermer les utilisateurs dans un format propriétaire
+- Introduire une fonctionnalité rapidement indispensable dans une version plus chère (exemple : intégration à un IDP)
+- Enfermer les utilisateurs (vendor locking) : formats propriétaire par exemple
 - Contrats/produits complexes favorisant l'utilisation d'options payantes non incluses puis faire un audit
 - Pousser à la consommation "illimitée" au tarif négocié puis renégocier sur la nouvelle base tous les 5 ans
 - Se rattraper sur les frais de mises à jour ou les coûts de support (20% du prix par an ou plus) et presque jamais utilisés
-- Prix d'ami sur des logiciels qui finissent dans une armoire ou peu  utilisé
-- Ventes (quasi) forcées. Exemple : un moteur BPM qui necessite un serveur d'application ou une base de donnée précise.
+- Prix d'ami sur des logiciels qui finissent dans une armoire ou peu utilisé
+- Ventes (quasi) forcées. Exemple : un moteur BPM qui nécessite un serveur d'application ou une base de donnée précise.
 - Quid en cas de faillite ? (cas AGD)
-    * prévoir clause de reversibilité ou contrat d’escrow (sources déposées chez tiers de confiance)
-    * encore pire si plateforme de développement (PaaS ou pas)
+* prévoir clause de réversibilité ou contrat d’escrow (sources déposées chez tiers de confiance)
+* encore pire si plateforme de développement (PaaS ou pas)
 - SaaS : prévoir contractuellement des solutions de réversibilité
 - Favorise la corruption / le copinage
 
@@ -215,20 +222,21 @@ dans ce cours. Ces opinions doivent être considérées comme propres à l’aut
 * Délais liés à la signature du contrat (si lenteurs du coté service achat)
 * Dépendances au support de l'éditeur en cas de problème. Pression fonction du nombre de licences
 * Migrations forcées par l'éditeur (fin de support)
-* Coûts souvent tres importants (100K€ à M€), limite le budgets developpement.
+* Coûts souvent très importants (100K€ à M€), limite le budgets développement.
 
 ---
 ### L'impact sur l'architecture 
 * Incertitudes contractuelles liées à l'opacité des services achats
 * Risques sur la réversibilité (récupération des données)
 * Risque sur la disponibilité dans le cas de systèmes de validation de licences&nbsp;:
-    - les serveurs de jetons peuvent devenir un SPOF
-    - arrêt du service si oubli de renouveller une clé...
-* Besoins d'accès à Internet depuis des serveurs (complicification/ sécurité)
+- les serveurs de jetons peuvent devenir un SPOF
+- arrêt du service si oubli de renouveler une clé...
+* Besoins d'accès à Internet depuis des serveurs (complexification/ sécurité)
 * Architecture pilotée par les coût au lieu des exigences (syndrome "pas de cluster car trop cher"...)
-* Contraintes sur les environnements de developpement, recette ("bidouilles" pour partager des licences)
+* Contraintes sur les environnements de développement, recette ("bidouilles" pour partager des licences)
 * Solutions dégradées en production décidées à cause de licences
 * Peu adapté au containeurs
+* Souvent plus difficile d'obtenir du support en ligne
 
 ---
 
@@ -238,23 +246,23 @@ dans ce cours. Ces opinions doivent être considérées comme propres à l’aut
 * Progiciels métiers : médical, comptabilité, grande distribution...
 * Outils de conception avancés (exemple: CAO)
 * Domaines de niche (exemple: musique professionnelle)
-* Et bien sûr les logiciels de gestion de licences (Compliance Management)  ;-)
+* Et bien sûr les logiciels de gestion de licences (Compliance Management) ;-)
 
 ---
 ## Les logiciels libres
 
 * Définition : "_Un logiciel libre est un logiciel dont l'utilisation, l'étude, la modification et la duplication par autrui en vue de sa diffusion sont permises, techniquement et légalement, ceci afin de garantir certaines libertés induites, dont le contrôle du programme par l'utilisateur et la possibilité de partage entre individus._" (Wikipedia)
 * Deux types de statuts juridiques possibles : 
-    - les logiciels dans le domaine public (sans droit d'auteur patrimonial)
-    - et les logiciels sous un licence libre (GPL, BSD...) avec __respect du droit d'auteur__
+- les logiciels dans le domaine public (sans droit d'auteur patrimonial)
+- et les logiciels sous un licence libre (GPL, BSD...) avec __respect du droit d'auteur__
 
 ---
 ### Historique
 * Entre les années 60 à mi-70, tous les logiciels était libres de fait mais de façon non formailisée
-* Mi-1970 : emergeance des logiciels propriétaires et de la micro-informatique
+* Mi-1970 : émergence des logiciels propriétaires et de la micro-informatique
 <img style="float: right;" src="resources/rms.png">
 * 1980 : certains commencent à prendre consience des restictions sur les libertées
-    - 1980, RMS (Richard Stallman) constate qu'il ne peut modifier un driver d'impression Xerox.
+- 1980, RMS (Richard Stallman) constate qu'il ne peut modifier un driver d'impression Xerox.
 * 1983: Lancement du projet GNU (Gnu’s Not Unix) par Richard Matthew Stallman (RMS)
 * 1985: Création de la FSF (Free Software Fondation)
 * 1989: Base légale du libre: la GPL V1 (General Public Licence) 
@@ -294,23 +302,24 @@ dans ce cours. Ces opinions doivent être considérées comme propres à l’aut
 Afin d’assurer ces libertés, les logiciels Open Source se basent sur:
 - (Toujours) le __droit d’auteur__ (copyright) qui prévient le plagiat. 
 <img style="float: right;" src="resources/copyleft.png">
-- (Souvent)  __la gauche d’auteur__ (copyleft) qui complète le copyright et assure la propagation des libertés par réciprocité
+- (Souvent) __la gauche d’auteur__ (copyleft) qui complète le copyright et assure la propagation des libertés par réciprocité
 * __On ne partage qu'avec ceux qui veulent partager__
 * Concept inventé par Don Hopkins et Richard Stallman en 1984
-* Tout code à la base sous licence copyleft doit conserver sa  licence d’origine
+* Tout code à la base sous licence copyleft doit conserver sa licence d’origine
 * Le copyleft impose que toute modification publiée apportée à un logiciel copyleft et __distribué__ soit versée à la communauté
 * Distribué ? _"Quand une organisation transfère des copies à d'autres organisations ou à des particuliers, c'est une distribution"_, [pas en interne](https://www.gnu.org/licenses/gpl-faq.fr.html#InternalDistribution) de l'organisation.
 * Pour les détracteurs (anciennement Microsoft par exemple) : "Virus"
 
 ---
 
-### Catégorisation des licences
+### Niveau de copyleft
 
-<img src="resources/categories_ll.png">
+| Aucun | Par fichier | Niveau librairie | Fort | Etendu
+|----|----|----|----|----
+|BSD, Apache, MIT, ISC, CeCILL B, WTFPL | CDDL, Mozilla Public Licence (MPL), CeCILL C | LGPL | GPL, CeCILL | AGPL
+|On peut partager les modifications sous des conditions différentes | Possible d'inclure du code MPL dans tout logiciel mais copyleft sur _ce_ fichier | Possible de linker une telle librairie depuis tout logiciel mais une modification de la librairie elle-même est copyleftée | Le logiciel et ses dépendances sont copyleftés. Seul les éléments système comme l'OS n'ont pas à l'être | Idem GPL mais valable lorsque le logiciel est utilisé comme application Web
 
-Voir aussi [la liste officielle sur gnu.org](https://www.gnu.org/licenses/license-list.html)
 ---
-
 
 ### Zoom sur la GPL (GNU General Public License)
 * Objectif: assurer la liberté des utilisateurs
@@ -319,56 +328,76 @@ Voir aussi [la liste officielle sur gnu.org](https://www.gnu.org/licenses/licens
 * Très utilisée
 * Meilleure garantie des libertés des utilisateurs et la redistribution de la connaissance grâce au copyleft
 * V3 : 
-   - anti-tivoïsation (GPL mais DRM empechant la modification sur hardware)
-   - permissions additionnelles
-   - simplification comptabilité avec les autres licences
+- anti-tivoïsation (GPL mais DRM empêchant la modification sur hardware)
+- permissions additionnelles
+- simplification comptabilité avec les autres licences
 
 <div class='ad note'>
-<b>Exemples :</b>Linux, Git, Ansible, Drupal, Wordpress, Notepadd++, MariaDB, GCC
+<b>Exemples : </b>Linux, Git, Ansible, Drupal, Wordpress, Notepadd++, MariaDB, GCC
 </div>
 
 ---
-# Zoom sur la LGPL (Lesser General Public License)
+### Zoom sur la LGPL (Lesser General Public License)
 * Objectif: assurer la liberté des utilisateurs et permettre de distribuer des programmes propriétaires linkés avec des librairies libres non modifiées. 
 * Créée par RMS (Richard Stallman) et la FSF en 1991 puis revue en 1999.
 * Apporte les mêmes libertés au programme lui-même que la GPL (les modifications d’une librairie LGPL ne peuvent être redistribuées qu’en LGPL).
 * V3 en 2007 avec mêmes avancées que la GPL
 <div class='ad note'>
-<b>Exemples : JFreechart, Jasper, GTK, Hibernate, librairie GNU C++…</b>  
+<b>Exemples : </b>JFreechart, Jasper, GTK, Hibernate, librairie GNU C++…
 </div>
+
 ---
+
 # Zoom sur la l'AGPL (Affero General Public License)
 * Objectif: Obliger les services accessibles par le réseau de publier le code source de leurs améliorations
 * V3 en 2007
 <div class='ad note'>
-<b>Exemples : BerkeleyDB, Ghostscript, iText, Mattermost, MongoDB jusqu'en 2018, Nextcloud, OnlyOffice</b>  
+<b>Exemples :</b> BerkeleyDB, Ghostscript, iText, Mattermost, MongoDB jusqu'en 2018, Nextcloud, OnlyOffice
+</div>
+
+---
+### Zoom sur la licence CeCILL
+* Écrit par le CEA CNRS INRIA Logiciel Libre
+* Licence issue de la Recherche française pour palier aux incertitudes légales de la GPL: adaptation de la GPL au droit français.
+* Licence en français et en anglais, peut être utilisée partout dans le monde. En cas de litige, le droit français s’applique.
+* V1 en 2004, V2 en mai 2005, CeCILL-B et CeCILL-C en 2006
+* Complètement compatible GPL (donc copyleftée)
+* Il est possible de redistribuer du code CeCILL en GPL.
+<div class='ad note'>
+<b>Exemples</b> : Scilab, VLDocking Framework
+</div>
+<div class='ad note'>
+Variantes CeCILL-B (BSD-like) et CeCILL-C (MPD-like) <a href="https://directory.fsf.org/wiki/License:CeCILL-B">déconseillées par la FSF</a>)
 </div>
 
 ---
 # Les licences permissives
-* Le plus courantes : BSD, MIT, apache
-
-
+* Dites aussi 'lax' ou 'liberal'
+* Le plus courantes : BSD, MIT, Apache
+* Pas de Copyleft
+* Différent du domaine public
+* Clauses de publicité des auteurs (attribution)
+* Excellente compatibilité entre les licences permissives et lors d'utilisation par un logiciel en licence copyleft
 
 ---
 ### Droits et devoirs des auteurs
 
 * Droits
-    - Le logiciel appartient toujours aux auteurs via le droit d’auteur, il n’y __aucune perte de propriété__
-    - Les auteurs ont le droit de __changer la licence__ ou d’utiliser plusieurs licences pour toute version ancienne ou future leur appartenant
-    - L’auteur a le droit (il est même encouragé) de tirer __profit__ pécuniairement de sa création
+- Le logiciel appartient toujours aux auteurs via le droit d’auteur, il n’y __aucune perte de propriété__
+- Les auteurs ont le droit de __changer la licence__ ou d’utiliser plusieurs licences pour toute version ancienne ou future leur appartenant
+- L’auteur a le droit (il est même encouragé) de tirer __profit__ pécuniairement de sa création
 * Devoirs
-    - Les auteurs doivent __fournir le code source__ gratuitement ou contre rémunération (limité au prix de la copie biniare)
-    - __Responsabilité limitée__: les licences libres possèdent toutes des clauses de dégagement de responsabilité (tout comme la quasi-totalité des logiciels propriétaires)
+- Les auteurs doivent __fournir le code source__ gratuitement ou contre rémunération (limité au prix de la copie biniare)
+- __Responsabilité limitée__: les licences libres possèdent toutes des clauses de dégagement de responsabilité (tout comme la quasi-totalité des logiciels propriétaires)
 
 ---
 
 ### La compatibilité des licences
-* Certaines licences sont comptatibles entre elles
+* Certaines licences sont compatibles entre elles
 * Décrit la possibilité ou non de mélanger du code source ou des binaires sous licences différentes
 
 <div class='danger admonition'><p class="title">Attention : pas de bijection</p>
-Licence A comptible avec B n'implique pas B comptatible avec A</div>
+Licence A compatible avec B n'implique pas B compatible avec A</div>
 
 * Clauses sont souvent complexes mais simplification coté GPL V3
 <img src="resources/quick-guide-gplv3-compatibility.png">
@@ -380,12 +409,12 @@ Licence A comptible avec B n'implique pas B comptatible avec A</div>
 ### Le multi-licences
 * Un même produit peut disposer de plusieurs licences ("Multi-licencing")
 * Licence multiple libre / libre ou libre / propriétaire (exemple: MySQL Community en GPL et MySQL Enterprise Edition propriétaire)
-* Soit l'utilisateur peut choisir la licence qui s'appplique, soit c'est imposé par l'auteur, soit toutes s'appliquent en même temps
+* Soit l'utilisateur peut choisir la licence qui s’applique, soit c'est imposé par l'auteur, soit toutes s'appliquent en même temps
 * Rare et réalisé en général par des sociétés.
-* Objectif:  
-  - S’assurer un revenu en vendant un logiciel en mode propriétaire tout en le faisant évoluer via la communauté (exemples: Mono, MySQL, QT).
-  - Résoudre des incompatibilités de licence entre plusieurs projets lors d’une fusion.
-  - Segmentation de marché (prix différents : version community, premium...)
+* Objectif: 
+- S’assurer un revenu en vendant un logiciel en mode propriétaire tout en le faisant évoluer via la communauté (exemples: Mono, MySQL, QT).
+- Résoudre des incompatibilités de licence entre plusieurs projets lors d’une fusion.
+- Segmentation de marché (prix différents : version community, premium...)
 * Risqué car brouille la visibilité du projet et peut décourager les contributeurs ou conduire à un fork supérieur plébiscité par la communauté (MariaDB).
 
 ---
@@ -402,131 +431,104 @@ Licence A comptible avec B n'implique pas B comptatible avec A</div>
 the GNU [GPL] version 2.0 or GNU [GPL] version 3.0 [...].
 ---
 
+### Les licences orientées contenu (1/2)
+__La GFDL (Gnu Free Documentation License)__
+* Équivalent à la GPL pour les contenus documentaires
+* Fondé sur le copyright et le copyleft
+* Incompatible avec la GPL (interdiction d’insérer des documents GFDL dans un programme GPL)
+---
+
+### Les licences orientées contenu (2/2)
+__Les licences Creative Commons__ <img style="float: right;" src="resources/cc.png">
+
+Pour : documents, musique, images, photos…
+
+|Licence | Caractéristiques | Libre ?
+|----|----|----
+|_CC BY_ | paternité (by) | Oui
+|_CC BY-SA_ | paternité / partage des conditions à l'identique (Share-alike) | Oui
+|_CC BY-ND_ | paternité / pas de distribution d'adaptation (non derivs) | Non
+|_CC BY-NC_ | paternité / pas d'utilisation commerciale (non commercial) | Non
+|_CC BY-NC-SA_ | paternité / pas utilisation commerciale / partage des conditions à l'identique | Non
+|_CC BY-NC-ND_| paternité / pas utilisation commerciale / pas de modification | Non
+
+---
+
 ### Modèle économique
-* Sociétés  :
-    - Conseil
-    - Développement à “libération conditionnelle” et en dual licensing 
-    - Les deux (le conseil sur son propre produit étant un avantage concurrentiel  considérable)
+* Sociétés (éditeurs, SSLL = Sociétés de Service en Logiciels Libres) :
+- Services (formation, support, conseil)
+- Open Core (Exemple : Gitlab CE, Kafka, Elastic, Redis)
+- SaaS (Software As A Service)
+- Les deux (le conseil sur son propre produit étant un avantage concurrentiel considérable)
+- Investissements gouvernementaux pour l’innovation (exemple: [Squash TM](https://www.squashtest.com/about))
 
 * Organisations et bénévoles : 
-    - Rémunérations très faibles en général (ex: dons Paypal)
-    - Rémunération forfaitaire pour développement spécifique (Bounty)
-    - Matériel (serveurs, postes de développement etc..)
-    - Motivations intrinséques (sans retour directs) : créativité, travailler en équipe, altruisme, réputation/CV...
+- Rémunérations très faibles en général (ex: dons Paypal)
+- Crowdsourcing
+- Rémunération forfaitaire pour développement spécifique (Bounty)
+- Matériel (serveurs, postes de développement etc..)
+- Merchandising (t-shirts...)
+- Motivations intrinsèques (sans retour directs) : créativité, travailler en équipe, altruisme, réputation/CV
+
+<div class='ad note'>
+Le marché mondial de l'Open Source atteint environ <b>$57Md en 2020</b> (Source Suyati Technologies)
+</div>
+
+---
 
 ### Les pièges les plus courants
-* (surtout surtout des entreprises) : subir les rodmap produit
-* Fausse sécurité sur des produits Open Source mais developpé uniquement par une entreprise
+* Subir les roadmap produit (produits d'entreprise)
 * Partir sur une technologie peu supportée puis abandonnée
-    - Le plus important : nombre d'utilisateurs
-* Solution gratuire mais supprot exhorbitant ou contraignant (exemple: Redhat)
+- Le plus important : nombre d'utilisateurs
+* Solution gratuite mais support exorbitant ou contraignant
 * Penser que nos MR seront acceptées dans tous les cas
 * Penser que Libre = Domaine Public et ignorer les clauses des licences
-* Risques juridiques en cas de non maitrise (Copyleft)
-* Risques de réécriture de projets si non respect des licences
+* Risques juridiques en cas de non maîtrisé (Copyleft)
+* Risques juridiques si non respect des licences
 * Risques de changement de licence (exemple: MongoDB)
 
-__Conseil : privilégier els projets issus de communautés, pas d'entreprises__
+---
 
-
-### Bilan
+## Bilan
 
 ---
 
-### Les licences propriétaires
+### Récapitulatif des familles de licences
 
-SWOT
+<img src="resources/categories_ll.png">
 
----
-### Les licences libres
-
-SWOT
-
-
-
+Voir aussi [la liste officielle sur gnu.org](https://www.gnu.org/licenses/license-list.html)
 ---
 
-xDes procédures civiles et pénales peuvent être entreprises contre toute personne physique ou morale soupçonnée de piratage de logiciel protégé. Une personne physique risque une amende qui peut aller jusqu'à 150 000 euros et une peine d’emprisonnement de 2 ans maximum
-En France les concepteurs de logiciels avec licence sont protégés par les lois qui régissent les droits d’auteur, la propriété intellectuelle et la protection juridique des programmes d’ordinateur. Les articles L.335-3, L.122-4 et L.335-2 du code de la propriété intellectuelle interdisent la copie et l’installation d’un logiciel sans l’accord du détenteur des droits d’auteur
-personne morale, les sanctions possibles comprennent une amende pouvant s’élever jusqu’à 750 000 euros
+### Analyse SWOT des licences propriétaires
+
+| &nbsp; |&nbsp;
+|----|----
+|<img src="resources/strength.png" style="vertical-align:middle" > __Forces__ <li>Service de support toujours proposé<li>Sécurité par l'obscurité<li>Seule option pour de nombreux progiciels | <img src="resources/weaknesses.png" style="vertical-align:middle"> __Faiblesses__ <li>Support et licences (très) onéreux<li>Support pas toujours au niveau ni réactif <li>Complications planning et architecture liées aux licences<li>Sécurité par l'obscurité 
+|<img src="resources/opportunity.png" style="vertical-align:middle"> __Opportunités__<li>Créer un partenairat de longue durée avec un éditeur| <img src="resources/risk.png" style="vertical-align:middle"> __Risques__ <li>Vendor locking <li> Subir les roadmaps<li>Impossible de connaître la véritable qualité ou la sécurité du code <li>Risques financiers (audits...)<li>Miser sur un produit en perte de vitesse<li>Faire de l'architecture pilotée par le coût
+| &nbsp; |&nbsp;
 
 ---
+### Analyse SWOT des licences libres
+
+| &nbsp; |&nbsp;
+|----|----
+|<img src="resources/strength.png" style="vertical-align:middle" > __Forces__ <li>Sécurité par l'auditabilité <li>Support communautaire réactif<li>Gratuit (hors support payant)<li>Simple à mettre en œuvre pour le projet et l'architecture| <img src="resources/weaknesses.png" style="vertical-align:middle"> __Faiblesses__ <li>Sécurité par l'auditabilité<li>Support payant onéreux
+|<img src="resources/opportunity.png" style="vertical-align:middle"> __Opportunités__<li>Contribuer (évolutive/corrective)<li>Tester facilement de nouvelles solutions (POC)<li>Changer facilement de produits | <img src="resources/risk.png" style="vertical-align:middle"> __Risques__ <li>Risque juridique si non respect des licences<li>Subir les roadmaps<li>Miser sur un projet dont la communauté se désintéresse
+| &nbsp; |&nbsp;
+
+
+---
+
 ## Références
 
 * Cours "Les licences logicielles" IUT de Nantes par Damien Raude-Morvan
+* https://www.usine-digitale.fr/article/audit-de-licences-logicielles-la-bataille-continue.N381077
+* https://www.cncpi.fr/ba-ba/FAQ_questions_reponses/Comment_peut-on_proteger_un_logiciel/
+* https://www.legalstart.fr/fiches-pratiques/proteger-une-creation/protection-logiciel/
+* https://www.gnu.org/licenses/gpl-faq.fr.html
+* https://philippe.scoffoni.net/agpl-resout-tous-les-probleme-open-souce-et-cloud-computing/
+* https://en.wikipedia.org/wiki/Permissive_software_license
+* https://cecill.info/licences.fr.html
+* https://en.wikipedia.org/wiki/Business_models_for_open-source_software
 
-## TODO
-- charte particiation libre
-https://www.bignonlebray.com/blog/la-licence-libre-est-un-contrat-son-non-respect-ne-constitue-pas-contrefacon/
-l’utilisation d’un logiciel diffusé sous licence open source de type GNU/GPL (v. 2) vaut bien acceptation d’un contrat de licence, et d’autre part qu’un manquement à cette licence constitue une inexécution du contrat qui doit être réparée par la mise en œuvre de la responsabilité contractuelle de l’utilisateur du logiciel.
-
-
-https://www.usine-digitale.fr/article/oracle-attention-aux-mauvais-presages.N454282
-audits Oracle : 12M AFPA 2014
-https://www.usine-digitale.fr/article/audit-de-licences-logicielles-la-bataille-continue.N381077
-
-
-x Le terme de plagiat n’apparaît pas formellement dans le Code de la propriété intellectuelle. En droit français, le plagiat est qualifié juridiquement de contrefaçon. Nous pouvons néanmoins définir le plagiat au regard de l’article L 122-4 du Code de la propriété intellectuelle qui dispose que « toute représentation ou reproduction intégrale ou partielle faite sans le consentement de l’auteur (…) est illicite. » Peuvent également constituer un plagiat au regard de cet article, les traductions, adaptations, transformations, arrangements ou reproductions d’une œuvre. Plus généralement, le plagiat consiste à s’approprier l’idée d’un autre en la faisant passer pour sienne.
-: jusqu’à 3 ans d’emprisonnement et 300 000 € d’amende.
-
-
-https://www.cncpi.fr/ba-ba/FAQ_questions_reponses/Comment_peut-on_proteger_un_logiciel/
-Que recouvre la brevetabilité des logiciels ?
-L’ensemble du logiciel ne sera souvent pas breveté. Seule l’invention technique découlant du logiciel pourra être couverte. Autrement dit, ce seront uniquement les éléments techniques utilisés par ce logiciel qui seront brevetés.
-
-La protection par le droit d’auteur s’acquiert sans formalité. Le logiciel est donc protégé dès sa création et cela pour une durée de 70 ans à compter du décès de l’auteur ou, s’il s’agit d'une personne morale (société, association, etc), à compter de la date à laquelle le logiciel a été rendu public. Il n'est donc pas nécessaire d'apposer sur son logiciel le fameux symbole Copyright que l'on retrouve souvent sur les sites internet. 
-
-Toutefois, votre logiciel ne sera protégé que s’il est original . Autrement dit, s’il est le résultat d’un processus créatif qui vous est propre et s’il représente un réel apport intellectuel.
-
-Titulaire droit auteur :
-Si le logiciel est une oeuvre de collaboration entre divers auteurs, ces derniers seront alors co-titulaires des droits sur leur logiciel commun. Les décisions concernant son exploitation devront donc être prises à l’unanimité;
-
-Si le logiciel a été créé à l’initiative d’une personne physique ou morale qui l’édite, le publie et le divulgue, alors cette personne sera considérée comme étant propriétaire du logiciel ;
-
-Si le logiciel est une oeuvre de commande, l’auteur reste titulaire des droits sur son logiciel sauf dans le cas où un contrat de licence ou de cession a été signé ; enfin
-
-Si l’auteur du logiciel est un salarié qui opère dans le cadre de ses fonctions ou sur instruction de l’employeur , ce dernier obtiendra automatiquement les droits patrimoniaux sur le logiciel développé par son salarié.
-
-x Toutefois, afin de faire cesser la contrefaçon, vous devez prouver que vous êtes bien l’auteur du logiciel contrefait. Pour ce faire, il vous faudra notamment constituer une ou des preuves d’antériorité pouvant établir la date à laquelle les éléments constitutifs de votre logiciel ont été créés. L’horodatage par la Blockchain est l’une des méthodes que vous pouvez utiliser dès à présent pour protéger vos créations logicielles.  dépôt des éléments précités auprès de l’APP (Agence pour la Protection des Programmes) : http://www.app.asso.fr/formulaires (Enregistrement des programmes auprès du répertoire international d’identification des œuvres numériques dont le numéro d’enregistrement est admis comme moyen de preuve dans plus de 200 pays et notamment les États membres de l’Union européenne, la Suisse, le Maroc, les États-Unis, la Chine et la Russie).Il existe d’autres moyens de rapporter la preuve de la titularité des droits sur un logiciel ainsi que de leur antériorité mais ceux-ci sont moins efficaces qu’un dépôt auprès de l’APP : le dépôt d’une enveloppe e-Soleau à l’INPI, l’envoi recommandé à soi-même, le dépôt chez un notaire ou un huissier…
-
-xGrâce à la Convention de Berne qui prévoit que les éléments protégeables par un droit d’auteur bénéficient, dans tout État partie à la Convention, de la même protection que celle que ces États accordent aux créations de leurs propres ressortissants, sans aucune formalité.
-x ce jour, 172 États ont ratifié la Convention de Berne, dont la plupart des grandes puissances industrielles (Union européenne, États-Unis, Chine, Japon, Inde).
-xLa Convention de Berne oblige, par ailleurs, tous ses États membres à un « minimum » de protection au titre de ce droit d’auteur.
-De manière générale, l’auteur français d’un logiciel bénéficie ainsi dans ces États de droits patrimoniaux à peu près équivalents à ceux exposés ci-dessus pour la France et ce, pour une durée minimale de 50 ans à compter du décès de leur(s) auteur(s).
-
-
-Selon l’article 52 de la Convention sur le brevet européen, repris par l’article L. 611-10 du Code de la propriété intellectuelle, un programme d’ordinateur en tant que tel n’est pas brevetable.
-
-La protection par brevet ne peut être envisagée que dans des cas très spécifiques : par exemple, si le logiciel s’insère dans une invention brevetable et constitue une étape dans le fonctionnement de celle-ci (système ABS d’une voiture, par exemple).
-
-x La société Entr’ouvert, considérant que la mise à disposition de sa bibliothèque logicielle par Orange à la DGME violait les termes de la licence GNU GPL (Version 2), a assigné la société Orange en contrefaçon de ses droits d’auteur sur ce logiciel.
-x Le Tribunal, relevant que cette licence libre était un contrat d’adhésion, « dont les clauses ne peuvent être discutées et négociées par celui qui s’oblige, mais qui comporte néanmoins […] des obligations réciproque à charge de chacune des parties« , a considéré que la relation entre la société Entr’ouvert et la société Orange pour l’utilisation de la licence afférente à cette bibliothèque logicielle était donc de nature contractuelle et non délictuelle.
-
-x https://www.legalstart.fr/fiches-pratiques/proteger-une-creation/protection-logiciel/
-
-
-https://www.cio-online.com/actualites/lire-jean-pierre-desbenoit-dgac-%C2%A0-%C2%A0oracle-ne-nous-a-pas-pris-au-serieux-nous-le-sortons-de-notre-si%C2%A0-8377.html
-Jean-Pierre Desbenoit (DGAC) : « Oracle ne nous a pas pris au sérieux, nous le sortons de notre SI 
-
-https://www.murielle-cahen.com/publications/logiciel-auteur.asp
-https://www.jurifiable.com/conseil-juridique/propriete-intellectuelle/copyright#:~:text=Le%20copyright%20rel%C3%A8ve%20d'une%20logique%20principalement%20%C3%A9conomique.&text=Il%20prot%C3%A8ge%20les%20personnes%20qui,prot%C3%A8ge%20avant%20tout%20les%20cr%C3%A9ateurs.
-
-e législateur n’a pas précisé la notion de logiciel, cet oubli est volontaire dans la mesure où il ne voulait pas enfermer le logiciel dans « un carcan législatif » et permettre une adaptation plus efficace du droit d’auteur au logiciel.
-C’est donc la jurisprudence qui a délimité les contours de la notion.
-Du point de vue technique le logiciel se définit comme un processus comprenant deux phases, à savoir une phase d’analyse et une phase de programmation.
-
-https://fr.wikipedia.org/wiki/Logiciel_propri%C3%A9taire
-
-
-
-Freemium
-Main article: Freemium
-Freemium works by offering a product or service free of charge (typically digital offerings such as software, content, games, web services or other) while charging a premium for advanced features, functionality, or related products and services. For example, a fully functional feature-limited version may be given away for free, with advanced features disabled until a license fee is paid. The word "freemium" is a portmanteau combining the two aspects of the business model: "free" and "premium". It has become a popular model especially in the antivirus industry.
-
-
-https://pastel.archives-ouvertes.fr/tel-00467849/document
-types d'editeurs open source, chercher mandriva
-
-https://www.gnu.org/licenses/gpl-faq.fr.html
-
-https://philippe.scoffoni.net/agpl-resout-tous-les-probleme-open-souce-et-cloud-computing/
