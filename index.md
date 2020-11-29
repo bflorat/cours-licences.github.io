@@ -26,7 +26,6 @@ dans ce cours. Ces opinions doivent être considérées comme propres à l’aut
 
 ## Motivations 
 
-* Ai-je le droit de réutiliser des texte ou images dans mes propres contenus ?
 * Puis-je réutiliser un bout de code trouvé sur StackOverflow ?
 * Y-a-t’il une licence par défaut ?
 * Qu'est ce que le Copyright, dois-je le mentionner ?
@@ -49,25 +48,30 @@ dans ce cours. Ces opinions doivent être considérées comme propres à l’aut
 ---
 
 ### Le droit d'auteur
-
-* Ensemble des droits d'un auteur sur ses œuvres de l'esprit et droits du public à en jouir sous conditions.
+* Ensemble des __droits d'un auteur sur ses œuvres de l'esprit et droits du public à en jouir sous conditions__
 * Concept philosophique (John Locke, 17éme : l'homme étant propriétaire de lui-même, ses œuvres lui appartiennent)
 * Donne droit patrimonial (revenus) et moral à son auteur pour toute création
 * Deux types de droits : 
-- *patrimoniaux* : droits liés à l’exploitation économique de l’œuvre. Limités dans le temps.
-- *moraux* : droits inaliénables et perpétuels liés à la réputation des auteurs. 
+    - __*patrimoniaux*__ : droits liés à l’exploitation économique de l’œuvre. Limités dans le temps
+    - __*moraux*__ : droits inaliénables et perpétuels liés à la réputation des auteurs
 * Le plagiat est juridiquement nommé "contrefaçon" en droit français. C'est le fait de faire passer pour sienne l'idée d'une autre personne.
-* Articles [L335-2-1, L335-3](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006279235/2009-06-14) du code de la propriété intellectuelle (CPI): interdisent copie et utilisation d’un logiciel sans accord du titulaire des droits d'auteur
+* Articles [L335-2-1, L335-3](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006279235/2009-06-14) du code de la propriété intellectuelle (__CPI__) : copie et utilisation d’un logiciel sans accord du titulaire des droits d'auteur interdits
+* Par défaut (aucune licence explicite), seul l'auteur a des droits sur sa création (“All Rights Reserved”) et les autres aucun
+
+<div class='warning ad'>
+Attention : ne jamais utiliser de code sans licence explicite
+</div>
 
 ---
 
-## Comment prouver la paternité du logiciel&nbsp;?
+## Comment prouver la paternité d'un logiciel&nbsp;?
 
-* Il faut une preuve *d'antériorité*
-* Dépôt auprès de l'agence Européenne APP (Agence pour la Protection des Programmes)
-* L'INPI (agence française)
+* Il faut une __preuve *d'antériorité*__
+* __Dépôt__ auprès de :
+    - l'agence Européenne APP (Agence pour la Protection des Programmes)
+    - l'INPI (agence française)
 * Moins efficaces juridiquement : dépôt à un notaire, dépôt enveloppe e-Soleau à l'INPI, recommandé à soit-même
-* Émergeant : [Blockchain](https://www.app.asso.fr/centre-information/publications/blockchain-et-propriete-intellectuelle)
+* Émergeant : __[Blockchain](https://www.app.asso.fr/centre-information/publications/blockchain-et-propriete-intellectuelle)__
 
 ---
 
@@ -124,6 +128,14 @@ Signe © encore largement utilisé à titre informatif uniquement (rappelle la p
 
 * Tout logiciel tombe dans le domaine public à l'échéance des droits patrimoniaux
 * S'il y renonciation explicite aux droits par l'auteur (via licences WTFPLv2, Zero Clause BSD, CC0)
+
+## Le code trouvé sur Internet
+* StackOverflow : Tout le code est en licence documentaire [CC BY-SA (de 2.5 à 4.0 suivant la date des posts](https://stackoverflow.com/help/licensing)
+    - Comptible uniquement avec une licence Copyleftée (mais déconseillé par la FSF)
+    - Devant un tribunal, possible de plaider le "Fair traid" (code trivial si quelques lignes) mais jurisprudence au cas par cas...
+* Les sites qui ne précisent pas de licence : le copyright par défaut "All rights reserved" s'applique
+    - Il est nénamoins possible de demander l'autorisation écrite d'utilisation à l'auteur
+    - Sinon, il faut réécrire complétement le code
 
 ---
 ### Des risques importants en cas de non respect des licences
@@ -348,7 +360,7 @@ Afin d’assurer ces libertés, les logiciels Open Source se basent sur:
 
 ---
 
-# Zoom sur la l'AGPL (Affero General Public License)
+### Zoom sur la l'AGPL (Affero General Public License)
 * Objectif: Obliger les services accessibles par le réseau de publier le code source de leurs améliorations
 * V3 en 2007
 <div class='ad note'>
@@ -371,7 +383,7 @@ Variantes CeCILL-B (BSD-like) et CeCILL-C (MPD-like) <a href="https://directory.
 </div>
 
 ---
-# Les licences permissives
+### Les licences permissives
 * Dites aussi 'lax' ou 'liberal'
 * Le plus courantes : BSD, MIT, Apache
 * Pas de Copyleft
@@ -452,6 +464,8 @@ Pour : documents, musique, images, photos…
 |_CC BY-NC-SA_ | paternité / pas utilisation commerciale / partage des conditions à l'identique | Non
 |_CC BY-NC-ND_| paternité / pas utilisation commerciale / pas de modification | Non
 
+[Choisir la meilleure licence Creatice Commons](http://creativecommons.org.au/content/licensing-flowchart.pdf)
+
 ---
 
 ### Modèle économique
@@ -531,4 +545,4 @@ Voir aussi [la liste officielle sur gnu.org](https://www.gnu.org/licenses/licens
 * https://en.wikipedia.org/wiki/Permissive_software_license
 * https://cecill.info/licences.fr.html
 * https://en.wikipedia.org/wiki/Business_models_for_open-source_software
-
+* https://www.eurostaffgroup.com/media-hub/how-can-i-use-code-snippets-found-on-stack-overflow-65809/
