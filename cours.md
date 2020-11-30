@@ -160,7 +160,7 @@ Notice Copyright © encore largement utilisée à titre informatif uniquement (r
     - Les programmes sont principalement écrits par des femmes brillantes
     - le code source est libre d'être étudié ou modifié (inutilisable sans disposer du matériel associé)
 * Milieu des années 1970 : 
-    - Création du concept de logiciel propriétaire (surtout pour micro-informatique)
+    - Création du concept de logiciel propriétaire
     - Lettre de Bill Gates en 1976 demandant de cesser « le vol » des logiciels
     - Premières lois (_Copyright Act_) en octobre 1976 pour protéger les auteurs de logiciels
     - Rapidement, la majorité des logiciels devient propriétaire au début des années 1980
