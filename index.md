@@ -134,7 +134,7 @@ Notice Copyright © encore largement utilisée à titre informatif uniquement (r
 * 2009: 8000 € de frais de justice pour Edu4 et perte du contrat pour avoir fait passé VLC (logiciel libre) comme développé par lui
 * 2014 : Oracle demande 12 M€ à l'AFPA pour non utilisation non prévue d'un de ses logiciels (débouté)
 * 2019 : Procès de la Société Entr’ouvert contre Orange qui a utilisé sa librairie pour un projet DGME sans respecter sa licence (GPL V2)
-* Piratage de logiciels : le CPI prévoit jusqu'à 300.000 € d'amende et 3 ans d’emprisonnement pour les personnes physiques et 750K€ d'amendes pour les personnes morales
+* Piratage de logiciels : le CPI prévoit jusqu'à 300.000 € d'amende et 3 ans d’emprisonnement pour les personnes physiques et 750K€ d'amende pour les personnes morales
 ---
 
 ## Les licences propriétaires
