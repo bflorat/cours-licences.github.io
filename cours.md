@@ -157,7 +157,7 @@ Notice Copyright © encore largement utilisée à titre informatif uniquement (r
     - Hardware et software vendus ensemble
     <div style="float: right;padding:20px;><a href="https://scientificwomen.net/women/hopper-grace-45"><img style="width:300px" src="resources/grace-hopper.jpeg"></a> <p class='small'><a href="https://scientificwomen.net/women/hopper-grace-45">Grace Hopper, source : History of Scientific Women</a></p></div>
     - C'est surtout le hardware qui est important
-    - Les programmes étaient principalement écrits par des femmes brillantes
+    - Les programmes sont principalement écrits par des femmes brillantes
     - le code source est libre d'être étudié ou modifié (inutilisable sans disposer du matériel associé)
 * Milieu des années 1970 : 
     - Création du concept de logiciel propriétaire (surtout pour micro-informatique)
