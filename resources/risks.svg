@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1"
+   viewBox="0 0 99.718 100"
+   id="svg8"
+   sodipodi:docname="risks.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata14">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs12">
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Invert"
+       id="filter6242">
+      <feColorMatrix
+         type="hueRotate"
+         values="180"
+         result="color1"
+         id="feColorMatrix6238" />
+      <feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 2 0 "
+         result="color2"
+         id="feColorMatrix6240" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Invert"
+       id="filter6248">
+      <feColorMatrix
+         type="hueRotate"
+         values="180"
+         result="color1"
+         id="feColorMatrix6244" />
+      <feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 2 0 "
+         result="color2"
+         id="feColorMatrix6246" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Invert"
+       id="filter6254">
+      <feColorMatrix
+         type="hueRotate"
+         values="180"
+         result="color1"
+         id="feColorMatrix6250" />
+      <feColorMatrix
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 2 0 "
+         result="color2"
+         id="feColorMatrix6252" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview10"
+     showgrid="false"
+     inkscape:zoom="2.36"
+     inkscape:cx="49.859001"
+     inkscape:cy="50"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg8" />
+  <path
+     d="M43.688 12.48c1.297-4.33-1.13-8.904-5.473-10.227-4.318-1.337-8.905 1.09-10.242 5.435-1.323 4.343 1.13 8.917 5.45 10.24 4.342 1.338 8.93-1.104 10.265-5.447"
+     id="path2"
+     style="filter:url(#filter6242)" />
+  <path
+     d="M59.042 37.706l-3.107-19.2L74.938 7.394c.9-.502 1.606-1.31 1.903-2.34A3.96 3.96 0 0 0 74.18.16a3.937 3.937 0 0 0-3.186.438L43.907 16.502c-.95.5-1.773 1.208-2.48 2.03l-11.423 15.33-15.73-1.875a3.934 3.934 0 0 0-2.31 2.133 3.914 3.914 0 0 0 2.03 5.166 3.725 3.725 0 0 0 2.57.205l16.01 1.82a4.03 4.03 0 0 0 1.53-1.05l6.5-8.16 3.11 17.616A8.792 8.792 0 0 0 48.3 55.56l13.96 4.163 2.06 16.037a5.124 5.124 0 0 0 3.343 4.072c2.66.95 5.577-.464 6.503-3.124.294-.796.346-1.67.23-2.48l-2.52-19.62a5.18 5.18 0 0 0-2.53-3.47l-8.69-2.61 14.38-8.71L92.61 47.6c.114.05.218.102.32.153 2.66.925 5.576-.462 6.503-3.123a5.12 5.12 0 0 0-2.66-6.324l-20.033-8.93c-.104-.026-.167-.078-.27-.103-1.44-.5-2.97-.32-4.19.347l-13.24 8.087z"
+     id="path4"
+     style="filter:url(#filter6248)" />
+  <path
+     d="M21.047 44.862H0v5.744h16.203v16.346H33.05v15.226h16.33V100h21.485v-5.744H55.137V76.434H38.793v-15.24h-16.82V44.862h-.926z"
+     id="path6"
+     style="filter:url(#filter6254)" />
+</svg>
