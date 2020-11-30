@@ -1,0 +1,34 @@
+---
+kind: pipeline
+type: kubernetes
+name: default
+
+steps:
+  
+- name: build_nginx_image
+  image: banzaicloud/drone-kaniko
+  settings:
+    repo: cours-licences
+    registry: docker-registry.florat.net
+    tags: latest
+    username: 
+      from_secret: docker-registry-username
+    password: 
+      from_secret: docker-registry-password
+
+- name: deploy_k8s
+  image: bflorat/build-blog:0.6
+  environment:
+    kubeconfig:
+      from_secret: kubeconfig
+  commands: 
+    - mkdir ~/.kube && echo $kubeconfig | base64 -d -w 0 > ~/.kube/config
+    # On supprime juste le pod du site pour l'obliger à se recréer et à recharger son image
+    # car il est en imagePullPolicy: Always 
+    - kubectl get pods --no-headers=true | awk '/app-cours-licences/{print $1}'| xargs  kubectl delete pod
+    
+    
+volumes:
+- name: site
+  temp: {}
+
