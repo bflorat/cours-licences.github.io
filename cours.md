@@ -13,7 +13,7 @@ dans ce cours. Ces opinions doivent être considérées comme propres à l’aut
 
 ![Université de Nantes](resources/logo-univ.png)
 
-<small>[Version sur une page](./?print-pdf)</small>
+<small>[https://cours-licences.florat.net/](https://cours-licences.florat.net/)&nbsp;([version sur une page](./?print-pdf))</small>
 ---
 
 ## Agenda
