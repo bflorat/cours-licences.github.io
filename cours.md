@@ -4,16 +4,17 @@ IUT de Nantes – Département Informatique
 
 Cours de Licence Professionnelle 2020-2021
 
-<smaller>Copyright © 2020 [Bertrand Florat](http://www.florat.net/contact)</smaller>
-
-<smaller>Licence [CC-BY-SA V4](https://creativecommons.org/licenses/by-sa/4.0/)</smaller>
-
-<smaller><i>L'université de Nantes n’entend donner aucune approbation ni improbation aux opinions émises
-dans ce cours. Ces opinions doivent être considérées comme propres à l’auteur.</i></smaller>
-
 ![Université de Nantes](resources/logo-univ.png)
 
 <small>[https://cours-licences.florat.net/](https://cours-licences.florat.net/)&nbsp;([version sur une page](./?print-pdf))</small>
+
+<div class='smaller'>Copyright © 2020 <a href='http://www.florat.net/contact'>Bertrand Florat</a>. This work is licensed under a <br/><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</div>
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; padding-right: 20px; vertical-align:middle" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+
+<small><i>L'université de Nantes n’entend donner aucune approbation ni improbation aux opinions émises
+dans ce cours. <br/>Ces opinions doivent être considérées comme propres à l’auteur.</i></small>
+
 ---
 
 ## Agenda
