@@ -85,7 +85,7 @@ Attention : ne jamais utiliser de code sans licence explicite
 * Aménagés pour les logiciels
 * Quatre attributs :
     * droit à __revendiquer la publicité__ du nom du créateur (même si les droits d'exploitations ont été cédés, affaire Framatome 1993) ;
-    * droit à la __divulgation__ ;
+    * droit à la __divulgation__ (rendre le logiciel public) ;
     * droit au __respect__ du logiciel : possible de s'opposer à toute modification préjudiciable à son honneur ou à sa réputation ;        
     * droit de __retrait et de repentir__ (stopper la divulgation ou faire des modifications).
 
@@ -100,7 +100,6 @@ Pour un logiciel, <b>seuls les droits de divulguation /de paternité sont réell
     - Droit d'auteur : protection des _auteurs_
     - Copyright : protection des _œuvres_
 * Différence surtout sur les droits moraux : l'employeur est considéré comme le créateur
-* Le copyright ne protège que les œuvres sur support matériel alors que le droit d'auteur protège toute œuvre (discours, spectacle vivant...)
 * Harmonisation par __convention de Berne__ (1971), ratifiée par 166 états
 - __Obtention gratuite et automatique__ du droit d'auteur 
 - Il faut demander explicitement une renonciation à son droit d'auteur
@@ -130,6 +129,16 @@ Notice Copyright © encore largement utilisée à titre informatif uniquement (r
 * Certaines licences permettent de renoncer à tout ce qui est permis par la loi du pays : licences WTFPLv2, Zero Clause BSD, CC0
 ---
 
+## Les licences
+* Contrats entre entre un ou plusieurs auteurs (ou leurs ayant-droits) et des utilisateurs
+* L'auteur concède des droits contre rémunération ou à titre gracieux
+* Exemple de droits : 
+    - exécuter le logiciel ;
+    - dupliquer le logiciel ;
+    - le modifier...
+
+---
+
 ### Des risques importants en cas de non respect des licences
 * 2008: Microsoft gagne 1.8M€ contre un réseau de contrefaçon (cour d'appel de Paris)
 * 2009: 8000 € de frais de justice pour Edu4 et perte du contrat pour avoir fait passé VLC (logiciel libre) comme développé par lui
@@ -140,7 +149,7 @@ Notice Copyright © encore largement utilisée à titre informatif uniquement (r
 
 ## Les licences propriétaires
 * Synonymes: "non libre", "privatif/privateur", "Closed Source"
-* Droit d'auteur + contrat de licence (CLUF) = Licence propriétaire
+* Licence définie par un CLUF
 
 <div class='ad note'>
 <b>CLUF : </b>Contrat de Licence Utilisateur Final<br/><b>EULA</b> (End User License Agreement) en anglais
@@ -150,6 +159,7 @@ Notice Copyright © encore largement utilisée à titre informatif uniquement (r
 * Le code source n'est pas disponible (sauf exceptions contractuelles)
 * __Location__ (et pas achat comme dit par abus de language) __temporaire ou perpétuelle de droits d'usage__ contractualisés par un CLUF
 * Un logiciel peut être vendu à une autre société (transfert du droit d'auteur patrimonial)
+    - Exemple : HP vent en 2016 son offre logicielle à Microfocus pour $8.8Md
 ---
 
 ## Historique
@@ -470,6 +480,7 @@ pour : documents, musique, images, photos…
     - Produits Open Core (Exemple : Gitlab CE, Kafka, Elastic, Redis)
     - SaaS (Software As A Service)
     - Investissements gouvernementaux (exemple: [Squash TM](https://www.squashtest.com/about))
+    - Faire payer le programme ou ses sources (purement théorique)
 
 * Organisations et bénévoles : 
     - Rémunérations très faibles en général (ex: dons Paypal)
@@ -510,7 +521,7 @@ Voir aussi [la liste officielle sur gnu.org](https://www.gnu.org/licenses/licens
 
 | &nbsp; |&nbsp;
 |----|----
-|<img src="resources/strengths.svg" style="width:80px;vertical-align:middle" > __Forces__ <li>Service de support toujours proposé<li>Sécurité par l'obscurité<li>Seule option pour de nombreux progiciels | <img src="resources/weaknesses.svg" style="width:80px;vertical-align:middle"> __Faiblesses__ <li>Support et licences (très) onéreux<li>Support pas toujours au niveau ni réactif <li>Complications planning et architecture<li>Sécurité par l'obscurité <li>Risques juridiques (besoin d'experts)
+|<img src="resources/strengths.svg" style="width:80px;vertical-align:middle" > __Forces__ <li>Service de support toujours proposé<li>Vulnérabilités cachées<li>Seule option pour de nombreux progiciels | <img src="resources/weaknesses.svg" style="width:80px;vertical-align:middle"> __Faiblesses__ <li>Support et licences (très) onéreux<li>Support pas toujours au niveau ni réactif <li>Complications planning et architecture<li>Sécurité par l'obscurité <li>Risques juridiques (besoin d'experts)
 |<img src="resources/opportunities.svg" style="width:80px;vertical-align:middle"> __Opportunités__<li>Créer un partenariat de longue durée avec un éditeur| <img src="resources/risks.svg" style="width:80px;vertical-align:middle"> __Risques__ <li>Vendor locking <li> Subir les roadmaps<li>Impossible de connaître la véritable qualité ou la sécurité du code <li>Risques financiers (audits...)<li>Miser sur un produit en perte de vitesse<li>Faire de l'architecture pilotée par le coût
 | &nbsp; |&nbsp;
 
@@ -519,7 +530,7 @@ Voir aussi [la liste officielle sur gnu.org](https://www.gnu.org/licenses/licens
 
 | &nbsp; |&nbsp;
 |----|----
-|<img src="resources/strengths.svg" style="width:80px;vertical-align:middle" > __Forces__ <li>Sécurité par l'auditabilité <li>Support communautaire réactif<li>Gratuit (hors support payant)<li>Simple à mettre en œuvre <li>Meilleure pérénité tant qu'il y a des utilisateurs| <img src="resources/weaknesses.svg" style="width:80px;vertical-align:middle"> __Faiblesses__ <li>Sécurité par l'auditabilité<li>Support payant onéreux 
+|<img src="resources/strengths.svg" style="width:80px;vertical-align:middle" > __Forces__ <li>Sécurité par l'auditabilité <li>Support communautaire réactif<li>Gratuit (hors support payant)<li>Simple à mettre en œuvre <li>Meilleure pérénité tant qu'il y a des utilisateurs| <img src="resources/weaknesses.svg" style="width:80px;vertical-align:middle"> __Faiblesses__ <li>Failles potentiellment visibles<li>Support payant onéreux 
 |<img src="resources/opportunities.svg" style="width:80px;vertical-align:middle"> __Opportunités__<li>Contribuer (évolutive/corrective)<li>Tester facilement de nouvelles solutions (POC)<li>Changer facilement de solution | <img src="resources/risks.svg" style="width:80px;vertical-align:middle"> __Risques__ <li>Risque juridique si non respect des licences<li>Subir les roadmaps<li>Miser sur un projet dont la communauté se désintéresse
 | &nbsp; |&nbsp;
 
