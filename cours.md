@@ -6,7 +6,7 @@ Cours de Licence Professionnelle 2020-2021
 
 ![Université de Nantes](resources/logo-univ.png)
 
-<small>[https://cours-licences.florat.net/](https://cours-licences.florat.net/)&nbsp;([version sur une page](./?print-pdf))</small>
+<small>[https://cours-licences.florat.net/](https://cours-licences.florat.net/)&nbsp;([version sur une page](./?print-pdf))&nbsp;/[sources](https://github.com/bflorat/cours-licences.github.io)</small>
 
 <div class='smaller'>Copyright © 2020 <a href='http://www.florat.net/contact'>Bertrand Florat</a>. This work is licensed under a <br/><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</div>
 
@@ -159,7 +159,7 @@ Notice Copyright © encore largement utilisée à titre informatif uniquement (r
 * Le code source n'est pas disponible (sauf exceptions contractuelles)
 * __Location__ (et pas achat comme dit par abus de language) __temporaire ou perpétuelle de droits d'usage__ contractualisés par un CLUF
 * Un logiciel peut être vendu à une autre société (transfert du droit d'auteur patrimonial)
-    - Exemple : HP vent en 2016 son offre logicielle à Microfocus pour $8.8Md
+    - Exemple : HP vend en 2016 son offre logicielle à Microfocus pour $8.8Md
 ---
 
 ## Historique
