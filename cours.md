@@ -37,7 +37,7 @@ dans ce cours. <br/>Ces opinions doivent être considérées comme propres à l�
 ---
 
 ## Contexte juridique 
-* Le droit d'auteur, droits patrimoniaux et moraux
+* Le droit d'auteur, les droits patrimoniaux et moraux
 * Les brevets logiciels
 * Le domaine public
 * Les licences logicielles
@@ -45,12 +45,12 @@ dans ce cours. <br/>Ces opinions doivent être considérées comme propres à l�
 
 ### Le droit d'auteur
 * Ensemble des __droits d'un auteur sur ses œuvres de l'esprit et droits du public à en jouir sous conditions__
-* Concept philosophique (John Locke, 17éme : l'homme étant propriétaire de lui-même, ses œuvres lui appartiennent)
+* Concept philosophique (John Locke, 17ème : l'homme étant propriétaire de lui-même, ses œuvres lui appartiennent)
 * Deux types de droits : 
     - __*patrimoniaux*__ : droits limités dans le temps liés à l’exploitation économique de l’œuvre ;
     - __*moraux*__ : droits inaliénables et perpétuels liés à la réputation.
 * Le plagiat est juridiquement nommé __*contrefaçon*__ en droit français. C'est le fait de faire passer pour sienne l'idée d'une autre personne
-* Articles [L335-2-1, L335-3](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006279235/2009-06-14) du code de la propriété intellectuelle (__CPI__) : interdit de copier/utiliser logiciel sans accord du titulaire des droits d'auteur
+* Les articles [L335-2-1, L335-3](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006279235/2009-06-14) du code de la propriété intellectuelle (__CPI__) interdisent de copier/utiliser le logiciel sans accord du titulaire des droits d'auteur
 * __Par défaut__ (aucune licence explicite), __seul l'auteur a des droits__ sur sa création (“All Rights Reserved”) et les autres __aucun__
 
 <div class='warning ad'>
@@ -62,21 +62,21 @@ Attention : ne jamais utiliser de code sans licence explicite
 
 * Il faut une __preuve *d'antériorité*__
 * __Dépôt__ auprès de :
-    - l'agence Européenne APP (Agence pour la Protection des Programmes)
+    - l'agence européenne APP (Agence pour la Protection des Programmes)
     - l'agence française INPI (Institut National de la Propriété Industrielle) via une enveloppe [e-Soleau](https://www.inpi.fr/fr/services-et-prestations/e-soleau) par exemple
-* Dépôt à un notaire ;
+* Dépôt à un notaire
 * Courrier en recommandé à soi-même (moins sûr juridiquement)
-* Émergeant : l'horodatage par la __[Blockchain](https://www.app.asso.fr/centre-information/publications/blockchain-et-propriete-intellectuelle)__
+* Émergent : l'horodatage par la __[Blockchain](https://www.app.asso.fr/centre-information/publications/blockchain-et-propriete-intellectuelle)__
 
 ---
 ## Les droits patrimoniaux du logiciels en France
-* Valables 70 ans après l’année de décès de l’auteur (article L 122-6 du CPI)
+* Valables 70 ans après l’année de décès de l’auteur (article L122-6 du CPI)
 * Droit de reproduction : dupliquer l’œuvre sur tout support qui en permet la communication au public
 * Droit de modification : s'opposer à la traduction, adaptation ou toute autre modification du logiciel
 * Droit de mise sur le marché : l'auteur peut vendre ou donner son œuvre à sa guise
 
 <div class='warning ad'>
-<b>Œuvre réalisé sous contrat de travail</b> : <br/>Les droits d'auteur patrimoniaux appartiennent à l'employeur <br/>(article L113-9 du CPI)
+<b>Œuvre réalisée sous contrat de travail</b> : <br/>Les droits d'auteur patrimoniaux appartiennent à l'employeur <br/>(article L113-9 du CPI)
 </div>
 ---
 
@@ -84,13 +84,13 @@ Attention : ne jamais utiliser de code sans licence explicite
 * Perpétuels (après la mort de l'auteur, revient aux ayants-droits)
 * Aménagés pour les logiciels
 * Quatre attributs :
-    * droit à __revendiquer la publicité__ du nom du créateur (même si les droits d'exploitations ont été cédés, affaire Framatome 1993) ;
-    * droit à la __divulgation__ (rendre le logiciel public) ;
-    * droit au __respect__ du logiciel : possible de s'opposer à toute modification préjudiciable à son honneur ou à sa réputation ;        
-    * droit de __retrait et de repentir__ (stopper la divulgation ou faire des modifications).
+    * droit à __revendiquer la publicité__ du nom du créateur (même si les droits d'exploitations ont été cédés, affaire Framatome 1993)
+    * droit à la __divulgation__ (rendre le logiciel public)
+    * droit au __respect__ du logiciel : possible de s'opposer à toute modification préjudiciable à son honneur ou à sa réputation
+    * droit de __retrait et de repentir__ (stopper la divulgation ou faire des modifications)
 
 <div class='note ad'>
-Pour un logiciel, <b>seuls les droits de divulguation /de paternité sont réellement applicables et appliqués</b>
+Pour un logiciel, <b>seuls les droits de divulguation / de paternité sont réellement applicables et appliqués</b>
 </div>
 ---
 
@@ -140,42 +140,48 @@ Notice Copyright © encore largement utilisée à titre informatif uniquement (r
 ---
 
 ### Des risques importants en cas de non respect des licences
-* 2008: Microsoft gagne 1.8M€ contre un réseau de contrefaçon (cour d'appel de Paris)
-* 2009: 8000 € de frais de justice pour Edu4 et perte du contrat pour avoir fait passé VLC (logiciel libre) comme développé par lui
+* 2008 : Microsoft gagne 1.8&nbsp;M€ contre un réseau de contrefaçon (cour d'appel de Paris)
+* 2009 : 8000&nbsp;€ de frais de justice pour Edu4 et perte du contrat pour avoir fait passé VLC (logiciel libre) comme développé par lui
 * 2014 : Oracle demande 12 M€ à l'AFPA pour non utilisation non prévue d'un de ses logiciels (débouté)
 * 2019 : Procès de la Société Entr’ouvert contre Orange qui a utilisé sa librairie pour un projet DGME sans respecter sa licence (GPL V2)
-* Piratage de logiciels : le CPI prévoit jusqu'à 300.000 € d'amende et 3 ans d’emprisonnement pour les personnes physiques et 750K€ d'amende pour les personnes morales
+* Piratage de logiciels : le CPI prévoit jusqu'à 300.000&nbsp;€ d'amende et 3&nbsp;ans d’emprisonnement pour les personnes physiques et 750.000&nbsp;€ d'amende pour les personnes morales
 ---
 
 ## Les licences propriétaires
 * Synonymes: "non libre", "privatif/privateur", "Closed Source"
 * Licence définie par un CLUF
-
-<div class='ad note'>
-<b>CLUF : </b>Contrat de Licence Utilisateur Final<br/><b>EULA</b> (End User License Agreement) en anglais
-</div>
-
 * L'objectif est de __contrôler la diffusion d'un logiciel__ pour en tirer un bénéfice
 * Le code source n'est pas disponible (sauf exceptions contractuelles)
 * __Location__ (et pas achat comme dit par abus de language) __temporaire ou perpétuelle de droits d'usage__ contractualisés par un CLUF
 * Un logiciel peut être vendu à une autre société (transfert du droit d'auteur patrimonial)
-    - Exemple : HP vend en 2016 son offre logicielle à Microfocus pour $8.8Md
+    - Exemple : HP vend en 2016 son offre logicielle à Microfocus pour 8,8&nbsp;milliards de dollars US
+
+<div class='ad note'>
+    <b>CLUF : </b>Contrat de Licence Utilisateur Final<br/>
+    <b>EULA : </b>End User License Agreement en anglais
+</div>
 ---
 
 ## Historique
 * Jusqu'au milieu des années 1970 :
-    - Pas encore de micro-informatique (mainframes)
+    - Pas encore de micro-informatique (seulement des mainframes)
     - Hardware et software vendus ensemble
-    <div style="float: right;padding:20px;><a href="https://scientificwomen.net/women/hopper-grace-45"><img style="width:300px" src="resources/grace-hopper.jpeg"></a> <p class='small'><a href="https://scientificwomen.net/women/hopper-grace-45">Grace Hopper, source : History of Scientific Women</a></p></div>
+    <div style="float: right; padding-left:20px;>
+        <a href="https://scientificwomen.net/women/hopper-grace-45"><img style="width:300px" src="resources/grace-hopper.jpeg"></a>
+        <p class='small'>
+            <a href="https://scientificwomen.net/women/hopper-grace-45">Grace Hopper, source : History of Scientific Women</a>
+        </p>
+    </div>
     - C'est surtout le hardware qui est important
     - Les programmes sont principalement écrits par des femmes brillantes
-    - le code source est libre d'être étudié ou modifié (inutilisable sans disposer du matériel associé)
+    - le code source est libre d'être étudié ou modifié (il est inutilisable sans disposer du matériel associé)
 * Milieu des années 1970 : 
     - Création du concept de logiciel propriétaire
-    - Lettre de Bill Gates en 1976 demandant de cesser « le vol » des logiciels
+    - Lettre de Bill Gates en 1976 demandant de cesser «&nbsp;le vol&nbsp;» des logiciels
     - Premières lois (_Copyright Act_) en octobre 1976 pour protéger les auteurs de logiciels
     - Rapidement, la majorité des logiciels devient propriétaire au début des années 1980
 ---
+
 ### Modèle économique de l'édition de logiciels propriétaires
 * Les utilisateurs __payent pour pouvoir utiliser le logiciel__
 * __Services__ (formation, support, conseil, ...)
@@ -184,25 +190,27 @@ Notice Copyright © encore largement utilisée à titre informatif uniquement (r
 <div class='danger admonition'><p class="title">Attention, freeware != logiciel libre (ici "free" signifie "gratuit")</div>
      
 * Les grands logiciels/progiciels proposent souvent plusieurs versions du logiciels avec prix croissant avec les  fonctionnalités :
-    - Quelque fois version de base gratuite (Freemium)
+    - Quelque fois la version de base gratuite (Freemium)
     - Puis versions « Silver », « Gold Elite », « Platinium » ou similaires
 * Ordre de grandeur : 
-    - Base Oracle : 37K€ /CPU minimum  + environ 20% de support par an
+    - Base Oracle : 37&nbsp;K€ /CPU minimum  + environ 20% de support par an
     - Les middlewares et base de données (Weblogic, Websphere, Oracle, MS Windows...) représentent dans les grands comptes des budgets de __dizaines à centaines de millions d'euros / an__
 ---
+
 ### les modes de facturation
 
 * Critères principaux :
-    - à l'utilisateur nommé ;
-    - à un nombre d'utilisateurs simultanés (dits _flottants_) ;
-    - à la puissance utilisée (PVU = _Processor Value Unit_) dépend du nombre cœurs et de leur caractéristiques ;
-    - à l'installation (par serveur/station) ;
+    - à l'utilisateur nommé
+    - à un nombre d'utilisateurs simultanés (dits _flottants_)
+    - à la puissance utilisée (PVU = _Processor Value Unit_) dépend du nombre cœurs et de leur caractéristiques
+    - à l'installation (par serveur/station)
     - suivant les options utilisées (ex : partitionnement des bases Oracle).
+
 <img style="float: right; width: 200px;padding:20px;" src="resources/complex.svg">
 
 * Rapidement très technique et complexe : 
     - Quid des machines virtuelles ?
-    - Quid des containeurs ?
+    - Quid des containers ?
     - Quid des environnements hors production ?
 
 * Donc besoin d'experts (métier de __Compliance Manager__)
@@ -211,26 +219,27 @@ Notice Copyright © encore largement utilisée à titre informatif uniquement (r
 ### Quelques pièges courants
 - Tarif négocié puis passage automatique au prix public si dépassement
 - Fonctionnalité rapidement indispensable mais uniquement disponible dans une version plus chère (exemple : intégration à un fournisseur d'identités)
-- Enfermement propriétaire (vendor locking). Ex : formats propriétaires.
+- Enfermement propriétaire (_vendor locking_). Ex : formats propriétaires.
 - Contrats complexes favorisant l'utilisation d'options non incluses puis audits
 - Consommation "illimitée" au tarif négocié puis renégociation sur la nouvelle base tous les 5 ans
 - Marges sur les frais de mises à jour ou les coûts de support 
 - Rabais sur des logiciels finalement pas utilisés
 - Ventes (quasi) forcées. Ex : moteur BPM + serveur d'application
 - Quid en cas de faillite (cas AGD) ?
-    * prévoir  _contrat d’escrow_ (sources déposées chez tiers de confiance)
+    * prévoir _contrat d’escrow_ (sources déposées chez tiers de confiance)
     * pire si plateforme de développement (PaaS): développements à jeter
 - SaaS : prévoir contractuellement des solutions de réversibilité
-- Favorise la [corruption](https://www.zdnet.fr/actualites/corruption-une-enquete-ouverte-contre-les-pratiques-commerciales-de-microsoft-en-hongrie-39872683.htm) / les pratiques peu éthiques (séminaires frais payés...)
+- Favorise la [corruption](https://www.zdnet.fr/actualites/corruption-une-enquete-ouverte-contre-les-pratiques-commerciales-de-microsoft-en-hongrie-39872683.htm) / les pratiques peu éthiques (séminaires tous frais payés...)
 ---
+
 ### Méthodes de contrôle de la diffusion
 * Contrats (CLUF) engageant le client
 * Clés (fournies par l'éditeur et à installer)
 * Serveurs de licences (_on premise_)
 * Appels d'API sur Internet
-* Hardware exécutant des binaires avec DRM pour empécher les modifications (tivoïsation)
+* Hardware exécutant des binaires avec DRM pour empécher les modifications (_tivoïsation_)
 * Audits
-* Mouchards (dans mises à jour par exemple)
+* Mouchards (dans les mises à jour par exemple)
 ---
 
 ### L'impact projet 
@@ -239,7 +248,7 @@ Notice Copyright © encore largement utilisée à titre informatif uniquement (r
 * Dépendances au support de l'éditeur en cas de problème.
     - Pressions possibles en fonction du montant du contrat
 * Migrations forcées par l'éditeur (fin de support)
-* Coûts souvent très importants (100K€ à M€)
+* Coûts souvent très importants (100&nbsp;K€ à plusieurs M€)
     - Peut limiter le budget développement
 ---
 
@@ -249,10 +258,10 @@ Notice Copyright © encore largement utilisée à titre informatif uniquement (r
 * Risque sur la disponibilité dans le cas de systèmes de validation de licences&nbsp;:
     - les serveurs de jetons peuvent devenir des SPOF
     - arrêt du service si oubli de renouveler une clé, etc.
-* Besoins d'accès à Internet depuis des serveurs (complexification/ sécurité)
-* Architecture pilotée par les coût au lieu des exigences (« pas de cluster, on n'a pas les moyens »)
-* Contraintes sur les environnements de développement et de recette ("bidouilles" pour partager des licences entre développeurs)
-* Peu adapté au containeurs
+* Besoins d'accès à Internet depuis des serveurs (complexification / sécurité)
+* Architecture pilotée par les coûts au lieu des exigences («&nbsp;pas de cluster, on n'a pas les moyens&nbsp;»)
+* Contraintes sur les environnements de développement et de recette («&nbsp;bidouilles&nbsp;» pour partager des licences entre développeurs)
+* Peu adapté au containers
 * Souvent plus difficile d'obtenir du support en ligne
 ---
 
@@ -265,26 +274,25 @@ Notice Copyright © encore largement utilisée à titre informatif uniquement (r
 ---
 
 ## Les logiciels libres
-
-* Définition (Wikipedia) : «*__Un logiciel libre est un logiciel dont l'utilisation, l'étude, la modification et la duplication par autrui en vue de sa diffusion sont permises, techniquement et légalement, ceci afin de garantir certaines libertés induites, dont le contrôle du programme par l'utilisateur et la possibilité de partage entre individus.__*» 
-* Deux statuts juridiques possibles : 
+* Définition ([Wikipedia](https://fr.wikipedia.org/wiki/Logiciel_libre)) : «&nbsp;*__Un logiciel libre est un logiciel dont l'utilisation, l'étude, la modification et la duplication par autrui en vue de sa diffusion sont permises, techniquement et légalement, ceci afin de garantir certaines libertés induites, dont le contrôle du programme par l'utilisateur et la possibilité de partage entre individus.__*&nbsp;» 
+* Deux statuts juridiques sont possibles : 
     - les logiciels dans le __domaine public__ (sans droit d'auteur patrimonial)
     - et les logiciels sous un __licence libre__ (GPL, BSD...) avec __respect du droit d'auteur__
 ---
-### Historique
-* Entre les années 60 à mi-70, tous les logiciels était libres de fait 
-* Mi-1970 : émergence des logiciels propriétaires et de la micro-informatique
-<img style="float: right;padding: 20px;" src="resources/rms.png">
-* 1980 : certains commencent à prendre conscience des restrictions des libertés
-- 1980 : RMS (Richard Stallman) découvre qu'il n'a pas le droit de modifier un driver d'impression Xerox
-* 1983 : Lancement du projet GNU (Gnu’s Not Unix) par RMS
-* 1985 : Création de la FSF (Free Software Fondation)
-* 1989 : Base légale du libre : la GPL V1 
-* 1991 : Linus Torvalds démarre le projet de noyau Linux
-* 1994 : Sortie de Linux 1.0 en GPL, apparition du système GNU/Linux
-* 1998 : Scission de l’Open Source Initiative (OSI) orienté business
-* 2007 : GPL V3
 
+### Historique
+* Des années 60 à mi-70, tous les logiciels était libres de fait 
+* Mi-1970 : émergence des logiciels propriétaires et de la micro-informatique
+* 1980 : Certains commencent à prendre conscience des restrictions des libertés
+<img style="float: right; padding: 20px;" src="resources/rms.png">
+* 1980 : RMS (Richard Stallman) découvre qu'il n'a pas le droit de modifier un driver d'impression Xerox
+* 1983 : Lancement du projet GNU (_Gnu’s Not Unix_) par RMS (_Richard M. Stallman_)
+* 1985 : Création de la FSF (_Free Software Fondation_)
+* 1989 : Base légale du libre : la GPL V1 (_GNU General Public License_)
+* 1991 : Linus Torvalds démarre le projet de noyau Linux
+* 1994 : Sortie de Linux 1.0 en GPL v2, apparition du système GNU/Linux
+* 1998 : Scission de l’Open Source Initiative (OSI) orientée business
+* 2007 : GPL v3
 ---
 
 ### Les quatre libertés fondamentales
@@ -295,7 +303,7 @@ Notice Copyright © encore largement utilisée à titre informatif uniquement (r
 ---
 
 ### Définition de l'OSI (Open Source Initiative)
-<img style="float: right;padding:20px;" src="resources/osi.png">
+<img style="float: right; padding: 20px;" src="resources/osi.png">
 
 1. Free Redistribution
 2. Source Code
@@ -307,31 +315,29 @@ Notice Copyright © encore largement utilisée à titre informatif uniquement (r
 8. License Must Not Be Specific to a Product
 9. License Must Not Restrict Other Software
 10. License Must Be Technology-Neutral
-
 ---
+
 ### Le Copyleft
-Afin d’assurer ces libertés, les logiciels Open Source se basent sur:
-- (Toujours) le __droit d’auteur__ (copyright) qui prévient le plagiat 
+Afin d’assurer ces libertés, les logiciels Open Source se basent sur&nbsp;:
+- (Toujours) le __droit d’auteur__ (_copyright_) qui prévient le plagiat 
 <img style="float: right;padding:20px;" src="resources/copyleft.png">
-- (Souvent) __la gauche d’auteur__ (copyleft) : complète le copyright, assure propagation des libertés par __réciprocité__
+- (Souvent) __la gauche d’auteur__ (_copyleft_) : complète le copyright, assure propagation des libertés par __réciprocité__
 * Concept inventé par Don Hopkins et Richard Stallman en 1984
 * Tout code à la base sous licence copyleft doit conserver sa licence d’origine
 * Le copyleft impose que toute modification publiée apportée à un logiciel copyleft <ins>et distribuée</ins> soit versée à la communauté
-* Distribué ? _"Quand une organisation transfère des copies à d'autres organisations ou à des particuliers, c'est une distribution"_ ([pas en interne](https://www.gnu.org/licenses/gpl-faq.fr.html#InternalDistribution))
-* Pour les détracteurs (anciennement Microsoft par exemple) : « virus »
+* Distribué ? _«&nbsp;Quand une organisation transfère des copies à d'autres organisations ou à des particuliers, c'est une distribution&nbsp;»_ ([pas en interne](https://www.gnu.org/licenses/gpl-faq.fr.html#InternalDistribution))
+* Pour les détracteurs (anciennement Microsoft par exemple) : «&nbsp;virus&nbsp;»
 
 <div class='ad warn'>
 <b>On ne partage qu'avec ceux qui veulent partager</b>
 </div>
-
 ---
 
 ### Niveau de copyleft
-
 | Aucun | Par fichier | Niveau librairie | Fort | Etendu
 |----|----|----|----|----
 |BSD, Apache, MIT, ISC, CeCILL B, WTFPL | CDDL, Mozilla Public Licence (MPL), CeCILL C | LGPL | GPL, CeCILL | AGPL
-|On peut partager les modifications sous des conditions différentes | Possible d'inclure du code dans tout logiciel mais copyleft sur _ce_ fichier | Possible de linker une telle librairie depuis tout logiciel mais une modification de la librairie elle-même est copyleftée | Le logiciel et ses dépendances sont copyleftés. Seul les éléments système comme l'OS n'ont pas à l'être. | Idem GPL mais valable aussi lorsque le logiciel s'exécute à distance (application Web)
+|On peut partager les modifications sous des conditions différentes | Possible d'inclure du code dans tout logiciel mais copyleft sur _ce_ fichier | Possible de lier une telle bibliothèque depuis tout logiciel mais une modification de la bibliothèque elle-même est copyleftée | Le logiciel et ses dépendances sont copyleftés. Seul les éléments système comme l'OS n'ont pas à l'être. | Idem GPL mais valable aussi lorsque le logiciel s'exécute à distance (application Web)
 ---
 
 ### Zoom sur la GPL (GNU General Public License)
@@ -350,16 +356,16 @@ Afin d’assurer ces libertés, les logiciels Open Source se basent sur:
 
 ---
 ### Zoom sur la LGPL (Lesser General Public License)
-* Objectif: assurer la liberté des utilisateurs et __permettre de distribuer des programmes propriétaires linkés avec des librairies libres__
+* Objectif: assurer la liberté des utilisateurs et __permettre de distribuer des programmes propriétaires liés avec des bibliothèques libres__
 * Créée par RMS (Richard Stallman) et la FSF en 1991 puis revue en 1999
-* Les modifications d’une librairie LGPL ne peuvent être redistribuées qu’en LGPL
+* Les modifications d’une bibliothèque LGPL ne peuvent être redistribuées qu’en LGPL
 * V3 en 2007 avec mêmes avancées que la GPL
 <div class='ad note'>
 <b>Exemples : </b>JFreechart, Jasper, GTK, Hibernate, librairie GNU C++…
 </div>
 ---
 
-### Zoom sur la l'AGPL (Affero General Public License)
+### Zoom sur l'AGPL (Affero General Public License)
 * Objectif: __Obliger les services accessibles par le réseau à publier le code source de leurs améliorations__
 * V3 en 2007
 <div class='ad note'>
@@ -368,9 +374,9 @@ Afin d’assurer ces libertés, les logiciels Open Source se basent sur:
 
 ---
 ### Zoom sur la licence CeCILL
-* Écrit par le CEA CNRS INRIA Logiciel Libre
+* Écrite par le CEA CNRS INRIA Logiciel Libre
 * Licence issue de la Recherche française, adaptation de la GPL au droit français
-* Licence en français et en anglais, peut être utilisée partout dans le monde. En cas de litige, le droit français s’applique.
+* Licence en français et en anglais, pouvant être utilisée partout dans le monde. En cas de litige, le droit français s’applique.
 * V1 en 2004, V2 en mai 2005, CeCILL-B et CeCILL-C en 2006
 * Complètement compatible GPL (donc copyleftée)
 * Il est possible de redistribuer du code CeCILL en GPL
@@ -380,8 +386,8 @@ Afin d’assurer ces libertés, les logiciels Open Source se basent sur:
 <div class='ad note'>
 Variantes CeCILL-B (BSD-like) et CeCILL-C (MPD-like) <a href="https://directory.fsf.org/wiki/License:CeCILL-B">déconseillées par la FSF</a>)
 </div>
-
 ---
+
 ### Les licences permissives
 * Dites aussi _lax_ ou _liberal_
 * Les plus courantes : __BSD__, __MIT__, __Apache__
@@ -390,17 +396,16 @@ Variantes CeCILL-B (BSD-like) et CeCILL-C (MPD-like) <a href="https://directory.
 * Clauses de publicité des auteurs (attribution)
 * Clause de conservation des notices de licences
 * Excellente compatibilité entre les licences permissives et lors d'utilisation par un logiciel en licence copyleft
-
 ---
+
 ### Droits et devoirs des auteurs
 * Droits
     - Le droit d’auteur s'applique : il n’y __aucune perte de propriété__
     - Les auteurs ont le droit de __changer la licence__ des futures versions ou d’utiliser plusieurs licences pour toute version ancienne ou future leur appartenant
-    - L’auteur a le droit (il est même encouragé) de tirer __profit__ pécuniairement de sa création. Pas de limite supérieure du prix.
+    - L’auteur a le droit (il est même encouragé) de tirer __profit__ pécuniairement de sa création, sans limite supérieure du prix.
 * Devoirs
-    - Les auteurs doivent __fournir le code source__ gratuitement ou contre rémunération (limité au prix de la copie binaire)
+    - Les auteurs doivent __fournir le code source__ gratuitement ou contre rémunération (limitée au prix de la copie binaire)
     - __Responsabilité limitée__ : les licences libres possèdent toutes des clauses de dégagement de responsabilité (tout comme la quasi-totalité des logiciels propriétaires)
-
 ---
 
 ### La compatibilité des licences
@@ -411,39 +416,39 @@ Variantes CeCILL-B (BSD-like) et CeCILL-C (MPD-like) <a href="https://directory.
 <a href="https://www.gnu.org/licenses/quick-guide-gplv3.html">
 
 <img style="float:right;padding: 20px;" src="resources/quick-guide-gplv3-compatibility.png"></a>
-<p class='smaller'><i>Une flêche de A vers B indique que A est compatible avec B. La relation est transitive, donc par exemple la licence ISC est compatible avec la GPL v3.</i></p>
+<p class='smaller'><i>Une flèche de A vers B indique que A est compatible avec B. La relation est transitive, donc par exemple la licence ISC est compatible avec la GPL v3.</i></p>
 <div class='danger admonition'><p class="title">Attention : pas de bijection</p>
 Licence A compatible avec B n'implique pas B compatible avec A</div>
 ---
 
 ### Le multi-licences
-* Un même produit peut disposer de plusieurs licences (_Multi-licencing_)
+* Un même produit peut disposer de plusieurs licences (_Multi-licensing_)
 * Licence multiple : libre/libre ou libre/propriétaire (exemple: MySQL Community en GPL et MySQL Enterprise Edition propriétaire)
 * Soit l'utilisateur peut choisir la licence qui s’applique, soit l'auteur l'impose, soit toutes les licences s'appliquent en même temps
 * En général utilisés par des sociétés, pas des communautés
 * Objectifs : 
-    - S’assurer un revenu en vendant un logiciel en mode propriétaire tout en le faisant évoluer via la communauté (exemples : Mono, MySQL, QT) ;
-    - Résoudre des incompatibilités de licence lors d’une fusion ;
-    - Segmentation de marché (version Community / Enterprise...).
+    - S’assurer un revenu en vendant un logiciel en mode propriétaire tout en le faisant évoluer via la communauté (exemples : Mono, MySQL, QT)
+    - Résoudre des incompatibilités de licence lors d’une fusion
+    - Segmentation de marché (version Community / Enterprise...)
 * Risqué car brouille la visibilité du projet et peut décourager les contributeurs ou conduire à un fork (MariaDB, LibreOffice, NextCloud...).
 ---
 
 ### Les exceptions (1/2)
 * Une exception à une licence libre est un texte accordant des droits supplémentaires à l’utilisateur par rapport à la licence d’origine
-
 * Exemple : GNU classpath 
 >"Linking this library statically or dynamically with other modules is making a combined work based on this library. Thus, the terms and conditions of the GNU General Public License cover the whole combination.
 <b>As a special exception, the copyright holders of this library give you permission to link this library</b> with independent modules to produce an executable, regardless of the license terms of these independent modules"
 ---
+
 ### Les exceptions (2/2)
-* [Qt](https://doc.qt.io/archives/4.3/license-gpl-exceptions.html) : Permet de linker une libraison QT (GPL) depuis la plupart des licences Open Source (BSD...)
-> "As a special exception to the terms and conditions of version 2.0 of the GPL, Trolltech hereby grants you the rights described below, provided you agree to the terms and conditions in this Exception, including its obligations and restrictions on use. [...] 1) The right to use Open Source Licenses not compatible with the GNU General Public License: You may link software (hereafter referred to as "Your Software") against the Licensed Software and/or distribute binaries of Your Software linked against the Licensed Software [...]"
+* [Qt](https://doc.qt.io/archives/4.3/license-gpl-exceptions.html) : Permet de lier la bibliothèque QT (GPL) depuis la plupart des licences Open Source (BSD...)
+>"As a special exception to the terms and conditions of version 2.0 of the GPL, Trolltech hereby grants you the rights described below, provided you agree to the terms and conditions in this Exception, including its obligations and restrictions on use. [...] 1) The right to use Open Source Licenses not compatible with the GNU General Public License: You may link software (hereafter referred to as "Your Software") against the Licensed Software and/or distribute binaries of Your Software linked against the Licensed Software [...]"
 ---
 
 ## Le code trouvé sur Internet
 * StackOverflow : Tout le code est en licence documentaire [CC BY-SA](https://stackoverflow.com/help/licensing) (version de 2.5 à 4.0 suivant la date des posts)
     - Compatible uniquement avec une licence copyleftée (mais déconseillé par la FSF)
-    - Devant un tribunal, possible de plaider le « Fair traid » (code trivial si quelques lignes) mais jurisprudence au cas par cas...
+    - Devant un tribunal, possible de plaider le «&nbsp;Fair trade&nbsp;» (code trivial si quelques lignes) mais jurisprudence au cas par cas...
 * Les sites qui ne précisent pas de licence : le copyright par défaut « All rights reserved » s'applique
     - Il est néanmoins possible de demander une autorisation écrite à l'auteur
     - Sinon, il faut réécrire complètement le code
@@ -462,16 +467,16 @@ Licence A compatible avec B n'implique pas B compatible avec A</div>
 
 pour : documents, musique, images, photos…
 
-|Licence | Caractéristiques | Libre&nbsp;?
-|----|----|----
-|_CC BY_ | paternité (by) | Oui
-|_CC BY-SA_ | paternité / partage des conditions à l'identique (Share Alike) | Oui
-|_CC BY-ND_ | paternité / pas de distribution d'adaptation (Non Derivs) | Non
-|_CC BY-NC_ | paternité / pas d'utilisation commerciale (Non Commercial) | Non
-|_CC BY-NC-SA_ | paternité / pas utilisation commerciale / partage des conditions à l'identique | Non
-|_CC BY-NC-ND_| paternité / pas utilisation commerciale / pas de modification | Non
+|Licence        | Caractéristiques                                                                  | Libre&nbsp;?
+|---------------|-----------------------------------------------------------------------------------|-------------
+| _CC BY_       | paternité (by)                                                                    | Oui
+| _CC BY-SA_    | paternité / partage des conditions à l'identique (Share Alike)                    | Oui
+| _CC BY-ND_    | paternité / pas de distribution d'adaptation (Non Derivs)                         | Non
+| _CC BY-NC_    | paternité / pas d'utilisation commerciale (Non Commercial)                        | Non
+| _CC BY-NC-SA_ | paternité / pas d'utilisation commerciale / partage des conditions à l'identique  | Non
+| _CC BY-NC-ND_ | paternité / pas d'utilisation commerciale / pas de modification                   | Non
 
-[Choisir la meilleure licence Creatice Commons](http://creativecommons.org.au/content/licensing-flowchart.pdf)
+[Choisir la meilleure licence Creative Commons](http://creativecommons.org.au/content/licensing-flowchart.pdf)
 ---
 
 ### Modèle économique
@@ -491,7 +496,7 @@ pour : documents, musique, images, photos…
     - Motivations intrinsèques (sans retour directs) : créativité, travailler en équipe, altruisme, réputation/CV
 
 <div class='ad note'>
-Le marché mondial de l'Open Source atteint environ <b>$57Md en 2020</b> (Source Suyati Technologies)
+Le marché mondial de l'Open Source atteint environ <b>57&nbsp;Mrds de $ en 2020</b> (Source Suyati Technologies)
 </div>
 ---
 
@@ -520,20 +525,20 @@ Voir aussi [la liste officielle sur gnu.org](https://www.gnu.org/licenses/licens
 ### Analyse SWOT des licences propriétaires
 
 | &nbsp; |&nbsp;
-|----|----
+|--------|------
 |<img src="resources/strengths.svg" style="width:80px;vertical-align:middle" > __Forces__ <li>Service de support toujours proposé<li>Vulnérabilités cachées<li>Seule option pour de nombreux progiciels | <img src="resources/weaknesses.svg" style="width:80px;vertical-align:middle"> __Faiblesses__ <li>Support et licences (très) onéreux<li>Support pas toujours au niveau ni réactif <li>Complications planning et architecture<li>Sécurité par l'obscurité <li>Risques juridiques (besoin d'experts)
 |<img src="resources/opportunities.svg" style="width:80px;vertical-align:middle"> __Opportunités__<li>Créer un partenariat de longue durée avec un éditeur| <img src="resources/risks.svg" style="width:80px;vertical-align:middle"> __Risques__ <li>Vendor locking <li> Subir les roadmaps<li>Impossible de connaître la véritable qualité ou la sécurité du code <li>Risques financiers (audits...)<li>Miser sur un produit en perte de vitesse<li>Faire de l'architecture pilotée par le coût
 | &nbsp; |&nbsp;
 
 ---
+
 ### Analyse SWOT des licences libres
 
 | &nbsp; |&nbsp;
-|----|----
+|--------|------
 |<img src="resources/strengths.svg" style="width:80px;vertical-align:middle" > __Forces__ <li>Sécurité par l'auditabilité <li>Support communautaire réactif<li>Gratuit (hors support payant)<li>Simple à mettre en œuvre <li>Meilleure pérénité tant qu'il y a des utilisateurs| <img src="resources/weaknesses.svg" style="width:80px;vertical-align:middle"> __Faiblesses__ <li>Failles potentiellment visibles<li>Support payant onéreux 
 |<img src="resources/opportunities.svg" style="width:80px;vertical-align:middle"> __Opportunités__<li>Contribuer (évolutive/corrective)<li>Tester facilement de nouvelles solutions (POC)<li>Changer facilement de solution | <img src="resources/risks.svg" style="width:80px;vertical-align:middle"> __Risques__ <li>Risque juridique si non respect des licences<li>Subir les roadmaps<li>Miser sur un projet dont la communauté se désintéresse
 | &nbsp; |&nbsp;
-
 
 ---
 
