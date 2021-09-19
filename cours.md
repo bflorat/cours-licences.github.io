@@ -361,7 +361,7 @@ Afin d’assurer ces libertés, les logiciels Open Source se basent sur&nbsp;:
 * Les modifications d’une bibliothèque LGPL ne peuvent être redistribuées qu’en LGPL
 * V3 en 2007 avec mêmes avancées que la GPL
 <div class='ad note'>
-<b>Exemples : </b>JFreechart, Jasper, GTK, Hibernate, librairie GNU C++…
+<b>Exemples : </b>JFreechart, JasperReports, GTK, Hibernate, librairie GNU C++…
 </div>
 ---
 
@@ -369,7 +369,7 @@ Afin d’assurer ces libertés, les logiciels Open Source se basent sur&nbsp;:
 * Objectif: __Obliger les services accessibles par le réseau à publier le code source de leurs améliorations__
 * V3 en 2007
 <div class='ad note'>
-<b>Exemples :</b> BerkeleyDB, Ghostscript, iText, Mattermost, MongoDB jusqu'en 2018, Nextcloud, OnlyOffice
+<b>Exemples :</b> BerkeleyDB, Ghostscript, iText, Mattermost, MongoDB jusqu'en 2018, Nextcloud, OnlyOffice, JasperReports Server
 </div>
 
 ---
