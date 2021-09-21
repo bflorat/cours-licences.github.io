@@ -85,12 +85,12 @@ Attention : ne jamais utiliser de code sans licence explicite
 * Aménagés pour les logiciels
 * Quatre attributs :
     * droit à __revendiquer la publicité__ du nom du créateur (même si les droits d'exploitations ont été cédés, affaire Framatome 1993)
-    * droit à la __divulgation__ (rendre le logiciel public)
     * droit au __respect__ du logiciel : possible de s'opposer à toute modification préjudiciable à son honneur ou à sa réputation
+    * droit à la __divulgation__ (rendre le logiciel public)
     * droit de __retrait et de repentir__ (stopper la divulgation ou faire des modifications)
 
 <div class='note ad'>
-Pour un logiciel, <b>seuls les droits de divulguation / de paternité sont réellement applicables et appliqués</b>
+Pour un logiciel, <b>seuls les droits de respect / de paternité sont réellement applicables (selon jurisprudence).</b>
 </div>
 ---
 
