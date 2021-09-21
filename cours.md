@@ -189,7 +189,7 @@ Notice Copyright © encore largement utilisée à titre informatif uniquement (r
 
 <div class='danger admonition'><p class="title">Attention, freeware != logiciel libre (ici "free" signifie "gratuit")</div>
      
-* Les grands logiciels/progiciels proposent souvent plusieurs versions du logiciels avec prix croissant avec les  fonctionnalités :
+* Les grands logiciels/progiciels proposent souvent plusieurs gammes du logiciels avec prix croissant avec les  fonctionnalités :
     - Quelque fois la version de base gratuite (Freemium)
     - Puis versions « Silver », « Gold Elite », « Platinium » ou similaires
 * Ordre de grandeur : 
