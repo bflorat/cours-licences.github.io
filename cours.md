@@ -245,8 +245,7 @@ Notice Copyright © encore largement utilisée à titre informatif uniquement (r
 ### L'impact projet 
 * Latences pour pouvoir prototyper une solution logicielle
 * Délais liés à la signature du contrat 
-* Dépendances au support de l'éditeur en cas de problème.
-    - Pressions possibles en fonction du montant du contrat
+* Dépendances au support de l'éditeur en cas de problème (pas/moins de StackOverflow)    
 * Migrations forcées par l'éditeur (fin de support)
 * Coûts souvent très importants (100&nbsp;K€ à plusieurs M€)
     - Peut limiter le budget développement
@@ -276,7 +275,7 @@ Notice Copyright © encore largement utilisée à titre informatif uniquement (r
 ## Les logiciels libres
 * Définition ([Wikipedia](https://fr.wikipedia.org/wiki/Logiciel_libre)) : «&nbsp;*__Un logiciel libre est un logiciel dont l'utilisation, l'étude, la modification et la duplication par autrui en vue de sa diffusion sont permises, techniquement et légalement, ceci afin de garantir certaines libertés induites, dont le contrôle du programme par l'utilisateur et la possibilité de partage entre individus.__*&nbsp;» 
 * Deux statuts juridiques sont possibles : 
-    - les logiciels dans le __domaine public__ (sans droit d'auteur patrimonial)
+    - les logiciels dans le __domaine public__ (avec sources et sans droit d'auteur patrimonial)
     - et les logiciels sous un __licence libre__ (GPL, BSD...) avec __respect du droit d'auteur__
 ---
 
@@ -337,7 +336,7 @@ Afin d’assurer ces libertés, les logiciels Open Source se basent sur&nbsp;:
 | Aucun | Par fichier | Niveau librairie | Fort | Etendu
 |----|----|----|----|----
 |BSD, Apache, MIT, ISC, CeCILL B, WTFPL | CDDL, Mozilla Public Licence (MPL), CeCILL C | LGPL | GPL, CeCILL | AGPL
-|On peut partager les modifications sous des conditions différentes | Possible d'inclure du code dans tout logiciel mais copyleft sur _ce_ fichier | Possible de lier une telle bibliothèque depuis tout logiciel mais une modification de la bibliothèque elle-même est copyleftée | Le logiciel et ses dépendances sont copyleftés. Seul les éléments système comme l'OS n'ont pas à l'être. | Idem GPL mais valable aussi lorsque le logiciel s'exécute à distance (application Web)
+|On peut partager les modifications sous des conditions différentes | Possible d'inclure du code dans tout logiciel mais copyleft sur [_ce_ fichier](https://www.mozilla.org/en-US/MPL/2.0/FAQ/) | Possible de lier une telle bibliothèque depuis tout logiciel mais une modification de la bibliothèque elle-même est copyleftée | Le logiciel et ses dépendances sont copyleftés. Seul les éléments système comme l'OS n'ont pas à l'être. | Idem GPL mais valable aussi lorsque le logiciel s'exécute à distance (application Web)
 ---
 
 ### Zoom sur la GPL (GNU General Public License)
@@ -384,7 +383,7 @@ Afin d’assurer ces libertés, les logiciels Open Source se basent sur&nbsp;:
 <b>Exemples</b> : Scilab, VLDocking Framework
 </div>
 <div class='ad note'>
-Variantes CeCILL-B (BSD-like) et CeCILL-C (MPD-like) <a href="https://directory.fsf.org/wiki/License:CeCILL-B">déconseillées par la FSF</a>)
+Variantes CeCILL-B (BSD-like) et CeCILL-C (MPL-like) <a href="https://directory.fsf.org/wiki/License:CeCILL-B">déconseillées par la FSF</a>)
 </div>
 ---
 
