@@ -184,7 +184,7 @@ Notice Copyright © encore largement utilisée à titre informatif uniquement (r
 
 ### Modèle économique de l'édition de logiciels propriétaires
 * Les utilisateurs __payent pour pouvoir utiliser le logiciel__
-* __Services__ (formation, support, conseil, ...)
+* __Services__ (formation, support, conseil, mises à jour logicielles ou de données...)
 * Peut être gratuit de façon définitive (Freeware) ou temporaire (Shareware)
 
 <div class='danger admonition'><p class="title">Attention, freeware != logiciel libre (ici "free" signifie "gratuit")</div>
