@@ -71,6 +71,7 @@ Attention : ne jamais utiliser de code sans licence explicite
 ---
 ## Les droits patrimoniaux du logiciels en France
 * Valables 70 ans après l’année de décès de l’auteur (article L122-6 du CPI)
+  * Droits exercés par l'auteur puis à son décès par d'éventuels ayants-droits
 * Droit de reproduction : dupliquer l’œuvre sur tout support qui en permet la communication au public
 * Droit de modification : s'opposer à la traduction, adaptation ou toute autre modification du logiciel
 * Droit de mise sur le marché : l'auteur peut vendre ou donner son œuvre à sa guise
