@@ -144,6 +144,7 @@ Notice Copyright © encore largement utilisée à titre informatif uniquement (r
 * 2008 : Microsoft gagne 1.8&nbsp;M€ contre un réseau de contrefaçon (cour d'appel de Paris)
 * 2009 : 8000&nbsp;€ de frais de justice pour Edu4 et perte du contrat pour avoir fait passé VLC (logiciel libre) comme développé par lui
 * 2014 : Oracle demande 12 M€ à l'AFPA pour non utilisation non prévue d'un de ses logiciels (débouté)
+* 2017 : TGI de Bayonne : cinq pirates condamnés à 4.6 M€ + 12-18 mois avec sursis pour piratage à grande echelle de Windows XP.
 * 2019 : Procès de la Société Entr’ouvert contre Orange qui a utilisé sa librairie pour un projet DGME sans respecter sa licence (GPL V2)
 * Piratage de logiciels : le CPI prévoit jusqu'à 300.000&nbsp;€ d'amende et 3&nbsp;ans d’emprisonnement pour les personnes physiques et 750.000&nbsp;€ d'amende pour les personnes morales
 ---
@@ -185,7 +186,7 @@ Notice Copyright © encore largement utilisée à titre informatif uniquement (r
 
 ### Modèle économique de l'édition de logiciels propriétaires
 * Les utilisateurs __payent pour pouvoir utiliser le logiciel__
-* __Services__ (formation, support, conseil, ...)
+* __Services__ (formation, support, conseil, mises à jour logicielles ou de données...)
 * Peut être gratuit de façon définitive (Freeware) ou temporaire (Shareware)
 
 <div class='danger admonition'><p class="title">Attention, freeware != logiciel libre (ici "free" signifie "gratuit")</div>
