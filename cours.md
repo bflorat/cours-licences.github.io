@@ -326,12 +326,27 @@ Afin d’assurer ces libertés, les logiciels Open Source se basent sur&nbsp;:
 * Concept inventé par Don Hopkins et Richard Stallman en 1984
 * Tout code à la base sous licence copyleft doit conserver sa licence d’origine
 * Le copyleft impose que toute modification publiée apportée à un logiciel copyleft <ins>et distribuée</ins> soit versée à la communauté
-* Distribué ? _«&nbsp;Quand une organisation transfère des copies à d'autres organisations ou à des particuliers, c'est une distribution&nbsp;»_ ([pas en interne](https://www.gnu.org/licenses/gpl-faq.fr.html#InternalDistribution))
 * Pour les détracteurs (anciennement Microsoft par exemple) : «&nbsp;virus&nbsp;»
 
 <div class='ad warn'>
 <b>On ne partage qu'avec ceux qui veulent partager</b>
 </div>
+---
+
+### Limites à l'applicabilité du Copyleft
+* Ne s'applique que si le logiciel est distribué ( _«&nbsp;Quand une organisation transfère des copies à d'autres organisations ou à des particuliers, c'est une distribution&nbsp;»_ ([voir cette FAQ](https://www.gnu.org/licenses/gpl-faq.fr.html#InternalDistribution))
+* Il est donc possible (__bien que déconseillé__) de modifier du code GPL __en interne__ sans redistribuer les modifications. 
+
+<div class='note ad'>
+Dans les faits, difficilement applicable car le logiciel d'origine évolue et il faut merger ses modifications si on veut profiter de ses évolutions
+</div>
+
+* Il est aussi possible (__bien que fortement déconseillé__) d'intégrer du code GPL dans un logiciel __interne__ de licence incompatible (propriétaire par exemple) à condition de ne pas distribuer ce logiciel.
+
+<div class='ad warn'>
+Etre très prudent car cela peut mettre l'entreprise à risque en cas de changement de situation du logiciel (par exemple si l'organisation décide de vendre un logiciel précédement purement interne sans savoir qu'il contient du code GPL)
+</div>
+
 ---
 
 ### Niveau de copyleft
