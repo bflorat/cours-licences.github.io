@@ -53,7 +53,7 @@ dans ce cours. <br/>Ces opinions doivent être considérées comme propres à l�
 * Les articles [L335-2-1, L335-3](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006279235/2009-06-14) du code de la propriété intellectuelle (__CPI__) interdisent de copier/utiliser le logiciel sans accord du titulaire des droits d'auteur
 * __Par défaut__ (aucune licence explicite), __seul l'auteur a des droits__ sur sa création (“All Rights Reserved”) et les autres __aucun__
 
-<div class='danger admonition'>
+<div class='admonition warning'>
 Attention : ne jamais utiliser de code sans licence explicite
 </div>
 
@@ -76,8 +76,8 @@ Attention : ne jamais utiliser de code sans licence explicite
 * Droit de modification : s'opposer à la traduction, adaptation ou toute autre modification du logiciel
 * Droit de mise sur le marché : l'auteur peut vendre ou donner son œuvre à sa guise
 
-<div class='warning ad'>
-<b>Œuvre réalisée sous contrat de travail</b> : <br/>Les droits d'auteur patrimoniaux appartiennent à l'employeur <br/>(article L113-9 du CPI)
+<div class='admonition warning'>
+<b>Œuvre réalisée sous contrat de travail</b> : Les droits d'auteur patrimoniaux appartiennent à l'employeur (article L113-9 du CPI)
 </div>
     
 ---
@@ -91,7 +91,7 @@ Attention : ne jamais utiliser de code sans licence explicite
     * droit à la __divulgation__ (rendre le logiciel public)
     * droit de __retrait et de repentir__ (stopper la divulgation ou faire des modifications)
 
-<div class='note ad'>
+<div class='admonition note'>
 Pour un logiciel, <b>seuls les droits de respect / de paternité sont réellement applicables (selon jurisprudence).</b>
 </div>
     
@@ -107,9 +107,7 @@ Pour un logiciel, <b>seuls les droits de respect / de paternité sont réellemen
   * __Obtention gratuite et automatique__ du droit d'auteur 
   * Il faut demander explicitement une renonciation à son droit d'auteur
 
-<div class='note ad'>
-    
-* Notice Copyright © encore largement utilisée à titre informatif uniquement (rappelle la protection juridique)</div>
+<div class='admonition note'>La Notice Copyright © est encore largement utilisée à titre informatif uniquement (rappelle la protection juridique)</div>
     
 ---
 
@@ -162,7 +160,7 @@ Pour un logiciel, <b>seuls les droits de respect / de paternité sont réellemen
 * Un logiciel peut être vendu à une autre société (transfert du droit d'auteur patrimonial)
     - Exemple : HP vend en 2016 son offre logicielle à Microfocus pour 8,8&nbsp;milliards de dollars US
 
-<div class='ad note'>
+<div class='admonition note'>
     <b>CLUF : </b>Contrat de Licence Utilisateur Final<br/>
     <b>EULA : </b>End User License Agreement en anglais
 </div>
@@ -195,7 +193,7 @@ Pour un logiciel, <b>seuls les droits de respect / de paternité sont réellemen
 * __Services__ (formation, support, conseil, mises à jour logicielles ou de données...)
 * Peut être gratuit de façon définitive (Freeware) ou temporaire (Shareware)
 
-<div class='danger admonition'><p class="title">Attention, freeware != logiciel libre (ici "free" signifie "gratuit")</div>
+<div class='admonition warning'><p class="title">Attention, freeware != logiciel libre (ici "free" signifie "gratuit")</div>
      
 * Les grands logiciels/progiciels proposent souvent plusieurs gammes du logiciels avec prix croissant avec les  fonctionnalités :
     - Quelque fois la version de base gratuite (Freemium)
@@ -336,8 +334,8 @@ Afin d’assurer ces libertés, les logiciels Open Source se basent sur&nbsp;:
 * Le copyleft impose que toute modification publiée apportée à un logiciel copyleft <ins>et distribuée</ins> soit versée à la communauté
 * Pour les détracteurs (anciennement Microsoft par exemple) : «&nbsp;virus&nbsp;»
 
-<div class='ad warn'>
-<b>On ne partage qu'avec ceux qui veulent partager</b>
+<div class='admonition note'>
+“On ne partage qu'avec ceux qui veulent partager”
 </div>
                                                                     
 ---
@@ -346,13 +344,13 @@ Afin d’assurer ces libertés, les logiciels Open Source se basent sur&nbsp;:
 * Ne s'applique que si le logiciel est distribué ( _«&nbsp;Quand une organisation transfère des copies à d'autres organisations ou à des particuliers, c'est une distribution&nbsp;»_ ([voir cette FAQ](https://www.gnu.org/licenses/gpl-faq.fr.html#InternalDistribution))
 * Il est donc possible (__bien que déconseillé__) de modifier du code GPL __en interne__ sans redistribuer les modifications
 
-<div class='note ad'>
+<div class='admonition note'>
 <p>Dans les faits, difficilement applicable car le logiciel d'origine évolue et il faut merger ses modifications si on veut profiter de ses évolutions</p>
 </div>
 
 * Il est aussi possible (__bien que fortement déconseillé__) d'intégrer du code GPL dans un logiciel __interne__ de licence incompatible (propriétaire par exemple) à condition de ne pas distribuer ce logiciel
 
-<div class='ad warn'>
+<div class='admonition warning'>
 <p>Etre très prudent car cela peut mettre l'entreprise à risque en cas de changement de situation du logiciel (par exemple si l'organisation décide de vendre un logiciel précédement purement interne sans savoir qu'il contient du code GPL)</p>
 </div>
 
@@ -375,7 +373,7 @@ Afin d’assurer ces libertés, les logiciels Open Source se basent sur&nbsp;:
     - possibilité permissions additionnelles (exceptions)
     - simplification des compatibilités avec les autres licences
 
-<div class='ad note'>
+<div class='admonition note'>
 <b>Très utilisée, exemples : </b>Linux, Git, Ansible, Drupal, Wordpress, Notepadd++, MariaDB, GCC
 </div>
 
@@ -385,7 +383,7 @@ Afin d’assurer ces libertés, les logiciels Open Source se basent sur&nbsp;:
 * Créée par RMS (Richard Stallman) et la FSF en 1991 puis revue en 1999
 * Les modifications d’une bibliothèque LGPL ne peuvent être redistribuées qu’en LGPL
 * V3 en 2007 avec mêmes avancées que la GPL
-<div class='ad note'>
+<div class='admonition note'>
 <b>Exemples : </b>JFreechart, JasperReports, GTK, Hibernate, librairie GNU C++…
 </div>
                                                                     
@@ -394,7 +392,7 @@ Afin d’assurer ces libertés, les logiciels Open Source se basent sur&nbsp;:
 ### Zoom sur l'AGPL (Affero General Public License)
 * Objectif: __Obliger les services accessibles par le réseau à publier le code source de leurs améliorations__
 * V3 en 2007
-<div class='ad note'>
+<div class='admonition note'>
 <b>Exemples :</b> BerkeleyDB, Ghostscript, iText, Mattermost, MongoDB jusqu'en 2018, Nextcloud, OnlyOffice, JasperReports Server
 </div>
 
@@ -406,10 +404,10 @@ Afin d’assurer ces libertés, les logiciels Open Source se basent sur&nbsp;:
 * V1 en 2004, V2 en mai 2005, CeCILL-B et CeCILL-C en 2006
 * Complètement compatible GPL (donc copyleftée)
 * Il est possible de redistribuer du code CeCILL en GPL
-<div class='ad note'>
+<div class='admonition note'>
 <b>Exemples</b> : Scilab, VLDocking Framework
 </div>
-<div class='ad note'>
+<div class='admonition note'>
 Variantes CeCILL-B (BSD-like) et CeCILL-C (MPL-like) <a href="https://directory.fsf.org/wiki/License:CeCILL-B">déconseillées par la FSF</a>)
 </div>
                                                                                                               
@@ -444,7 +442,7 @@ Variantes CeCILL-B (BSD-like) et CeCILL-C (MPL-like) <a href="https://directory.
 
 <img style="float:right;padding: 20px;" src="resources/quick-guide-gplv3-compatibility.png"></a>
 <p class='smaller'><i>Une flèche de A vers B indique que A est compatible avec B. La relation est transitive, donc par exemple la licence ISC est compatible avec la GPL v3.</i></p>
-<div class='danger admonition'><p class="title">Attention : pas de bijection</p>
+<div class='admonition warning'><p class="title">Attention : pas de bijection</p>
 Licence A compatible avec B n'implique pas B compatible avec A</div>
 ---
 
@@ -473,12 +471,12 @@ Licence A compatible avec B n'implique pas B compatible avec A</div>
 ---
 
 ## Le code trouvé sur Internet
-* StackOverflow : Tout le code est en licence documentaire [CC BY-SA](https://stackoverflow.com/help/licensing) (version de 2.5 à 4.0 suivant la date des posts)
-    - Compatible uniquement avec une licence copyleftée (mais déconseillé par la FSF)
+* __StackOverflow__ : Tout le code est en licence documentaire __[CC BY-SA](https://stackoverflow.com/help/licensing)__ (version de 2.5 à 4.0 suivant la date des posts)
+    - La CC BY-SA 4.0 est <a href='https://creativecommons.org/2015/10/08/cc-by-sa-4-0-now-one-way-compatible-with-gplv3/'>comptatible avec la GPL V3</a> même si son utilisation pour du code est déconseillé par la FSF (pour éviter de démultiplier les licences)
     - Devant un tribunal, possible de plaider le «&nbsp;Fair trade&nbsp;» (code trivial si quelques lignes) mais jurisprudence au cas par cas...
-* Les sites qui ne précisent pas de licence : le copyright par défaut « All rights reserved » s'applique
-    - Il est néanmoins possible de demander une autorisation écrite à l'auteur
-    - Sinon, il faut réécrire complètement le code
+* Les sites qui ne précisent pas de licence : le __copyright par défaut « All rights reserved »__ s'applique
+    - Il est néanmoins possible de demander une __autorisation écrite à l'auteur__
+    - Sinon, il faut __réécrire complètement le code__
 ---
 
 ### Les licences orientées contenu (1/2) : La GFDL
@@ -503,7 +501,8 @@ pour : documents, musique, images, photos…
 | _CC BY-NC-SA_ | paternité / pas d'utilisation commerciale / partage des conditions à l'identique  | Non
 | _CC BY-NC-ND_ | paternité / pas d'utilisation commerciale / pas de modification                   | Non
 
-[Choisir la meilleure licence Creative Commons](http://creativecommons.org.au/content/licensing-flowchart.pdf)
+[→ Choisir la meilleure licence Creative Commons](http://creativecommons.org.au/content/licensing-flowchart.pdf)
+
 ---
 
 ### Modèle économique
@@ -522,7 +521,7 @@ pour : documents, musique, images, photos…
     - Merchandising (t-shirts...)
     - Motivations intrinsèques (sans retour directs) : créativité, travailler en équipe, altruisme, réputation/CV
 
-<div class='ad note'>
+<div class='admonition note'>
 Le marché mondial de l'Open Source atteint environ <b>57&nbsp;Mrds de $ en 2020</b> (Source Suyati Technologies)
 </div>
 
