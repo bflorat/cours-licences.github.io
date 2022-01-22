@@ -53,7 +53,7 @@ dans ce cours. <br/>Ces opinions doivent être considérées comme propres à l�
 * Les articles [L335-2-1, L335-3](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006279235/2009-06-14) du code de la propriété intellectuelle (__CPI__) interdisent de copier/utiliser le logiciel sans accord du titulaire des droits d'auteur
 * __Par défaut__ (aucune licence explicite), __seul l'auteur a des droits__ sur sa création (“All Rights Reserved”) et les autres __aucun__
 
-<div class='warning ad'>
+<div class='danger admonition'>
 Attention : ne jamais utiliser de code sans licence explicite
 </div>
 
