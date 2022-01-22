@@ -79,6 +79,7 @@ Attention : ne jamais utiliser de code sans licence explicite
 <div class='warning ad'>
 <b>Œuvre réalisée sous contrat de travail</b> : <br/>Les droits d'auteur patrimoniaux appartiennent à l'employeur <br/>(article L113-9 du CPI)
 </div>
+    
 ---
 
 ## Les droits moraux du logiciels en France
@@ -93,6 +94,7 @@ Attention : ne jamais utiliser de code sans licence explicite
 <div class='note ad'>
 Pour un logiciel, <b>seuls les droits de respect / de paternité sont réellement applicables (selon jurisprudence).</b>
 </div>
+    
 ---
 
 ## Le Copyright
@@ -102,11 +104,13 @@ Pour un logiciel, <b>seuls les droits de respect / de paternité sont réellemen
     - Copyright : protection des _œuvres_
 * Différence surtout sur les droits moraux : l'employeur est considéré comme le créateur
 * Harmonisation par __convention de Berne__ (1971), ratifiée par 166 états
-- __Obtention gratuite et automatique__ du droit d'auteur 
-- Il faut demander explicitement une renonciation à son droit d'auteur
+  * __Obtention gratuite et automatique__ du droit d'auteur 
+  * Il faut demander explicitement une renonciation à son droit d'auteur
 
 <div class='note ad'>
-Notice Copyright © encore largement utilisée à titre informatif uniquement (rappelle la protection juridique)</div>
+    
+* Notice Copyright © encore largement utilisée à titre informatif uniquement (rappelle la protection juridique)</div>
+    
 ---
 
 ## Les brevets 
@@ -162,6 +166,7 @@ Notice Copyright © encore largement utilisée à titre informatif uniquement (r
     <b>CLUF : </b>Contrat de Licence Utilisateur Final<br/>
     <b>EULA : </b>End User License Agreement en anglais
 </div>
+    
 ---
 
 ## Historique
@@ -174,6 +179,7 @@ Notice Copyright © encore largement utilisée à titre informatif uniquement (r
             <a href="https://scientificwomen.net/women/hopper-grace-45">Grace Hopper, source : History of Scientific Women</a>
         </p>
     </div>
+                                                                       
     - C'est surtout le hardware qui est important
     - Les programmes sont principalement écrits par des femmes brillantes
     - le code source est libre d'être étudié ou modifié (il est inutilisable sans disposer du matériel associé)
@@ -286,6 +292,7 @@ Notice Copyright © encore largement utilisée à titre informatif uniquement (r
 * Mi-1970 : émergence des logiciels propriétaires et de la micro-informatique
 * 1980 : Certains commencent à prendre conscience des restrictions des libertés
 <img style="float: right; padding: 20px;" src="resources/rms.png">
+                                                                 
 * 1980 : RMS (Richard Stallman) découvre qu'il n'a pas le droit de modifier un driver d'impression Xerox
 * 1983 : Lancement du projet GNU (_Gnu’s Not Unix_) par RMS (_Richard M. Stallman_)
 * 1985 : Création de la FSF (_Free Software Fondation_)
@@ -322,6 +329,7 @@ Notice Copyright © encore largement utilisée à titre informatif uniquement (r
 Afin d’assurer ces libertés, les logiciels Open Source se basent sur&nbsp;:
 - (Toujours) le __droit d’auteur__ (_copyright_) qui prévient le plagiat 
 <img style="float: right;padding:20px;" src="resources/copyleft.png">
+                                                                    
 - (Souvent) __la gauche d’auteur__ (_copyleft_) : complète le copyright, assure propagation des libertés par __réciprocité__
 * Concept inventé par Don Hopkins et Richard Stallman en 1984
 * Tout code à la base sous licence copyleft doit conserver sa licence d’origine
@@ -331,6 +339,7 @@ Afin d’assurer ces libertés, les logiciels Open Source se basent sur&nbsp;:
 <div class='ad warn'>
 <b>On ne partage qu'avec ceux qui veulent partager</b>
 </div>
+                                                                    
 ---
 
 ### Limites à l'applicabilité du Copyleft
@@ -379,6 +388,7 @@ Etre très prudent car cela peut mettre l'entreprise à risque en cas de changem
 <div class='ad note'>
 <b>Exemples : </b>JFreechart, JasperReports, GTK, Hibernate, librairie GNU C++…
 </div>
+                                                                    
 ---
 
 ### Zoom sur l'AGPL (Affero General Public License)
@@ -402,6 +412,7 @@ Etre très prudent car cela peut mettre l'entreprise à risque en cas de changem
 <div class='ad note'>
 Variantes CeCILL-B (BSD-like) et CeCILL-C (MPL-like) <a href="https://directory.fsf.org/wiki/License:CeCILL-B">déconseillées par la FSF</a>)
 </div>
+                                                                                                              
 ---
 
 ### Les licences permissives
@@ -514,6 +525,7 @@ pour : documents, musique, images, photos…
 <div class='ad note'>
 Le marché mondial de l'Open Source atteint environ <b>57&nbsp;Mrds de $ en 2020</b> (Source Suyati Technologies)
 </div>
+
 ---
 
 ### Les pièges les plus courants
