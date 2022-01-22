@@ -344,16 +344,16 @@ Afin d’assurer ces libertés, les logiciels Open Source se basent sur&nbsp;:
 
 ### Limites à l'applicabilité du Copyleft
 * Ne s'applique que si le logiciel est distribué ( _«&nbsp;Quand une organisation transfère des copies à d'autres organisations ou à des particuliers, c'est une distribution&nbsp;»_ ([voir cette FAQ](https://www.gnu.org/licenses/gpl-faq.fr.html#InternalDistribution))
-* Il est donc possible (__bien que déconseillé__) de modifier du code GPL __en interne__ sans redistribuer les modifications. 
+* Il est donc possible (__bien que déconseillé__) de modifier du code GPL __en interne__ sans redistribuer les modifications
 
 <div class='note ad'>
-Dans les faits, difficilement applicable car le logiciel d'origine évolue et il faut merger ses modifications si on veut profiter de ses évolutions
+<p>Dans les faits, difficilement applicable car le logiciel d'origine évolue et il faut merger ses modifications si on veut profiter de ses évolutions</p>
 </div>
 
-* Il est aussi possible (__bien que fortement déconseillé__) d'intégrer du code GPL dans un logiciel __interne__ de licence incompatible (propriétaire par exemple) à condition de ne pas distribuer ce logiciel.
+* Il est aussi possible (__bien que fortement déconseillé__) d'intégrer du code GPL dans un logiciel __interne__ de licence incompatible (propriétaire par exemple) à condition de ne pas distribuer ce logiciel
 
 <div class='ad warn'>
-Etre très prudent car cela peut mettre l'entreprise à risque en cas de changement de situation du logiciel (par exemple si l'organisation décide de vendre un logiciel précédement purement interne sans savoir qu'il contient du code GPL)
+<p>Etre très prudent car cela peut mettre l'entreprise à risque en cas de changement de situation du logiciel (par exemple si l'organisation décide de vendre un logiciel précédement purement interne sans savoir qu'il contient du code GPL)</p>
 </div>
 
 ---
