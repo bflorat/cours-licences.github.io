@@ -1,7 +1,7 @@
 # Licences logicielles
 
 <h1 align="center">
-	<a href="https://www.univ-nantes.fr"><img width=472 height=257 src="https://www.univ-nantes.fr/uas/institutionnel/LOGO/logo+un2012blanc_larg40.png" alt="Logo univ Nantes"/></a>
+	<a href="https://www.univ-nantes.fr"><img width=247 height=64 src="https://www.univ-nantes.fr/uas/institutionnel/LOGO/Logo-NantesUniversite.png" alt="Logo univ Nantes"/></a>
 </h1>
 
 <p align="center">
