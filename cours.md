@@ -2,7 +2,7 @@
 
 IUT de Nantes – Département Informatique
 
-Cours de Licence Professionnelle 2020-2021
+Cours de Licence Professionnelle 2021-2022
 
 ![Université de Nantes](resources/logo-univ.png)
 
@@ -18,7 +18,7 @@ dans ce cours. <br/>Ces opinions doivent être considérées comme propres à l�
 ---
 
 ## Agenda
-| Contexte juridique | Licences propriétaires | Licences libres | Bilan
+| Contexte juridique | Licences propriétaires | Licences libres | Synthèse
 | -------------| -------------|-------------|-------------|
 | <li>les droits d'auteur <li>le copyright <li>le domaine public<li>les risques | <li>historique<li>fonctionnement<li>modèle économique| <li>historique<li>fonctionnement<li>modèle économique | <li>récapitulatif<li>analyse comparée
 ---
@@ -32,7 +32,7 @@ dans ce cours. <br/>Ces opinions doivent être considérées comme propres à l�
 * Puis-je intégrer du code libre dans un logiciel ?
 * Quels risques juridiques pour mon entreprise ?
 * Comment m'assurer que mon code ne sera pas contrefait ?
-* Puis-je utiliser une librairie Libre dans un logiciel propriétaire&nbsp;?
+* Puis-je utiliser une librairie libre dans un logiciel propriétaire&nbsp;?
 * J'utilise du code libre dans mon entreprise, dois-je redistribuer les modifications ?
 ---
 
@@ -69,12 +69,12 @@ Attention : ne jamais utiliser de code sans licence explicite
 * Émergent : l'horodatage par la __[Blockchain](https://www.app.asso.fr/centre-information/publications/blockchain-et-propriete-intellectuelle)__
 
 ---
-## Les droits patrimoniaux du logiciels en France
-* Valables 70 ans après l’année de décès de l’auteur (article L122-6 du CPI)
+## Les droits patrimoniaux du logiciel en France
+* Valables 70 ans après l’année de décès de l’auteur ou du dernier auteur si travail collaboratif (article L122-6 du CPI)
   * Droits exercés par l'auteur puis à son décès par d'éventuels ayants-droits
-* Droit de reproduction : dupliquer l’œuvre sur tout support qui en permet la communication au public
-* Droit de modification : s'opposer à la traduction, adaptation ou toute autre modification du logiciel
-* Droit de mise sur le marché : l'auteur peut vendre ou donner son œuvre à sa guise
+* Droit de __reproduction__ : dupliquer l’œuvre sur tout support qui en permet la communication au public
+* Droit de __modification__ : s'opposer à la traduction, adaptation ou toute autre modification du logiciel
+* Droit de __mise sur le marché__ : l'auteur peut vendre ou donner son œuvre à sa guise
 
 <div class='admonition warning'>
 <b>Œuvre réalisée sous contrat de travail</b> : Les droits d'auteur patrimoniaux appartiennent à l'employeur (article L113-9 du CPI)
@@ -84,15 +84,15 @@ Attention : ne jamais utiliser de code sans licence explicite
 
 ## Les droits moraux du logiciels en France
 * Perpétuels (après la mort de l'auteur, revient aux ayants-droits)
-* Aménagés pour les logiciels
-* Quatre attributs :
-    * droit à __revendiquer la publicité__ du nom du créateur (même si les droits d'exploitations ont été cédés, affaire Framatome 1993)
-    * droit au __respect__ du logiciel : possible de s'opposer à toute modification préjudiciable à son honneur ou à sa réputation
-    * droit à la __divulgation__ (rendre le logiciel public)
-    * droit de __retrait et de repentir__ (stopper la divulgation ou faire des modifications)
+* Aménagés (à la baisse) pour les logiciels
+* Quatre attributs théoriques pour une œuvre :
+    * droit __de paternité__ (même si les droits d'exploitations ont été cédés [affaire Framatome 1993])
+    * droit au __respect__ de l'œuvre : possible de s'opposer à toute modification préjudiciable à son honneur ou à sa réputation
+    * droit à la __divulgation__ (décider du moment et des conditions pour rendre l'œuvre publique)
+    * droit de __retrait ou repentir__ (stopper la divulgation à condition d'indemniser du préjudice)
 
 <div class='admonition note'>
-Pour un logiciel, <b>seuls les droits de respect / de paternité sont réellement applicables (selon jurisprudence).</b>
+Pour un logiciel, sauf clauses contractuelles spécifiques, <b>seuls les droits de respect / de paternité sont réellement applicables (jurisprudence).</b>
 </div>
     
 ---
@@ -100,14 +100,13 @@ Pour un logiciel, <b>seuls les droits de respect / de paternité sont réellemen
 ## Le Copyright
 * Le droit d'auteur est appliqué dans les pays Européens (hors UK et Irlande) et le Copyright dans les pays anglo-saxons (USA, Canada, ...) <img style="float: right;padding:20px;" src="resources/copyright.webp">
 
-    - Droit d'auteur : protection des _auteurs_
-    - Copyright : protection des _œuvres_
-* Différence surtout sur les droits moraux : l'employeur est considéré comme le créateur
+    - Droit d'auteur : avant tout protection des _auteurs_
+    - Copyright : avant tout protection des _œuvres_
 * Harmonisation par __convention de Berne__ (1971), ratifiée par 166 états
   * __Obtention gratuite et automatique__ du droit d'auteur 
   * Il faut demander explicitement une renonciation à son droit d'auteur
 
-<div class='admonition note'>La Notice Copyright © est encore largement utilisée à titre informatif uniquement (rappelle la protection juridique)</div>
+<div class='admonition note'>La notice "Copyright ©" est encore largement utilisée à titre informatif uniquement (rappelle la protection juridique)</div>
     
 ---
 
@@ -116,16 +115,16 @@ Pour un logiciel, <b>seuls les droits de respect / de paternité sont réellemen
 * Les brevets concernent _des inventions_
 * Le brevet est une propriété industrielle : donne le droit d'exploiter une invention
 * En France, les logiciels ne sont pas brevetables (L 611-10 du CPI, loi du 2 janvier 1968), pas de caractère industriel
-* Interdiction réaffirmée au niveau européen en 2005 (après une longue lutte)
+* Interdiction réaffirmée au niveau européen en 2005 (après une longue lutte notamment des mouvements du Logiciel Libre)
 * Exception : logiciels au sein d'une invention non logicielle brevetable (exemple : ABS dans un véhicule)
 ---
 ## Le domaine public
-* Toute création pour lequel aucun droit d'auteur ne s'applique pour différents raisons :
+* Toute création pour laquelle aucun droit d'auteur ne s'applique pour différents raisons :
 <img style="float: right;padding:20px;" src="resources/public-domain.png">
     
     - expiration ;
     - renonciation ;
-    - inapplicabilité (le droit d'auteur n'existait pas par exemple).
+    - inapplicabilité (ex: les oeuvre datant d'avant le droit d'auteur en 1791 ou œuvres créées par [un non-humain](https://fr.wikipedia.org/wiki/Selfies_de_singe)).
 
 * Tout logiciel tombe dans le domaine public à l'échéance des droits patrimoniaux
 * En droit français, il n'est pas possible de renoncer totalement à ses droits moraux
@@ -133,7 +132,7 @@ Pour un logiciel, <b>seuls les droits de respect / de paternité sont réellemen
 ---
 
 ## Les licences
-* Contrats entre entre un ou plusieurs auteurs (ou leurs ayant-droits) et des utilisateurs
+* Contrats entre un ou plusieurs auteurs (ou leurs ayant-droits) et des utilisateurs
 * L'auteur concède des droits contre rémunération ou à titre gracieux
 * Exemple de droits : 
     - exécuter le logiciel ;
@@ -144,10 +143,10 @@ Pour un logiciel, <b>seuls les droits de respect / de paternité sont réellemen
 
 ### Des risques importants en cas de non respect des licences
 * 2008 : Microsoft gagne 1.8&nbsp;M€ contre un réseau de contrefaçon (cour d'appel de Paris)
-* 2009 : 8000&nbsp;€ de frais de justice pour Edu4 et perte du contrat pour avoir fait passé VLC (logiciel libre) comme développé par lui
-* 2014 : Oracle demande 12 M€ à l'AFPA pour non utilisation non prévue d'un de ses logiciels (débouté)
+* 2009 : 8000&nbsp;€ de frais de justice pour Edu4 et perte du contrat pour avoir fait passé VLC (logiciel libre) comme un développement interne
+* 2014 : Oracle demande 12 M€ à l'AFPA pour utilisation non prévue d'un de ses logiciels (mais Oracle a été débouté)
 * 2017 : TGI de Bayonne : cinq pirates condamnés à 4.6 M€ + 12-18 mois avec sursis pour piratage à grande echelle de Windows XP.
-* 2019 : Procès de la Société Entr’ouvert contre Orange qui a utilisé sa librairie pour un projet DGME sans respecter sa licence (GPL V2)
+* 2019-2021 : Procès de la Société Entr’ouvert contre Orange qui a utilisé sa librairie pour un projet DGME sans respecter sa licence (GPL V2). Perdu par Entr'ouvert en [2019](https://www.legalis.net/jurisprudences/tgi-de-paris-3eme-ch-3eme-section-jugement-du-21-juin-2019/) mais gagné en appel en [mars 2021](https://www.legalis.net/jurisprudences/cour-dappel-de-paris-pole-5-ch-2-arret-du-19-mars-2021/) (160K€ de dédommagement).
 * Piratage de logiciels : le CPI prévoit jusqu'à 300.000&nbsp;€ d'amende et 3&nbsp;ans d’emprisonnement pour les personnes physiques et 750.000&nbsp;€ d'amende pour les personnes morales
 ---
 
@@ -156,7 +155,8 @@ Pour un logiciel, <b>seuls les droits de respect / de paternité sont réellemen
 * Licence définie par un CLUF
 * L'objectif est de __contrôler la diffusion d'un logiciel__ pour en tirer un bénéfice
 * Le code source n'est pas disponible (sauf exceptions contractuelles)
-* __Location__ (et pas achat comme dit par abus de language) __temporaire ou perpétuelle de droits d'usage__ contractualisés par un CLUF
+* __Location temporaire ou perpétuelle de droits d'usage__ contractualisée par un CLUF
+** Location et pas achat comme souvent dit par abus de language
 * Un logiciel peut être vendu à une autre société (transfert du droit d'auteur patrimonial)
     - Exemple : HP vend en 2016 son offre logicielle à Microfocus pour 8,8&nbsp;milliards de dollars US
 
@@ -170,7 +170,7 @@ Pour un logiciel, <b>seuls les droits de respect / de paternité sont réellemen
 ## Historique
 * Jusqu'au milieu des années 1970 :
     - Pas encore de micro-informatique (seulement des mainframes)
-    - Hardware et software vendus ensemble
+    - Hardware et software vendus ensemble mais c'est surtout le hardware qui est important
     <div style="float: right; padding-left:20px;>
         <a href="https://scientificwomen.net/women/hopper-grace-45"><img style="width:300px" src="resources/grace-hopper.jpeg"></a>
         <p class='small'>
@@ -178,9 +178,8 @@ Pour un logiciel, <b>seuls les droits de respect / de paternité sont réellemen
         </p>
     </div>
                                                                        
-    - C'est surtout le hardware qui est important
-    - Les programmes sont principalement écrits par des femmes brillantes
-    - le code source est libre d'être étudié ou modifié (il est inutilisable sans disposer du matériel associé)
+    - Les programmes sont principalement écrits par des femmes
+    - Le code source est libre d'être étudié ou modifié (mais inutilisable sans le matériel associé)
 * Milieu des années 1970 : 
     - Création du concept de logiciel propriétaire
     - Lettre de Bill Gates en 1976 demandant de cesser «&nbsp;le vol&nbsp;» des logiciels
@@ -195,94 +194,92 @@ Pour un logiciel, <b>seuls les droits de respect / de paternité sont réellemen
 
 <div class='admonition warning'><p class="title">Attention, freeware != logiciel libre (ici "free" signifie "gratuit")</div>
      
-* Les grands logiciels/progiciels proposent souvent plusieurs gammes du logiciels avec prix croissant avec les  fonctionnalités :
+* Les grands logiciels/progiciels proposent souvent plusieurs gammes du logiciel dont le prix croit avec les fonctionnalités :
     - Quelque fois la version de base gratuite (Freemium)
     - Puis versions « Silver », « Gold Elite », « Platinium » ou similaires
 * Ordre de grandeur : 
-    - Base Oracle : 37&nbsp;K€ /CPU minimum  + environ 20% de support par an
+    - Base Oracle Enterprise : [$47K /CPU](https://www.oracle.com/assets/technology-price-list-070617.pdf) minimum  + environ 20% de support par an
     - Les middlewares et base de données (Weblogic, Websphere, Oracle, MS Windows...) représentent dans les grands comptes des budgets de __dizaines à centaines de millions d'euros / an__
 ---
 
 ### les modes de facturation
-
 * Critères principaux :
     - à l'utilisateur nommé
     - à un nombre d'utilisateurs simultanés (dits _flottants_)
     - à la puissance utilisée (PVU = _Processor Value Unit_) dépend du nombre cœurs et de leur caractéristiques
     - à l'installation (par serveur/station)
     - suivant les options utilisées (ex : partitionnement des bases Oracle).
-
 <img style="float: right; width: 200px;padding:20px;" src="resources/complex.svg">
-
 * Rapidement très technique et complexe : 
     - Quid des machines virtuelles ?
     - Quid des containers ?
     - Quid des environnements hors production ?
 
-* Donc besoin d'experts (métier de __Compliance Manager__)
+* Donc besoin d'experts (métier de __Compliance Manager__) pour limiter les risques juridiques
+
 ---
 
-### Quelques pièges courants
+### Quelques pièges courants du propriétaire
 - Tarif négocié puis passage automatique au prix public si dépassement
 - Fonctionnalité rapidement indispensable mais uniquement disponible dans une version plus chère (exemple : intégration à un fournisseur d'identités)
 - Enfermement propriétaire (_vendor locking_). Ex : formats propriétaires.
-- Contrats complexes favorisant l'utilisation d'options non incluses puis audits
+- Contrats complexes favorisant l'utilisation d'options non incluses, puis audits
 - Consommation "illimitée" au tarif négocié puis renégociation sur la nouvelle base tous les 5 ans
-- Marges sur les frais de mises à jour ou les coûts de support 
+- Coûts de mises à jour ou les coûts de support très élevés
 - Rabais sur des logiciels finalement pas utilisés
 - Ventes (quasi) forcées. Ex : moteur BPM + serveur d'application
 - Quid en cas de faillite (cas AGD) ?
     * prévoir _contrat d’escrow_ (sources déposées chez tiers de confiance)
-    * pire si plateforme de développement (PaaS): développements à jeter
+    * pire si plateforme de développement (PaaS) : les applications sont inexploitables
 - SaaS : prévoir contractuellement des solutions de réversibilité
 - Favorise la [corruption](https://www.zdnet.fr/actualites/corruption-une-enquete-ouverte-contre-les-pratiques-commerciales-de-microsoft-en-hongrie-39872683.htm) / les pratiques peu éthiques (séminaires tous frais payés...)
 ---
 
 ### Méthodes de contrôle de la diffusion
-* Contrats (CLUF) engageant le client
-* Clés (fournies par l'éditeur et à installer)
-* Serveurs de licences (_on premise_)
-* Appels d'API sur Internet
-* Hardware exécutant des binaires avec DRM pour empécher les modifications (_tivoïsation_)
-* Audits
-* Mouchards (dans les mises à jour par exemple)
+* __Contrats__ (CLUF) engageant le client
+* __Clés__ (fournies par l'éditeur et à installer)
+* __Serveurs de licences__ (_on premise_)
+* Appels d'__API__ sur Internet
+* Hardware exécutant des binaires avec __DRM__ pour empécher les modifications (_tivoïsation_)
+* __Audits__ par des consultants
+* __Mouchards__ (dans les mises à jour par exemple)
 ---
 
 ### L'impact projet 
-* Latences pour pouvoir prototyper une solution logicielle
-* Délais liés à la signature du contrat 
-* Dépendances au support de l'éditeur en cas de problème (pas/moins de StackOverflow)    
-* Migrations forcées par l'éditeur (fin de support)
-* Coûts souvent très importants (100&nbsp;K€ à plusieurs M€)
-    - Peut limiter le budget développement
+* Latences pour pouvoir __prototyper__ une solution logicielle
+* __Délais__ liés à la signature du contrat 
+* Dépendances quasi totale au __support__ de l'éditeur en cas de problème, peu/pas d'aide collaborative en ligne
+* __Migrations forcées__ par l'éditeur (fin de support)
+* __Coûts__ souvent très importants (100&nbsp;K€ à plusieurs M€)
+    - limite souvent le budget développement dans les ESN
 ---
 
 ### L'impact sur l'architecture 
-* Incertitudes contractuelles liées à l'opacité des services achats
-* Risques sur la réversibilité (récupération des données)
-* Risque sur la disponibilité dans le cas de systèmes de validation de licences&nbsp;:
+* __Incertitudes contractuelles__ liées à l'opacité des services achats
+* __Risques sur la réversibilité__ (récupération des données)
+* __Risque sur la disponibilité__ dans le cas de systèmes de validation de licences&nbsp;:
     - les serveurs de jetons peuvent devenir des SPOF
     - arrêt du service si oubli de renouveler une clé, etc.
-* Besoins d'accès à Internet depuis des serveurs (complexification / sécurité)
+* __Besoins d'accès à Internet__ depuis des serveurs (complexification / sécurité)
 * Architecture pilotée par les coûts au lieu des exigences («&nbsp;pas de cluster, on n'a pas les moyens&nbsp;»)
-* Contraintes sur les environnements de développement et de recette («&nbsp;bidouilles&nbsp;» pour partager des licences entre développeurs)
-* Peu adapté au containers
-* Souvent plus difficile d'obtenir du support en ligne
+* Contraintes sur les __environnements de développement__ et de recette («&nbsp;bidouilles&nbsp;» pour partager des licences entre développeurs)
+* Peu adapté au __containers__
+
 ---
 
 ### Quels logiciels propriétaires n'ont pas ou peu d'équivalents libres ?
-* La plupart des firmwares, logiciels industriels et embarqués
-* Progiciels métiers : ERP, médical, comptabilité, grande distribution...
-* Outils de conception avancés (exemple : CAO)
-* Domaines de niche (exemple : musique professionnelle)
-* Les logiciels de gestion de licences (Compliance Management)
+* La plupart des __firmwares__, logiciels industriels et embarqués
+* __Progiciels métiers__ : ERP, médical, comptabilité, grande distribution...
+* Outils de __conception avancés__ (exemple : CAO)
+* Domaines de __niche__ (exemple : musique professionnelle, outils de compliance management...)
+
 ---
 
 ## Les logiciels libres
-* Définition ([Wikipedia](https://fr.wikipedia.org/wiki/Logiciel_libre)) : «&nbsp;*__Un logiciel libre est un logiciel dont l'utilisation, l'étude, la modification et la duplication par autrui en vue de sa diffusion sont permises, techniquement et légalement, ceci afin de garantir certaines libertés induites, dont le contrôle du programme par l'utilisateur et la possibilité de partage entre individus.__*&nbsp;» 
-* Deux statuts juridiques sont possibles : 
-    - les logiciels dans le __domaine public__ (avec sources et sans droit d'auteur patrimonial)
-    - et les logiciels sous un __licence libre__ (GPL, BSD...) avec __respect du droit d'auteur__
+Définition ([Wikipedia](https://fr.wikipedia.org/wiki/Logiciel_libre)) :
+
+ «&nbsp;*__Un logiciel libre est un logiciel dont l'utilisation, l'étude, la modification et la duplication par autrui en vue de sa diffusion sont permises, techniquement et légalement, ceci afin de garantir certaines libertés induites, dont le contrôle du programme par l'utilisateur et la possibilité de partage entre individus.__*&nbsp;» 
+
 ---
 
 ### Historique
@@ -290,9 +287,8 @@ Pour un logiciel, <b>seuls les droits de respect / de paternité sont réellemen
 * Mi-1970 : émergence des logiciels propriétaires et de la micro-informatique
 * 1980 : Certains commencent à prendre conscience des restrictions des libertés
 <img style="float: right; padding: 20px;" src="resources/rms.png">
-                                                                 
-* 1980 : RMS (Richard Stallman) découvre qu'il n'a pas le droit de modifier un driver d'impression Xerox
-* 1983 : Lancement du projet GNU (_Gnu’s Not Unix_) par RMS (_Richard M. Stallman_)
+** RMS (Richard Stallman) découvre qu'il n'a pas le droit de modifier un driver d'impression Xerox
+* 1983 : Lancement du projet GNU (_Gnu’s Not Unix_) par RMS
 * 1985 : Création de la FSF (_Free Software Fondation_)
 * 1989 : Base légale du libre : la GPL V1 (_GNU General Public License_)
 * 1991 : Linus Torvalds démarre le projet de noyau Linux
@@ -302,10 +298,10 @@ Pour un logiciel, <b>seuls les droits de respect / de paternité sont réellemen
 ---
 
 ### Les quatre libertés fondamentales
-* Liberté 0 : La liberté d'__exécuter__ le programme, pour tous les usages et sans aucune restriction
-* Liberté 1 : La liberté d'__étudier__ le fonctionnement du programme
-* Liberté 2 : La liberté de __redistribuer__ le logiciel
-* Liberté 3 : La liberté d'__améliorer__ le programme et de __redistribuer le programme amélioré__
+* __Liberté 0__ : La liberté d'__exécuter__ le programme, pour tous les usages et sans aucune restriction
+* __Liberté 1__ : La liberté d'__étudier__ le fonctionnement du programme
+* __Liberté 2__ : La liberté de __redistribuer__ le logiciel
+* __Liberté 3__ : La liberté d'__améliorer__ le programme et de __redistribuer le programme amélioré__
 ---
 
 ### Définition de l'OSI (Open Source Initiative)
@@ -328,14 +324,14 @@ Afin d’assurer ces libertés, les logiciels Open Source se basent sur&nbsp;:
 - (Toujours) le __droit d’auteur__ (_copyright_) qui prévient le plagiat 
 <img style="float: right;padding:20px;" src="resources/copyleft.png">
                                                                     
-- (Souvent) __la gauche d’auteur__ (_copyleft_) : complète le copyright, assure propagation des libertés par __réciprocité__
+- (Souvent) __la gauche d’auteur__ (_copyleft_) : complète le copyright, assure propagation des libertés par __réciprocité__ (ou “obligation de partage à l'identique”)
 * Concept inventé par Don Hopkins et Richard Stallman en 1984
 * Tout code à la base sous licence copyleft doit conserver sa licence d’origine
 * Le copyleft impose que toute modification publiée apportée à un logiciel copyleft <ins>et distribuée</ins> soit versée à la communauté
 * Pour les détracteurs (anciennement Microsoft par exemple) : «&nbsp;virus&nbsp;»
 
 <div class='admonition note'>
-“On ne partage qu'avec ceux qui veulent partager”
+<b>“On ne partage qu'avec ceux qui veulent partager”</b>
 </div>
                                                                     
 ---
@@ -356,17 +352,17 @@ Afin d’assurer ces libertés, les logiciels Open Source se basent sur&nbsp;:
 
 ---
 
-### Niveau de copyleft
+### Niveau de copyleft par licence
 | Aucun | Par fichier | Niveau librairie | Fort | Etendu
 |----|----|----|----|----
 |BSD, Apache, MIT, ISC, CeCILL B, WTFPL | CDDL, Mozilla Public Licence (MPL), CeCILL C | LGPL | GPL, CeCILL | AGPL
-|On peut partager les modifications sous des conditions différentes | Possible d'inclure du code dans tout logiciel mais copyleft sur [_ce_ fichier](https://www.mozilla.org/en-US/MPL/2.0/FAQ/) | Possible de lier une telle bibliothèque depuis tout logiciel mais une modification de la bibliothèque elle-même est copyleftée | Le logiciel et ses dépendances sont copyleftés. Seul les éléments système comme l'OS n'ont pas à l'être. | Idem GPL mais valable aussi lorsque le logiciel s'exécute à distance (application Web)
+|On peut partager les modifications sous des conditions différentes | Possible d'inclure du code dans tout logiciel mais copyleft sur [_ce_ fichier](https://www.mozilla.org/en-US/MPL/2.0/FAQ/) | Possible de lier une telle bibliothèque depuis tout logiciel mais une modification de la bibliothèque elle-même est copyleftée | Le logiciel et ses dépendances sont copyleftés. Seul les éléments système comme l'OS n'ont pas à l'être | Idem GPL mais valable aussi lorsque le logiciel s'exécute à distance (application Web)
 ---
 
 ### Zoom sur la GPL (GNU General Public License)
 * Objectif: assurer la __liberté des utilisateurs__
 * Créée par RMS (Richard Stallman) et la FSF
-* V1 en 1989, V2 en cours en 1991, V3 en 2007
+* V1 en 1989, V2 en 1991, V3 en 2007
 * Meilleure garantie des libertés des utilisateurs et la redistribution de la connaissance grâce au copyleft
 * V3 : 
     - anti-tivoïsation (GPL mais DRM empêchant modification)
@@ -374,17 +370,17 @@ Afin d’assurer ces libertés, les logiciels Open Source se basent sur&nbsp;:
     - simplification des compatibilités avec les autres licences
 
 <div class='admonition note'>
-<b>Très utilisée, exemples : </b>Linux, Git, Ansible, Drupal, Wordpress, Notepadd++, MariaDB, GCC
+Très utilisée. Exemples : <b>Linux, Git, Ansible, Drupal, Wordpress, Notepadd++, MariaDB, GCC</b>
 </div>
 
 ---
 ### Zoom sur la LGPL (Lesser General Public License)
-* Objectif: assurer la liberté des utilisateurs et __permettre de distribuer des programmes propriétaires liés avec des bibliothèques libres__
+* Objectif : assurer la liberté des utilisateurs et __permettre de distribuer des programmes propriétaires liés avec des bibliothèques libres__
 * Créée par RMS (Richard Stallman) et la FSF en 1991 puis revue en 1999
 * Les modifications d’une bibliothèque LGPL ne peuvent être redistribuées qu’en LGPL
 * V3 en 2007 avec mêmes avancées que la GPL
 <div class='admonition note'>
-<b>Exemples : </b>JFreechart, JasperReports, GTK, Hibernate, librairie GNU C++…
+Exemples : <b>JFreechart, JasperReports, GTK, Hibernate, librairie GNU C++…</b>
 </div>
                                                                     
 ---
@@ -393,7 +389,7 @@ Afin d’assurer ces libertés, les logiciels Open Source se basent sur&nbsp;:
 * Objectif: __Obliger les services accessibles par le réseau à publier le code source de leurs améliorations__
 * V3 en 2007
 <div class='admonition note'>
-<b>Exemples :</b> BerkeleyDB, Ghostscript, iText, Mattermost, MongoDB jusqu'en 2018, Nextcloud, OnlyOffice, JasperReports Server
+Exemples : <b>BerkeleyDB, Ghostscript, iText, Mattermost, MongoDB jusqu'en 2018, Nextcloud, OnlyOffice, JasperReports Server</b>
 </div>
 
 ---
@@ -405,22 +401,44 @@ Afin d’assurer ces libertés, les logiciels Open Source se basent sur&nbsp;:
 * Complètement compatible GPL (donc copyleftée)
 * Il est possible de redistribuer du code CeCILL en GPL
 <div class='admonition note'>
-<b>Exemples</b> : Scilab, VLDocking Framework
+Exemples : <b>Scilab, VLDocking Framework</b>
 </div>
 <div class='admonition note'>
 Variantes CeCILL-B (BSD-like) et CeCILL-C (MPL-like) <a href="https://directory.fsf.org/wiki/License:CeCILL-B">déconseillées par la FSF</a>)
 </div>
-                                                                                                              
+                                                                                                  
 ---
+
+
+### Zoom sur les licence OUVERTE
+
+#### Code 
+* Licence [OUVERTE V2](https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf) prévue pour le code produit par les administrations 
+* Géré par ETALAB (administration en charge notamment de l'Open Data français)
+* V2 en 2017
+
+#### Données
+Pour les bases de données (Open Data), licence [ODbL v1](https://spdx.org/licenses/ODbL-1.0.html#licenseText) copyleftée, c'est à dire avec obligation de partage à l'identique.
+
+
+<div class='admonition note'>
+Les administrations peuvent utiliser d'autres licences, liste autorisée <a href='https://www.data.gouv.fr/fr/pages/legal/licences/'>ici.</a>
+
+---
+
 
 ### Les licences permissives
 * Dites aussi _lax_ ou _liberal_
 * Les plus courantes : __BSD__, __MIT__, __Apache__
 * Pas de copyleft
-* Différent du domaine public
 * Clauses de publicité des auteurs (attribution)
 * Clause de conservation des notices de licences
-* Excellente compatibilité entre les licences permissives et lors d'utilisation par un logiciel en licence copyleft
+* Excellente compatibilité entre les licences permissives et lors d'utilisation par un logiciel en licence copyleft ou un logiciel propriétaire
+
+<div class='admonition note'>
+Attention : ce n'est pas du domaine public !)</div>
+
+
 ---
 
 ### Droits et devoirs des auteurs
@@ -436,7 +454,7 @@ Variantes CeCILL-B (BSD-like) et CeCILL-C (MPL-like) <a href="https://directory.
 ### La compatibilité des licences
 * Certaines licences sont compatibles entre elles
 * Décrit la possibilité ou non de mélanger du code source ou des binaires sous licences différentes
-* Une licence A est compatible avec une licence B si on peut intégrer un bout de code de licence A dans un programme de licence B
+* Une licence A est réputée compatible avec une licence B si on peut intégrer du code de licence A dans un programme de licence B
 * Il est possible de mixer du code de licences différentes dans un même fichier mais il faut garder toutes les notices de licence en entête
 <a href="https://www.gnu.org/licenses/quick-guide-gplv3.html">
 
@@ -450,12 +468,12 @@ Licence A compatible avec B n'implique pas B compatible avec A</div>
 * Un même produit peut disposer de plusieurs licences (_Multi-licensing_)
 * Licence multiple : libre/libre ou libre/propriétaire (exemple: MySQL Community en GPL et MySQL Enterprise Edition propriétaire)
 * Soit l'utilisateur peut choisir la licence qui s’applique, soit l'auteur l'impose, soit toutes les licences s'appliquent en même temps
-* En général utilisés par des sociétés, pas des communautés
+* En général utilisé par des __sociétés__, pas des communautés
 * Objectifs : 
-    - S’assurer un revenu en vendant un logiciel en mode propriétaire tout en le faisant évoluer via la communauté (exemples : Mono, MySQL, QT)
+    - S’__assurer un revenu__ en vendant un logiciel en mode propriétaire tout en le faisant évoluer via la communauté (exemples : Mono, MySQL, QT)
     - Résoudre des incompatibilités de licence lors d’une fusion
-    - Segmentation de marché (version Community / Enterprise...)
-* Risqué car brouille la visibilité du projet et peut décourager les contributeurs ou conduire à un fork (MariaDB, LibreOffice, NextCloud...).
+    - __Segmentation de marché__ (version Community / Enterprise...)
+* Risqué car __brouille la visibilité__ du projet et peut décourager les contributeurs ou conduire à un fork (MariaDB, LibreOffice, NextCloud...).
 ---
 
 ### Les exceptions (1/2)
@@ -470,19 +488,11 @@ Licence A compatible avec B n'implique pas B compatible avec A</div>
 >"As a special exception to the terms and conditions of version 2.0 of the GPL, Trolltech hereby grants you the rights described below, provided you agree to the terms and conditions in this Exception, including its obligations and restrictions on use. [...] 1) The right to use Open Source Licenses not compatible with the GNU General Public License: You may link software (hereafter referred to as "Your Software") against the Licensed Software and/or distribute binaries of Your Software linked against the Licensed Software [...]"
 ---
 
-## Le code trouvé sur Internet
-* __StackOverflow__ : Tout le code est en licence documentaire __[CC BY-SA](https://stackoverflow.com/help/licensing)__ (version de 2.5 à 4.0 suivant la date des posts)
-    - La CC BY-SA 4.0 est <a href='https://creativecommons.org/2015/10/08/cc-by-sa-4-0-now-one-way-compatible-with-gplv3/'>comptatible avec la GPL V3</a> même si son utilisation pour du code est déconseillé par la FSF (pour éviter de démultiplier les licences)
-    - Devant un tribunal, possible de plaider le «&nbsp;Fair trade&nbsp;» (code trivial si quelques lignes) mais jurisprudence au cas par cas...
-* Les sites qui ne précisent pas de licence : le __copyright par défaut « All rights reserved »__ s'applique
-    - Il est néanmoins possible de demander une __autorisation écrite à l'auteur__
-    - Sinon, il faut __réécrire complètement le code__
----
-
 ### Les licences orientées contenu (1/2) : La GFDL
 * Gnu Free Documentation License
 * Équivalent à la GPL pour les contenus documentaires
 * Fondé sur le copyright et le copyleft
+* Peu utilisée, globalement remplacée par les licences CC
 * Incompatible avec la GPL 
     - interdiction d’insérer des documents GFDL dans un programme GPL
 ---
@@ -505,21 +515,30 @@ pour : documents, musique, images, photos…
 
 ---
 
-### Modèle économique
+## Le code trouvé sur Internet
+* __StackOverflow__ : Tout le code est en licence documentaire __[CC BY-SA](https://stackoverflow.com/help/licensing)__ (version de 2.5 à 4.0 suivant la date des posts)
+    - La CC BY-SA 4.0 est <a href='https://creativecommons.org/2015/10/08/cc-by-sa-4-0-now-one-way-compatible-with-gplv3/'>comptatible avec la GPL V3</a> même si son utilisation pour du code est déconseillé par la FSF (pour éviter de multiplier le nombre de licences)
+    - Devant un tribunal, possible de plaider le «&nbsp;Fair trade&nbsp;» (code trivial si quelques lignes) mais jurisprudence au cas par cas...
+* Les sites qui ne précisent pas de licence : le __copyright par défaut « All rights reserved »__ s'applique
+    - Il est néanmoins possible de demander une __autorisation écrite à l'auteur__
+    - Sinon, il faut __réécrire complètement le code__
+---
+
+### Modèle économique du libre
 * Sociétés (éditeurs, __SSLL__ = Sociétés de Service en Logiciels Libres) :
     - Services (formation, support, conseil)
     - Produits Open Core (Exemple : Gitlab CE, Kafka, Elastic, Redis)
     - SaaS (Software As A Service)
     - Investissements gouvernementaux (exemple: [Squash TM](https://www.squashtest.com/about))
-    - Faire payer le programme ou ses sources (purement théorique)
+    - Faire payer le programme ou ses sources (théorique)
 
 * Organisations et bénévoles : 
-    - Rémunérations très faibles en général (ex: dons Paypal)
+    - Rémunérations très faibles en général (ex: dons)
     - Crowdsourcing
     - Rémunération forfaitaire pour développement spécifique (Bounty)
     - Don de matériel (serveurs, postes de développement etc..)
     - Merchandising (t-shirts...)
-    - Motivations intrinsèques (sans retour directs) : créativité, travailler en équipe, altruisme, réputation/CV
+    - Surtout des motivations intrinsèques (sans retour directs) : créativité, liberté, altruisme, réputation/CV,...
 
 <div class='admonition note'>
 Le marché mondial de l'Open Source atteint environ <b>57&nbsp;Mrds de $ en 2020</b> (Source Suyati Technologies)
@@ -527,18 +546,17 @@ Le marché mondial de l'Open Source atteint environ <b>57&nbsp;Mrds de $ en 2020
 
 ---
 
-### Les pièges les plus courants
-* Subir les roadmap produit (surtout si produit d'entreprise)
+### Les pièges les plus courants du libre
+* Subir les __roadmap produit__ (surtout si produit d'entreprise)
 * Partir sur une technologie peu supportée puis abandonnée
-    - le plus important : nombre d'utilisateurs
-* Solution gratuite mais support exorbitant ou contraignant
-* Penser que nos Merge Requests seront toujours prises en compte
-* Penser que Libre = Domaine Public et ignorer les clauses des licences
-* Risques juridiques si non respect des licences (Copyleft)
-* Risques de changement de licence (exemple: MongoDB en 2018)
+    - le plus important : __nombre d'utilisateurs effectifs__
+* Solution gratuite mais __support exorbitant ou contraignant__
+* Penser que nos __Merge Requests__ seront toujours prises en compte
+* __Risques juridiques__ si non respect des licences
+* Risques de __changement de licence__ (exemple: MongoDB en 2018)
 ---
 
-## Bilan
+## Synthèse
 
 ---
 
@@ -553,7 +571,7 @@ Voir aussi [la liste officielle sur gnu.org](https://www.gnu.org/licenses/licens
 
 | &nbsp; |&nbsp;
 |--------|------
-|<img src="resources/strengths.svg" style="width:80px;vertical-align:middle" > __Forces__ <li>Service de support toujours proposé<li>Vulnérabilités cachées<li>Seule option pour de nombreux progiciels | <img src="resources/weaknesses.svg" style="width:80px;vertical-align:middle"> __Faiblesses__ <li>Support et licences (très) onéreux<li>Support pas toujours au niveau ni réactif <li>Complications planning et architecture<li>Sécurité par l'obscurité <li>Risques juridiques (besoin d'experts)
+|<img src="resources/strengths.svg" style="width:80px;vertical-align:middle" > __Forces__ <li>Service de support toujours proposé<li>Vulnérabilités masquées aux attaquants<li>Seule option pour de nombreux progiciels | <img src="resources/weaknesses.svg" style="width:80px;vertical-align:middle"> __Faiblesses__ <li>Support et licences onéreux<li>Support pas toujours au niveau ni réactif <li>Complications planning et architecture<li>Sécurité par l'obscurité <li>Risques juridiques (besoin d'experts)
 |<img src="resources/opportunities.svg" style="width:80px;vertical-align:middle"> __Opportunités__<li>Créer un partenariat de longue durée avec un éditeur| <img src="resources/risks.svg" style="width:80px;vertical-align:middle"> __Risques__ <li>Vendor locking <li> Subir les roadmaps<li>Impossible de connaître la véritable qualité ou la sécurité du code <li>Risques financiers (audits...)<li>Miser sur un produit en perte de vitesse<li>Faire de l'architecture pilotée par le coût
 | &nbsp; |&nbsp;
 
@@ -563,8 +581,8 @@ Voir aussi [la liste officielle sur gnu.org](https://www.gnu.org/licenses/licens
 
 | &nbsp; |&nbsp;
 |--------|------
-|<img src="resources/strengths.svg" style="width:80px;vertical-align:middle" > __Forces__ <li>Sécurité par l'auditabilité <li>Support communautaire réactif<li>Gratuit (hors support payant)<li>Simple à mettre en œuvre <li>Meilleure pérénité tant qu'il y a des utilisateurs| <img src="resources/weaknesses.svg" style="width:80px;vertical-align:middle"> __Faiblesses__ <li>Failles potentiellment visibles<li>Support payant onéreux 
-|<img src="resources/opportunities.svg" style="width:80px;vertical-align:middle"> __Opportunités__<li>Contribuer (évolutive/corrective)<li>Tester facilement de nouvelles solutions (POC)<li>Changer facilement de solution | <img src="resources/risks.svg" style="width:80px;vertical-align:middle"> __Risques__ <li>Risque juridique si non respect des licences<li>Subir les roadmaps<li>Miser sur un projet dont la communauté se désintéresse
+|<img src="resources/strengths.svg" style="width:80px;vertical-align:middle" > __Forces__ <li>Sécurité par l'auditabilité <li>Support communautaire réactif<li>Gratuit (hors support payant)<li>Simple à mettre en œuvre <li>Bonne pérénité tant qu'il y a des utilisateurs| <img src="resources/weaknesses.svg" style="width:80px;vertical-align:middle"> __Faiblesses__ <li>Failles de sécurité potentiellement visibles<li>Support payant onéreux 
+|<img src="resources/opportunities.svg" style="width:80px;vertical-align:middle"> __Opportunités__<li>Contribuer (évolutions/corrections)<li>Tester facilement de nouvelles solutions (POC)<li>Changer facilement de solution | <img src="resources/risks.svg" style="width:80px;vertical-align:middle"> __Risques__ <li>Risque juridique si non respect des licences<li>Subir les roadmaps<li>Miser sur un projet dont la communauté se désintéresse
 | &nbsp; |&nbsp;
 
 ---
@@ -583,3 +601,4 @@ Voir aussi [la liste officielle sur gnu.org](https://www.gnu.org/licenses/licens
 * https://en.wikipedia.org/wiki/Business_models_for_open-source_software
 * https://www.eurostaffgroup.com/media-hub/how-can-i-use-code-snippets-found-on-stack-overflow-65809/
 * https://www.app.asso.fr/centre-information/base-de-connaissances/code-logiciels/la-protection-du-logiciel-par-le-droit-dauteur/contenu-de-la-protection
+* https://spdx.org/licenses/ : Liste de toutes les licences
