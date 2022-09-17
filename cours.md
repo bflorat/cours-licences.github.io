@@ -156,7 +156,7 @@ Pour un logiciel, sauf clauses contractuelles spécifiques, <b>seuls les droits 
 * L'objectif est de __contrôler la diffusion d'un logiciel__ pour en tirer un bénéfice
 * Le code source n'est pas disponible (sauf exceptions contractuelles)
 * __Location temporaire ou perpétuelle de droits d'usage__ contractualisée par un CLUF
-** Location et pas achat comme souvent dit par abus de language
+  * Il s'agit de location et non achat comme souvent dit par abus de language
 * Un logiciel peut être vendu à une autre société (transfert du droit d'auteur patrimonial)
     - Exemple : HP vend en 2016 son offre logicielle à Microfocus pour 8,8&nbsp;milliards de dollars US
 
@@ -287,7 +287,8 @@ Définition ([Wikipedia](https://fr.wikipedia.org/wiki/Logiciel_libre)) :
 * Mi-1970 : émergence des logiciels propriétaires et de la micro-informatique
 * 1980 : Certains commencent à prendre conscience des restrictions des libertés
 <img style="float: right; padding: 20px;" src="resources/rms.png">
-** RMS (Richard Stallman) découvre qu'il n'a pas le droit de modifier un driver d'impression Xerox
+
+  * RMS (Richard Stallman) découvre qu'il n'a pas le droit de modifier un driver d'impression Xerox
 * 1983 : Lancement du projet GNU (_Gnu’s Not Unix_) par RMS
 * 1985 : Création de la FSF (_Free Software Fondation_)
 * 1989 : Base légale du libre : la GPL V1 (_GNU General Public License_)
@@ -322,8 +323,7 @@ Définition ([Wikipedia](https://fr.wikipedia.org/wiki/Logiciel_libre)) :
 ### Le Copyleft
 Afin d’assurer ces libertés, les logiciels Open Source se basent sur&nbsp;:
 - (Toujours) le __droit d’auteur__ (_copyright_) qui prévient le plagiat 
-<img style="float: right;padding:20px;" src="resources/copyleft.png">
-                                                                    
+<img style="float: right;padding:20px;" src="resources/copyleft.png">                                                                   
 - (Souvent) __la gauche d’auteur__ (_copyleft_) : complète le copyright, assure propagation des libertés par __réciprocité__ (ou “obligation de partage à l'identique”)
 * Concept inventé par Don Hopkins et Richard Stallman en 1984
 * Tout code à la base sous licence copyleft doit conserver sa licence d’origine
@@ -347,7 +347,7 @@ Afin d’assurer ces libertés, les logiciels Open Source se basent sur&nbsp;:
 * Il est aussi possible (__bien que fortement déconseillé__) d'intégrer du code GPL dans un logiciel __interne__ de licence incompatible (propriétaire par exemple) à condition de ne pas distribuer ce logiciel
 
 <div class='admonition warning'>
-<p>Etre très prudent car cela peut mettre l'entreprise à risque en cas de changement de situation du logiciel (par exemple si l'organisation décide de vendre un logiciel précédement purement interne sans savoir qu'il contient du code GPL)</p>
+<p>Etre <b>TRES prudent</b> car cela peut mettre l'entreprise à risque en cas de changement de situation du logiciel (par exemple si l'organisation décide de vendre un logiciel précédement purement interne sans savoir qu'il contient du code GPL)</p>
 </div>
 
 ---
@@ -590,6 +590,7 @@ Voir aussi [la liste officielle sur gnu.org](https://www.gnu.org/licenses/licens
 ## Références
 
 * Cours "Les licences logicielles" IUT de Nantes par Damien Raude-Morvan
+* Liste SPDX de toutes les licences : https://spdx.org/licenses/
 * https://www.usine-digitale.fr/article/audit-de-licences-logicielles-la-bataille-continue.N381077
 * https://www.cncpi.fr/ba-ba/FAQ_questions_reponses/Comment_peut-on_proteger_un_logiciel/
 * https://www.legalstart.fr/fiches-pratiques/proteger-une-creation/protection-logiciel/
@@ -601,4 +602,3 @@ Voir aussi [la liste officielle sur gnu.org](https://www.gnu.org/licenses/licens
 * https://en.wikipedia.org/wiki/Business_models_for_open-source_software
 * https://www.eurostaffgroup.com/media-hub/how-can-i-use-code-snippets-found-on-stack-overflow-65809/
 * https://www.app.asso.fr/centre-information/base-de-connaissances/code-logiciels/la-protection-du-logiciel-par-le-droit-dauteur/contenu-de-la-protection
-* https://spdx.org/licenses/ : Liste de toutes les licences
