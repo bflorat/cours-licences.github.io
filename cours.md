@@ -8,7 +8,7 @@ Cours de Licence Professionnelle 2021-2022
 
 <small>[https://cours-licences.florat.net/](https://cours-licences.florat.net/)&nbsp;([version sur une page](./?print-pdf))&nbsp;/[sources](https://github.com/bflorat/cours-licences.github.io)</small>
 
-<div class='smaller'>Copyright © 2020 <a href='http://www.florat.net/contact'>Bertrand Florat</a>. This work is licensed under a <br/><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</div>
+<div class='smaller'>Copyright © 2019-2022 <a href='http://www.florat.net/contact'>Bertrand Florat</a>. This work is licensed under a <br/><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</div>
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; padding-right: 20px; vertical-align:middle" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
 
@@ -124,7 +124,7 @@ Pour un logiciel, sauf clauses contractuelles spécifiques, <b>seuls les droits 
     
     - expiration ;
     - renonciation ;
-    - inapplicabilité (ex: les oeuvre datant d'avant le droit d'auteur en 1791 ou œuvres créées par [un non-humain](https://fr.wikipedia.org/wiki/Selfies_de_singe)).
+    - inapplicabilité (ex: les oeuvre datant d'avant le droit d'auteur en 1791 ou œuvres créées par un non humain comme [un animal](https://fr.wikipedia.org/wiki/Selfies_de_singe) ou une [IA](https://fr.wikipedia.org/wiki/Intelligence_artificielle_et_droit_d%27auteur_dans_l%27art) .
 
 * Tout logiciel tombe dans le domaine public à l'échéance des droits patrimoniaux
 * En droit français, il n'est pas possible de renoncer totalement à ses droits moraux
