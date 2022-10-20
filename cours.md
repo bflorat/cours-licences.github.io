@@ -102,7 +102,7 @@ Pour un logiciel, sauf clauses contractuelles spécifiques, <b>seuls les droits 
 
     - Droit d'auteur : avant tout protection des _auteurs_
     - Copyright : avant tout protection des _œuvres_
-* Harmonisation par __convention de Berne__ (1971), ratifiée par 166 états
+* Harmonisation par __convention de Berne__ (1979), ratifiée par 166 états
   * __Obtention gratuite et automatique__ du droit d'auteur 
   * Il faut demander explicitement une renonciation à son droit d'auteur
 
