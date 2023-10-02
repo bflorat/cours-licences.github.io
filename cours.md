@@ -2,13 +2,13 @@
 
 IUT de Nantes – Département Informatique
 
-Cours de Licence Professionnelle 2021-2022
+Cours de BUT 2021-2023
 
 ![Université de Nantes](resources/logo-univ.png)
 
 <small>[https://cours-licences.florat.net/](https://cours-licences.florat.net/)&nbsp;([version sur une page](./?print-pdf))&nbsp;/[sources](https://github.com/bflorat/cours-licences.github.io)</small>
 
-<div class='smaller'>Copyright © 2019-2022 <a href='http://www.florat.net/contact'>Bertrand Florat</a>. This work is licensed under a <br/><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</div>
+<div class='smaller'>Copyright © 2019-2023 <a href='http://www.florat.net/contact'>Bertrand Florat</a>. This work is licensed under a <br/><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</div>
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; padding-right: 20px; vertical-align:middle" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
 
@@ -45,6 +45,7 @@ dans ce cours. <br/>Ces opinions doivent être considérées comme propres à l�
 
 ### Le droit d'auteur
 * Ensemble des __droits d'un auteur sur ses œuvres de l'esprit et droits du public à en jouir sous conditions__
+* Domaine d'applicabilité : **toute œuvre de l'esprit** (excluant les objets) **fixée sous une forme tangible** (logiciel, tableau, film, morceau de musique, discours, spectacle vivant...). Aucun système ne protège les idées, mais plutôt leur expression.
 * Concept philosophique (John Locke, 17ème : l'homme étant propriétaire de lui-même, ses œuvres lui appartiennent)
 * Deux types de droits : 
     - __*patrimoniaux*__ : droits limités dans le temps liés à l’exploitation économique de l’œuvre ;
@@ -102,13 +103,29 @@ Pour un logiciel, sauf clauses contractuelles spécifiques, <b>seuls les droits 
 
     - Droit d'auteur : avant tout protection des _auteurs_
     - Copyright : avant tout protection des _œuvres_
-* Harmonisation par __convention de Berne__ (créé en 1886 avec sa dernière révision en 1979), ratifiée par 166 états
+* Harmonisation par __convention de Berne__ pour la protection des œuvres littéraires et artistiques (créé en 1886 avec sa dernière révision en 1979), ratifiée par 166 états
   * __Obtention gratuite et automatique__ du droit d'auteur 
   * Il faut demander explicitement une renonciation à son droit d'auteur
 
-<div class='admonition note'>La notice "Copyright ©" est encore largement utilisée à titre informatif uniquement (rappelle la protection juridique)</div>
     
 ---
+
+## La notice de Copyright
+
+* En entête de chaque fichier source + un fichier `COPYRIGHT` à la racine du projet.
+
+* Format: `[Copyright] © <année de publication>[,chaque année avec au moins une modication]-[année dernière modification] <auteurice>`
+
+ * Exemple complet : `Copyright © 2020,2022-2023 Isabelle Durand`
+
+* Avantages: 
+    * **Dissuasion** : Signale clairement aux tiers que l'œuvre est protégée par le droit d'auteur et que des permissions peuvent être nécessaires pour son utilisation.
+    * **Preuve** : En cas de litige, la notice peut servir de preuve que le titulaire avait l'intention de protéger ses droits d'auteur.
+    * **Informations sur le titulaire** : Elle fournit des informations utiles sur qui contacter pour obtenir des permissions ou des licences.
+    * **Etat de l'art** : Dans de nombreuses industries dont l'informatique, il est courant et/ou attendu de l'inclure même si ce n'est pas strictement nécessaire.
+
+---
+
 
 ## Les brevets 
 * Le droit d'auteur/copyright concerne _des œuvres_
@@ -178,7 +195,7 @@ Pour un logiciel, sauf clauses contractuelles spécifiques, <b>seuls les droits 
         </p>
     </div>
                                                                        
-    - Les programmes sont principalement écrits par des femmes
+    - Les programmes sont principalement écrits par des femmes : Ada Lovelace (écrit des programmes au début du 19ème), Joan Clarke (cryptanalyste sur Enigma),...
     - Le code source est libre d'être étudié ou modifié (mais inutilisable sans le matériel associé)
 * Milieu des années 1970 : 
     - Création du concept de logiciel propriétaire
