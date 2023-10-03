@@ -148,6 +148,8 @@ Pour un logiciel, sauf clauses contractuelles spécifiques, <b>seuls les droits 
 * Certaines licences permettent de renoncer à tout ce qui est permis par la loi du pays : licences WTFPLv2, Zero Clause BSD, CC0
 ---
 
+
+
 ## Les licences
 * Contrats entre un ou plusieurs auteurs (ou leurs ayant-droits) et des utilisateurs
 * L'auteur concède des droits contre rémunération ou à titre gracieux
@@ -539,6 +541,15 @@ pour : documents, musique, images, photos…
 * Les sites qui ne précisent pas de licence : le __copyright par défaut « All rights reserved »__ s'applique
     - Il est néanmoins possible de demander une __autorisation écrite à l'auteur__
     - Sinon, il faut __réécrire complètement le code__
+---
+
+## Le code généré par des IA génératives
+
+* Législation dépassée. A ce jour, le code généré par une IA comme ChatGPT n'est pas soumis à droit d'auteur même si le modèle a été entrainé sur du code soumis à droit d'auteur (GitHub).
+** [Confirmé](https://www.federalregister.gov/documents/2023/03/16/2023-05321/copyright-registration-guidance-works-containing-material-generated-by-artificial-intelligence) en mars 2023 aux USA.
+* Risques de contrefactions involontaires.
+* [Texte européen](https://www.europarl.europa.eu/news/fr/headlines/society/20230601STO93804/loi-sur-l-ia-de-l-ue-premiere-reglementation-de-l-intelligence-artificielle) à venir pour la fin de l'année 2023.
+* Ce que dit ChatGPT du code qu'il génère : "En général, le code généré par des modèles de langage comme GPT-4 d'OpenAI est considéré comme étant généré de manière algorithmique et ne bénéficie donc pas de protection par le droit d'auteur."
 ---
 
 ### Modèle économique du libre
