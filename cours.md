@@ -6,7 +6,7 @@ Cours de BUT 2021-2023
 
 ![Université de Nantes](resources/logo-univ.png)
 
-<small>[https://cours-licences.florat.net/](https://cours-licences.florat.net/)&nbsp;([version sur une page](./?print-pdf))&nbsp;/[sources](https://github.com/bflorat/cours-licences.github.io)</small>
+<small>[https://cours-licences.florat.net/](https://cours-licences.florat.net/) - [version sur une page](./?print-pdf)) - [sources](https://github.com/bflorat/cours-licences.github.io)</small>
 
 <div class='smaller'>Copyright © 2019-2023 <a href='http://www.florat.net/contact'>Bertrand Florat</a>. This work is licensed under a <br/><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</div>
 
@@ -24,7 +24,7 @@ dans ce cours. <br/>Ces opinions doivent être considérées comme propres à l�
 ---
 
 ## Motivations 
-* Puis-je réutiliser un bout de code trouvé sur StackOverflow ?
+* Puis-je réutiliser un bout de code trouvé sur StackOverflow ou généré par ChatGPT ?
 * Y-a-t’il une licence par défaut ?
 * Qu'est ce que le Copyright, dois-je le mentionner ?
 * A qui appartient le code que j’écris en entreprise ?
@@ -47,16 +47,18 @@ dans ce cours. <br/>Ces opinions doivent être considérées comme propres à l�
 * Ensemble des __droits d'un auteur sur ses œuvres de l'esprit et droits du public à en jouir sous conditions__
 * Domaine d'applicabilité : **toute œuvre de l'esprit** (excluant les objets) **fixée sous une forme tangible** (logiciel, tableau, film, morceau de musique, discours, spectacle vivant...). Aucun système ne protège les idées, mais plutôt leur expression.
 * Concept philosophique (John Locke, 17ème : l'homme étant propriétaire de lui-même, ses œuvres lui appartiennent)
-* Deux types de droits : 
-    - __*patrimoniaux*__ : droits limités dans le temps liés à l’exploitation économique de l’œuvre ;
-    - __*moraux*__ : droits inaliénables et perpétuels liés à la réputation.
 * Le plagiat est juridiquement nommé __*contrefaçon*__ en droit français. C'est le fait de faire passer pour sienne l'idée d'une autre personne
 * Les articles [L335-2-1, L335-3](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006279235/2009-06-14) du code de la propriété intellectuelle (__CPI__) interdisent de copier/utiliser le logiciel sans accord du titulaire des droits d'auteur
 * __Par défaut__ (aucune licence explicite), __seul l'auteur a des droits__ sur sa création (“All Rights Reserved”) et les autres __aucun__
 
 <div class='admonition warning'>
-Attention : ne jamais utiliser de code sans licence explicite
+Attention : ne jamais utiliser de code sans licence explicite !
 </div>
+
+---
+## Les deux types de droits
+- __*patrimoniaux*__ : droits limités dans le temps liés à l’exploitation économique de l’œuvre ;
+- __*moraux*__ : droits inaliénables et perpétuels liés à la réputation.
 
 ---
 ## Comment prouver la paternité d'un logiciel&nbsp;?
