@@ -6,7 +6,7 @@ Cours de BUT 2021-2023
 
 ![Université de Nantes](resources/logo-univ.png)
 
-<small>[https://cours-licences.florat.net/](https://cours-licences.florat.net/) - [version sur une page](./?print-pdf)) - [sources](https://github.com/bflorat/cours-licences.github.io)</small>
+<small>[https://cours-licences.florat.net/](https://cours-licences.florat.net/) - [version sur une page](./?print-pdf) - [sources](https://github.com/bflorat/cours-licences.github.io)</small>
 
 <div class='smaller'>Copyright © 2019-2023 <a href='http://www.florat.net/contact'>Bertrand Florat</a>. This work is licensed under a <br/><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</div>
 
