@@ -57,8 +57,8 @@ Attention : ne jamais utiliser de code sans licence explicite !
 
 ---
 ## Les deux types de droits
-- __*patrimoniaux*__ : droits limités dans le temps liés à l’exploitation économique de l’œuvre ;
-- __*moraux*__ : droits inaliénables et perpétuels liés à la réputation.
+- __*patrimoniaux*__ : droits limités dans le temps liés à l’exploitation économique de l’œuvre
+- __*moraux*__ : droits inaliénables et perpétuels liés à la réputation
 
 ---
 ## Comment prouver la paternité d'un logiciel&nbsp;?
@@ -73,11 +73,12 @@ Attention : ne jamais utiliser de code sans licence explicite !
 
 ---
 ## Les droits patrimoniaux du logiciel en France
-* Valables 70 ans après l’année de décès de l’auteur ou du dernier auteur si travail collaboratif (article L122-6 du CPI)
-  * Droits exercés par l'auteur puis à son décès par d'éventuels ayants-droits
 * Droit de __reproduction__ : dupliquer l’œuvre sur tout support qui en permet la communication au public
 * Droit de __modification__ : s'opposer à la traduction, adaptation ou toute autre modification du logiciel
 * Droit de __mise sur le marché__ : l'auteur peut vendre ou donner son œuvre à sa guise
+
+* Valables 70 ans après l’année de décès de l’auteur ou du dernier auteur si travail collaboratif (article L122-6 du CPI)
+  * Après le décès de l'auteur, droits exercés par d'éventuels ayants-droits
 
 <div class='admonition warning'>
 <b>Œuvre réalisée sous contrat de travail</b> : Les droits d'auteur patrimoniaux appartiennent à l'employeur (article L113-9 du CPI)
@@ -85,14 +86,14 @@ Attention : ne jamais utiliser de code sans licence explicite !
     
 ---
 
-## Les droits moraux du logiciels en France
+## Les droits moraux du logiciel en France
+* Droit __de paternité__ (même si les droits d'exploitations ont été cédés [affaire Framatome 1993])
+* Droit au __respect__ de l'œuvre : possible de s'opposer à toute modification préjudiciable à son honneur ou à sa réputation
+* Droit à la __divulgation__ (décider du moment et des conditions pour rendre l'œuvre publique)
+* Droit de __retrait ou repentir__ (stopper la divulgation à condition d'indemniser du préjudice)
+
 * Perpétuels (après la mort de l'auteur, revient aux ayants-droits)
 * Aménagés (à la baisse) pour les logiciels
-* Quatre attributs théoriques pour une œuvre :
-    * droit __de paternité__ (même si les droits d'exploitations ont été cédés [affaire Framatome 1993])
-    * droit au __respect__ de l'œuvre : possible de s'opposer à toute modification préjudiciable à son honneur ou à sa réputation
-    * droit à la __divulgation__ (décider du moment et des conditions pour rendre l'œuvre publique)
-    * droit de __retrait ou repentir__ (stopper la divulgation à condition d'indemniser du préjudice)
 
 <div class='admonition note'>
 Pour un logiciel, sauf clauses contractuelles spécifiques, <b>seuls les droits de respect / de paternité sont réellement applicables (jurisprudence).</b>
@@ -116,7 +117,7 @@ Pour un logiciel, sauf clauses contractuelles spécifiques, <b>seuls les droits 
 
 * En entête de chaque fichier source + un fichier `COPYRIGHT` à la racine du projet.
 
-* Format: `[Copyright] © <année de publication>[,chaque année avec au moins une modication]-[année dernière modification] <auteurice>`
+* Format: `[Copyright] © <année de publication>[,chaque année avec au moins une modification]-[année de la dernière modification] <auteurice>`
 
  * Exemple complet : `Copyright © 2020,2022-2023 Isabelle Durand`
 
@@ -156,29 +157,32 @@ Pour un logiciel, sauf clauses contractuelles spécifiques, <b>seuls les droits 
 * Contrats entre un ou plusieurs auteurs (ou leurs ayant-droits) et des utilisateurs
 * L'auteur concède des droits contre rémunération ou à titre gracieux
 * Exemple de droits : 
-    - exécuter le logiciel ;
-    - dupliquer le logiciel ;
-    - le modifier...
+  * exécuter le logiciel ;
+  * dupliquer le logiciel ;
+  * le modifier...
 
 ---
 
 ### Des risques importants en cas de non respect des licences
+* Des organismes comme la Business Software Alliance (BSA) poursuivent activement les contrevenants en justice
+* Piratage de logiciels : le CPI prévoit jusqu'à 300.000&nbsp;€ d'amende et 3&nbsp;ans d’emprisonnement pour les personnes physiques et 750.000&nbsp;€ d'amende pour les personnes morales
 * 2008 : Microsoft gagne 1.8&nbsp;M€ contre un réseau de contrefaçon (cour d'appel de Paris)
 * 2009 : 8000&nbsp;€ de frais de justice pour Edu4 et perte du contrat pour avoir fait passé VLC (logiciel libre) comme un développement interne
 * 2014 : Oracle demande 12 M€ à l'AFPA pour utilisation non prévue d'un de ses logiciels (mais Oracle a été débouté)
 * 2017 : TGI de Bayonne : cinq pirates condamnés à 4.6 M€ + 12-18 mois avec sursis pour piratage à grande echelle de Windows XP.
 * 2019-2021 : Procès de la Société Entr’ouvert contre Orange qui a utilisé sa librairie pour un projet DGME sans respecter sa licence (GPL V2). Perdu par Entr'ouvert en [2019](https://www.legalis.net/jurisprudences/tgi-de-paris-3eme-ch-3eme-section-jugement-du-21-juin-2019/) mais gagné en appel en [mars 2021](https://www.legalis.net/jurisprudences/cour-dappel-de-paris-pole-5-ch-2-arret-du-19-mars-2021/) (160K€ de dédommagement).
-* Piratage de logiciels : le CPI prévoit jusqu'à 300.000&nbsp;€ d'amende et 3&nbsp;ans d’emprisonnement pour les personnes physiques et 750.000&nbsp;€ d'amende pour les personnes morales
+
 ---
 
 ## Les licences propriétaires
 * Synonymes: "non libre", "privatif/privateur", "Closed Source"
-* Licence définie par un CLUF
-* L'objectif est de __contrôler la diffusion d'un logiciel__ pour en tirer un bénéfice
+* Licence définie par un **CLUF**, un accord légal entre l'éditeur et le client. 
+* Contient principalement : les **droits d'utilisation**, les **restrictions**, le **dégagement de responsabilité**, les **garanties**, la **résiliation**, et la **protection des données personelles**)
+* L'objectif est de __contrôler la diffusion d'un logiciel__ pour en tirer un bénéfice financier
 * Le code source n'est pas disponible (sauf exceptions contractuelles)
-* __Location temporaire ou perpétuelle de droits d'usage__ contractualisée par un CLUF
-  * Il s'agit de location et non achat comme souvent dit par abus de language
-* Un logiciel peut être vendu à une autre société (transfert du droit d'auteur patrimonial)
+* __Location temporaire ou perpétuelle de droits d'usage__ 
+  * Il s'agit de **location** et non d'achat (abus de language)
+* Un logiciel peut néanmoins être vendu à une autre société (transfert du droit d'auteur patrimonial)
     - Exemple : HP vend en 2016 son offre logicielle à Microfocus pour 8,8&nbsp;milliards de dollars US
 
 <div class='admonition note'>
@@ -199,7 +203,7 @@ Pour un logiciel, sauf clauses contractuelles spécifiques, <b>seuls les droits 
         </p>
     </div>
                                                                        
-    - Les programmes sont principalement écrits par des femmes : Ada Lovelace (écrit des programmes au début du 19ème), Joan Clarke (cryptanalyste sur Enigma),...
+    - Les programmes sont principalement écrits par des femmes : Ada Lovelace (écrit des programmes au début du 19ème), Joan Clarke (cryptanalyste sur Enigma),Grace Hooper (premier compilateur, COBOL)...
     - Le code source est libre d'être étudié ou modifié (mais inutilisable sans le matériel associé)
 * Milieu des années 1970 : 
     - Création du concept de logiciel propriétaire
@@ -391,7 +395,7 @@ Afin d’assurer ces libertés, les logiciels Open Source se basent sur&nbsp;:
     - simplification des compatibilités avec les autres licences
 
 <div class='admonition note'>
-Très utilisée. Exemples : <b>Linux, Git, Ansible, Drupal, Wordpress, Notepadd++, MariaDB, GCC</b>
+Très utilisée. Exemples : <b>Linux (GPL V2), Git, Ansible, Drupal, Wordpress, Notepadd++, MariaDB, GCC</b>
 </div>
 
 ---
@@ -457,7 +461,7 @@ Les administrations peuvent utiliser d'autres licences, liste autorisée <a href
 * Excellente compatibilité entre les licences permissives et lors d'utilisation par un logiciel en licence copyleft ou un logiciel propriétaire
 
 <div class='admonition note'>
-Attention : ce n'est pas du domaine public !)</div>
+Attention : ce n'est pas du domaine public !</div>
 
 
 ---
@@ -481,7 +485,7 @@ Attention : ce n'est pas du domaine public !)</div>
 
 <img style="float:right;padding: 20px;" src="resources/quick-guide-gplv3-compatibility.png"></a>
 <p class='smaller'><i>Une flèche de A vers B indique que A est compatible avec B. La relation est transitive, donc par exemple la licence ISC est compatible avec la GPL v3.</i></p>
-<div class='admonition warning'><p class="title">Attention : pas de bijection</p>
+<div class='admonition warning'><p class="title">Attention : pas commutatif ! </p>
 Licence A compatible avec B n'implique pas B compatible avec A</div>
 ---
 
@@ -547,8 +551,8 @@ pour : documents, musique, images, photos…
 
 ## Le code généré par des IA génératives
 
-* Législation dépassée. A ce jour, le code généré par une IA comme ChatGPT n'est pas soumis à droit d'auteur même si le modèle a été entrainé sur du code soumis à droit d'auteur (GitHub).
-** [Confirmé](https://www.federalregister.gov/documents/2023/03/16/2023-05321/copyright-registration-guidance-works-containing-material-generated-by-artificial-intelligence) en mars 2023 aux USA.
+* Législation dépassée. A ce jour, le code généré par une IA comme ChatGPT n'est pas soumis à droit d'auteur même si le modèle a été entrainé sur du code soumis à droit d'auteur (au moins GitHub).
+  * [Confirmé](https://www.federalregister.gov/documents/2023/03/16/2023-05321/copyright-registration-guidance-works-containing-material-generated-by-artificial-intelligence) par un juge en mars 2023 aux USA.
 * Risques de contrefactions involontaires.
 * [Texte européen](https://www.europarl.europa.eu/news/fr/headlines/society/20230601STO93804/loi-sur-l-ia-de-l-ue-premiere-reglementation-de-l-intelligence-artificielle) à venir pour la fin de l'année 2023.
 * Ce que dit ChatGPT du code qu'il génère : "En général, le code généré par des modèles de langage comme GPT-4 d'OpenAI est considéré comme étant généré de manière algorithmique et ne bénéficie donc pas de protection par le droit d'auteur."
@@ -583,7 +587,7 @@ Le marché mondial de l'Open Source atteint environ <b>57&nbsp;Mrds de $ en 2020
 * Solution gratuite mais __support exorbitant ou contraignant__
 * Penser que nos __Merge Requests__ seront toujours prises en compte
 * __Risques juridiques__ si non respect des licences
-* Risques de __changement de licence__ (exemple: MongoDB en 2018)
+* Risques de __changement de licence__ (exemple: MongoDB en 2018 -> SSPL)
 ---
 
 ## Synthèse
@@ -621,6 +625,7 @@ Voir aussi [la liste officielle sur gnu.org](https://www.gnu.org/licenses/licens
 
 * Cours "Les licences logicielles" IUT de Nantes par Damien Raude-Morvan
 * Liste SPDX de toutes les licences : https://spdx.org/licenses/
+* https://www.europarl.europa.eu/news/fr/headlines/society/20230601STO93804/loi-sur-l-ia-de-l-ue-premiere-reglementation-de-l-intelligence-artificielle
 * https://www.usine-digitale.fr/article/audit-de-licences-logicielles-la-bataille-continue.N381077
 * https://www.cncpi.fr/ba-ba/FAQ_questions_reponses/Comment_peut-on_proteger_un_logiciel/
 * https://www.legalstart.fr/fiches-pratiques/proteger-une-creation/protection-logiciel/
