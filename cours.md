@@ -266,6 +266,7 @@ Pour un logiciel, sauf clauses contractuelles spécifiques, <b>seuls les droits 
 * Rapidement très technique et complexe : 
     - Quid des machines virtuelles ?
     - Quid des containers ?
+    - Quid des environnements mouvants ? (ex: auto-scalling Kubernetes / équilibrage de VM comme Live Migration d'OpenStack ou VMotion de VMWare ESXi)
     - Quid des environnements hors production ?
 
 * Donc besoin d'experts (métier de **Compliance Manager**) pour limiter les risques juridiques.
