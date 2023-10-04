@@ -129,6 +129,7 @@ Pour un logiciel, sauf clauses contractuelles spécifiques, <b>seuls les droits 
 
 ## La notice de Copyright
 
+* **Uniquement indicative** juridiquement.
 * En entête de chaque fichier source + un fichier `COPYRIGHT` à la racine du projet.
 
 * Format: `[Copyright] © <année de publication>[,chaque année avec au moins une modification]-[année de la dernière modification] <auteurice>`
@@ -142,7 +143,6 @@ Pour un logiciel, sauf clauses contractuelles spécifiques, <b>seuls les droits 
     * **Etat de l'art** : Dans de nombreuses industries dont l'informatique, il est courant et/ou attendu de l'inclure même si ce n'est pas strictement nécessaire.
 
 ---
-
 
 ## Les brevets 
 * Le droit d'auteur/copyright concerne **des œuvres**.
@@ -231,7 +231,7 @@ Pour un logiciel, sauf clauses contractuelles spécifiques, <b>seuls les droits 
         </p>
     </div>
                                                                        
-    - Les programmes sont principalement écrits par des femmes : Ada Lovelace (écrit des programmes au début du 19ème), Joan Clarke (cryptanalyste sur Enigma),Grace Hooper (premier compilateur, COBOL)...
+    - Les programmes sont principalement écrits par des femmes : Ada Lovelace (écrit des programmes au début du 19ème), Joan Clarke (cryptanalyste sur Enigma), Grace Hooper (premier compilateur, COBOL)...
     - Le code source est libre d'être étudié ou modifié (mais inutilisable sans le matériel associé).
 * Milieu des années 1970 : 
     - Création du concept de logiciel propriétaire
