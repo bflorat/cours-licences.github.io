@@ -47,7 +47,7 @@ dans ce cours. <br/>Ces opinions doivent être considérées comme propres à l�
 * Ensemble des **droits d'un.e auteurice sur ses œuvres de l'esprit et droits du public à en jouir sous conditions**.
 * Domaine d'applicabilité : **toute œuvre de l'esprit** (excluant les objets) **fixée sous une forme tangible** (logiciel, photographie, tableau, film, morceau de musique, discours, spectacle vivant...). 
 * Concept philosophique (John Locke, 17ème : l'homme étant propriétaire de lui-même, ses œuvres lui appartiennent).
-* Le plagiat est juridiquement nommé ***contrefaçon*** en droit français. C'est le fait de faire passer pour sienne l'idée d'une autre personne.
+* Le plagiat est juridiquement nommé ***contrefaçon*** en droit français. C'est le fait de faire passer pour sienne l'œuvre d'une autre personne.
 * Les articles [L335-2-1, L335-3](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006279235/2009-06-14) du code de la propriété intellectuelle (**CPI**) interdisent de copier/utiliser le logiciel sans accord du titulaire des droits d'auteur.
 * **Par défaut** (aucune licence explicite), **seul l'auteur a des droits** sur sa création (“All Rights Reserved”) et les autres **aucun**.
 
