@@ -144,6 +144,60 @@ Pour un logiciel, sauf clauses contractuelles spécifiques, <b>seuls les droits 
 
 ---
 
+## Exemple d'entête complète du noyau Linux
+
+Extrait du [fichier header de ext4](https://github.com/torvalds/linux/blob/master/fs/ext4/ext4.h) du noyau Linux :
+
+```
+// SPDX-License-Identifier: GPL-2.0
+/*
+ *  ext4.h
+ *
+ * Copyright (C) 1992, 1993, 1994, 1995
+ * Remy Card (card@masi.ibp.fr)
+ * Laboratoire MASI - Institut Blaise Pascal
+ * Universite Pierre et Marie Curie (Paris VI)
+ *
+ *  from
+ *
+ *  linux/include/linux/minix_fs.h
+ *
+ *  Copyright (C) 1991, 1992  Linus Torvalds
+ */
+
+#ifndef _EXT4_H
+#define _EXT4_H
+[...]
+```
+
+---
+## Extrait de Tomcat
+
+Voir [ici](https://github.com/apache/tomcat/blob/main/java/org/apache/catalina/manager/LocalStrings.properties).
+
+```
+# Licensed to the Apache Software Foundation (ASF) under one or more
+# contributor license agreements.  See the NOTICE file distributed with
+# this work for additional information regarding copyright ownership.
+# The ASF licenses this file to You under the Apache License, Version 2.0
+# (the "License"); you may not use this file except in compliance with
+# the License.  You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+htmlManagerServlet.appsAvailable=Running
+htmlManagerServlet.appsExpire=Expire sessions
+[...]
+```
+
+---
+
 ## Les brevets 
 * Le droit d'auteur/copyright concerne **des œuvres**.
 * Les brevets concernent **des inventions**.
