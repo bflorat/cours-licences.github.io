@@ -2,13 +2,13 @@
 
 IUT de Nantes – Département Informatique
 
-Cours de BUT 2021-2023
+Cours de BUT 2022-2023
 
 ![Université de Nantes](resources/logo-univ.png)
 
 <small>[https://cours-licences.florat.net/](https://cours-licences.florat.net/) - [version sur une page](./?print-pdf) - [sources](https://github.com/bflorat/cours-licences.github.io)</small>
 
-<div class='smaller'>Copyright © 2019-2023 <a href='http://www.florat.net/contact'>Bertrand Florat</a>. This work is licensed under a <br/><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</div>
+<div class='smaller'>Copyright © 2019-2023 <a href='http://www.florat.net/contact'>Bertrand Florat</a>, publié en license <br/><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</div>
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; padding-right: 20px; vertical-align:middle" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
 
@@ -87,8 +87,8 @@ a) Les analyses et courtes citations justifiées par le caractère critique, pol
 
 ---
 ## Les droits patrimoniaux du logiciel en France
-* Droit de **reproduction** : dupliquer l’œuvre sur tout support qui en permet la communication au public.
-* Droit de **modification** : s'opposer à la traduction, adaptation ou toute autre modification du logiciel.
+* Droit de **reproduction** : l'auteur peut dupliquer l’œuvre sur tout support qui en permet la communication au public.
+* Droit de **modification** : l'auteur peut modifier son logiciel et s'opposer à sa traduction, adaptation ou toute autre modification.
 * Droit de **mise sur le marché** : l'auteur peut vendre ou donner son œuvre à sa guise.
 
 * Valables 70 ans après l’année de décès de l’auteur ou du dernier auteur si travail collaboratif (article L122-6 du CPI).
@@ -106,11 +106,12 @@ a) Les analyses et courtes citations justifiées par le caractère critique, pol
 * Droit à la **divulgation** (décider du moment et des conditions pour rendre l'œuvre publique).
 * Droit de **retrait ou repentir** (stopper la divulgation à condition d'indemniser du préjudice).
 
+Ils sont :
 * Perpétuels (après la mort de l'auteur, revient aux ayants-droits).
 * Aménagés (à la baisse) pour les logiciels.
 
 <div class='admonition note'>
-Pour un logiciel, sauf clauses contractuelles spécifiques, <b>seuls les droits de respect / de paternité sont réellement applicables (jurisprudence).</b>
+Pour un logiciel, sauf clauses contractuelles spécifiques, <b>seuls les droits de respect / de paternité sont réellement applicables (jurisprudence). Dans les faits, les autres droits moraux sont en général inapplicables ou limités par contrat.</b>
 </div>
     
 ---
@@ -120,7 +121,7 @@ Pour un logiciel, sauf clauses contractuelles spécifiques, <b>seuls les droits 
 
     - Droit d'auteur : avant tout protection des _auteurs_.
     - Copyright : avant tout protection des _œuvres_.
-* Harmonisation par **convention de Berne** pour la protection des œuvres littéraires et artistiques (créé en 1886 avec sa dernière révision en 1979), ratifiée par 166 états.
+* Harmonisation par **convention de Berne** pour la protection des œuvres littéraires et artistiques (1886, dernière révision en 1979), ratifiée par 166 états.
   * **Obtention gratuite et automatique** du droit d'auteur.
   * Il faut demander explicitement une renonciation à son droit d'auteur.
 
