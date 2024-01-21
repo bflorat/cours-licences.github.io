@@ -266,7 +266,7 @@ htmlManagerServlet.appsExpire=Expire sessions
   * les **restrictions**, 
   * le **dégagement de responsabilité**
   * les **garanties**, la **résiliation**
-  * la **protection des données personelles**).
+  * la **protection des données personnelles**).
 
 <div class='admonition note'>
     <b>CLUF : </b>Contrat de Licence Utilisateur Final.<br/>
@@ -343,7 +343,7 @@ htmlManagerServlet.appsExpire=Expire sessions
 
 * Exemple: cas AGD ;
 * prévoir _contrat d’escrow_ (sources déposées chez tiers de confiance) ;
-* pire si plateforme de développement (PaaS et FaaS) comme Google App Engine, Heroku, Azure App Service... : les applications sont inexploitables ;
+* pire si plateforme de développement (PaaS et FaaS) comme Google App Engine, Heroku, Azure App Service... : les applications sont à réécrire ;
 - SaaS : prévoir contractuellement des solutions de réversibilité ;
 
 ---
@@ -450,11 +450,11 @@ Afin d’assurer ces libertés, les logiciels Open Source se basent sur&nbsp;:
 ---
 
 ### Limites à l'applicabilité du Copyleft
-* Ne s'applique que si le logiciel est distribué ( _«&nbsp;Quand une organisation transfère des copies à d'autres organisations ou à des particuliers, c'est une distribution&nbsp;»_ ([voir cette FAQ](https://www.gnu.org/licenses/gpl-faq.fr.html#InternalDistribution)) ;
+* Ne s'applique que si le logiciel est distribué _«&nbsp;Quand une organisation transfère des copies à d'autres organisations ou à des particuliers, c'est une distribution&nbsp;»_ ([voir cette FAQ](https://www.gnu.org/licenses/gpl-faq.fr.html#InternalDistribution)) ;
 * Il est donc possible (**bien que déconseillé**) de modifier du code GPL **en interne** sans redistribuer les modifications ;
 
 <div class='admonition note'>
-<p>Dans les faits, difficilement applicable car le logiciel d'origine évolue et il faut merger ses modifications si on veut profiter de ses évolutions.</p>
+<p>Dans les faits, difficilement applicable car le logiciel d'origine évolue et il faut fusionner nos modifications pour suivre les évolutions du logiciel original.</p>
 </div>
 
 * Il est aussi possible (**bien que fortement déconseillé**) d'intégrer du code GPL dans un logiciel **interne** de licence incompatible (propriétaire par exemple) à condition de ne pas distribuer ce logiciel.
@@ -584,7 +584,7 @@ Licence A compatible avec B n'implique pas B compatible avec A.</div>
 * En général utilisé par des **sociétés**, pas des communautés
 * Objectifs : 
     - S’**assurer un revenu** en vendant un logiciel en mode propriétaire tout en le faisant évoluer via la communauté (exemples : Mono, MySQL, QT).
-    - Résoudre des incompatibilités de licence lors d’une fusion.
+    - Résoudre des incompatibilités de licence lors d’une fusion d'organisations.
     - **Segmentation de marché** (version Community / Enterprise...).
 * Risqué car **brouille la visibilité** du projet et peut décourager les contributeurs ou conduire à un fork (MariaDB, LibreOffice, NextCloud...).
 ---
@@ -642,7 +642,7 @@ pour : documents, musique, images, photos…
 * Législation dépassée. A ce jour, le code généré par une IA comme ChatGPT n'est pas soumis à droit d'auteur même si le modèle a été entrainé sur du code soumis à droit d'auteur (au moins GitHub).
   * [Confirmé](https://www.federalregister.gov/documents/2023/03/16/2023-05321/copyright-registration-guidance-works-containing-material-generated-by-artificial-intelligence) par un juge en mars 2023 aux USA.
 * Risques de contrefactions involontaires.
-* [Texte européen](https://www.europarl.europa.eu/news/fr/headlines/society/20230601STO93804/loi-sur-l-ia-de-l-ue-premiere-reglementation-de-l-intelligence-artificielle) à venir pour la fin de l'année 2023.
+* L'AI Act a été validé le 8 décembre 2023, devrait être au journal officiel au primptemps 2024 [1](https://www.credo.ai/blog/eu-ai-act-political-agreement-what-you-need-to-know-for-2024). Devrait imposer le respect du doit d'auteur par les IA et de rendre public les sources d'entrainement. 
 * Ce que dit ChatGPT du code qu'il génère : "En général, le code généré par des modèles de langage comme GPT-4 d'OpenAI est considéré comme étant généré de manière algorithmique et ne bénéficie donc pas de protection par le droit d'auteur."
 ---
 
