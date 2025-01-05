@@ -2,17 +2,17 @@
 
 IUT de Nantes – Département Informatique
 
-Cours de BUT 2022-2023
+Cours de BUT 2024-2025
 
 ![Université de Nantes](resources/logo-univ.png)
 
 <small>[https://cours-licences.florat.net/](https://cours-licences.florat.net/) - [version sur une page](./?print-pdf) - [sources](https://github.com/bflorat/cours-licences.github.io)</small>
 
-<div class='smaller'>Copyright © 2019-2023 <a href='http://www.florat.net/contact'>Bertrand Florat</a>, publié en license <br/><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</div>
+<div class='smaller'>Copyright © 2019-2025 <a href='http://www.florat.net/contact'>Bertrand Florat</a>, publié en license <br/><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</div>
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; padding-right: 20px; vertical-align:middle" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
 
-<small><i>L'université de Nantes n’entend donner aucune approbation ni improbation aux opinions émises
+<small><i>L'Université de Nantes n’entend donner aucune approbation ni improbation aux opinions émises
 dans ce cours. <br/>Ces opinions doivent être considérées comme propres à l’auteur.</i></small>
 
 ---
@@ -24,7 +24,7 @@ dans ce cours. <br/>Ces opinions doivent être considérées comme propres à l�
 ---
 
 ## Motivations 
-* Puis-je réutiliser un bout de code trouvé sur StackOverflow ou généré par ChatGPT ?
+* Puis-je réutiliser un bout de code trouvé sur StackOverflow, GitHub ou généré par ChatGPT ?
 * Y-a-t’il une licence par défaut ?
 * Qu'est ce que le Copyright, dois-je le mentionner ?
 * A qui appartient le code que j’écris en entreprise ?
@@ -44,12 +44,12 @@ dans ce cours. <br/>Ces opinions doivent être considérées comme propres à l�
 ---
 
 ### Le droit d'auteur
-* Ensemble des **droits d'un.e auteurice sur ses œuvres de l'esprit et droits du public à en jouir sous conditions**.
+* Ensemble des **droits d'un.e auteurice sur ses œuvres originales de l'esprit**.
 * Domaine d'applicabilité : **toute œuvre de l'esprit** (excluant les objets) **fixée sous une forme tangible** (logiciel, photographie, tableau, film, morceau de musique, discours, spectacle vivant...). 
-* Concept philosophique (John Locke, 17ème : l'homme étant propriétaire de lui-même, ses œuvres lui appartiennent).
+* Traité de l’Organisation mondiale de la propriété intellectuelle sur le droit d’auteur (1996) : droit d'auteur/copyright pour les programmes d'ordinateur et des bases de données.
 * Le plagiat est juridiquement nommé ***contrefaçon*** en droit français. C'est le fait de faire passer pour sienne l'œuvre d'une autre personne.
 * Les articles [L335-2-1, L335-3](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006279235/2009-06-14) du code de la propriété intellectuelle (**CPI**) interdisent de copier/utiliser le logiciel sans accord du titulaire des droits d'auteur.
-* **Par défaut** (aucune licence explicite), **seul l'auteur a des droits** sur sa création (“All Rights Reserved”) et les autres **aucun**.
+* **Par défaut** (aucune licence explicite), **seul l'auteur a des droits** sur sa création (“L’auteur se réserve tous les droits“ / “All Rights Reserved”) et les autres **aucun**.
 
 <div class='admonition warning'>
 Attention : ne jamais utiliser de code sans licence explicite !
@@ -60,7 +60,7 @@ Attention : ne jamais utiliser de code sans licence explicite !
 ### Les exceptions au droit d'auteur
 
 * **Ne concerne pas les idées**, mais plutôt leur expression.
-* **Droit de citation** (CPI Art. L. 122-5) ou l'utilisation équitable (fair use) dans certains pays, permettant l'utilisation limitée d'œuvres protégées sans la permission de l'auteur dans un contexte de critique, de commentaire, d'information des actualités, d'enseignement, etc. 
+* **Droit de citation** (CPI Art. L. 122-5) ou l'utilisation équitable (_fair use_) dans certains pays, permettant l'utilisation limitée d'œuvres protégées sans la permission de l'auteur dans un contexte de critique, de commentaire, d'information des actualités, d'enseignement, etc. 
 
 ```
 Art. L. 122-5. [...] Lorsque l'œuvre a été divulguée, l'auteur ne peut interdire :
@@ -92,7 +92,7 @@ a) Les analyses et courtes citations justifiées par le caractère critique, pol
 * Droit de **mise sur le marché** : l'auteur peut vendre ou donner son œuvre à sa guise.
 
 * Valables 70 ans après l’année de décès de l’auteur ou du dernier auteur si travail collaboratif (article L122-6 du CPI).
-  * Après le décès de l'auteur, droits exercés par d'éventuels ayants-droits.
+  * Après le décès de l'auteur, droits exercés par d'éventuels ayants-droits (famille, bénéficiaire testamentaire ou l'Etat par défaut).
 
 <div class='admonition warning'>
 <b>Œuvre réalisée sous contrat de travail</b> : Les droits d'auteur patrimoniaux appartiennent à l'employeur (article L113-9 du CPI).
@@ -104,33 +104,31 @@ a) Les analyses et courtes citations justifiées par le caractère critique, pol
 * Droit **de paternité** (même si les droits d'exploitations ont été cédés [affaire Framatome 1993]).
 * Droit au **respect** de l'œuvre : possible de s'opposer à toute modification préjudiciable à son honneur ou à sa réputation.
 * Droit à la **divulgation** (décider du moment et des conditions pour rendre l'œuvre publique).
-* Droit de **retrait ou repentir** (stopper la divulgation à condition d'indemniser du préjudice).
+* Droit de **retrait ou repentir** (stopper la divulgation à condition d'indemniser du préjudice). Pas applicable pour les logiciels [L121-7].
 
 Ils sont :
 * Perpétuels (après la mort de l'auteur, revient aux ayants-droits).
 * Aménagés (à la baisse) pour les logiciels.
 
 <div class='admonition note'>
-Pour un logiciel, sauf clauses contractuelles spécifiques, <b>seuls les droits de respect / de paternité sont réellement applicables (jurisprudence). Dans les faits, les autres droits moraux sont en général inapplicables ou limités par contrat.</b>
+Pour un logiciel, sauf clauses contractuelles spécifiques, <b>seul le droits de paternité est réellement applicable.</b>
 </div>
     
 ---
 
 ## Le Copyright
-* Le droit d'auteur est appliqué dans les pays Européens (hors UK et Irlande) et le Copyright dans les pays anglo-saxons (USA, Canada, ...). <img style="float: right;padding:20px;" src="resources/copyright.webp">
-
+* Le droit d'auteur est appliqué dans la plupart des pays Européens non anglo-saxon (civil law) et le Copyright dans les pays anglo-saxons (common law). <img style="float: right;padding:20px;" src="resources/copyright.webp">
     - Droit d'auteur : avant tout protection des _auteurs_.
     - Copyright : avant tout protection des _œuvres_.
-* Harmonisation par **convention de Berne** pour la protection des œuvres littéraires et artistiques (1886, dernière révision en 1979), ratifiée par 166 états.
+* Harmonisation par **convention de Berne** pour la protection des œuvres littéraires et artistiques (1886, dernière révision en 1979), ratifiée par 181 états en 2025.
   * **Obtention gratuite et automatique** du droit d'auteur.
-  * Il faut demander explicitement une renonciation à son droit d'auteur.
-
     
 ---
 
-## La notice de Copyright
+## La notice ©
 
-* **Uniquement indicative** juridiquement.
+* **Uniquement indicative** juridiquement (mais fortement conseillée).
+* Depuis Convention universelle sur le droit d’auteur en 1952: signale un droit exclusif sur l'oeuvre : un droit d'auteur ou un copyright selon le pays.
 * En entête de chaque fichier source + un fichier `COPYRIGHT` à la racine du projet.
 
 * Format: `[Copyright] © <année de publication>[,chaque année avec au moins une modification]-[année de la dernière modification] <auteurice>`
@@ -201,7 +199,7 @@ htmlManagerServlet.appsExpire=Expire sessions
 
 ## Les brevets 
 * Le droit d'auteur/copyright concerne **des œuvres**.
-* Les brevets concernent **des inventions**.
+* Les brevets concernent **des inventions** (idées/concepts innovants).
 * Le brevet est une propriété industrielle : donne le droit exclusif d'exploiter une invention pendant 20 ans en général
 * Le propriétaire peut **exploiter** l'invention pour lui-même, de **conséder des licences** moyenant royalties ou de **vendre** le brevet.
 * En France, les logiciels ne sont pas brevetables (L 611-10 du CPI, loi du 2 janvier 1968), pas de caractère industriel.
@@ -221,15 +219,18 @@ htmlManagerServlet.appsExpire=Expire sessions
 * Certaines licences permettent de renoncer à tout ce qui est permis par la loi du pays : licences WTFPLv2, Zero Clause BSD, CC0.
 ---
 
-
-
 ## Les licences
 * Contrats entre un ou plusieurs auteurs (ou leurs ayant-droits) et des utilisateurs.
+* L'utilisation du logiciel implique l'adhésion à ce contrat.
 * L'auteur concède des droits contre rémunération ou à titre gracieux.
 * Exemple de droits : 
   * exécuter le logiciel ;
   * dupliquer le logiciel ;
   * le modifier...
+
+<div class='admonition important'>
+    Il n'y a pas transfert ou cession de droits de propriété intellectuelle mais simple mise à disposition des droits.
+</div>
 
 ---
 
@@ -244,29 +245,28 @@ htmlManagerServlet.appsExpire=Expire sessions
 
 ---
 
-## Les licences propriétaires
+## Les logiciels propriétaires
 * Synonymes: "non libre", "privatif/privateur", "Closed Source".
-* Licence définie par un **CLUF**, un accord légal entre l'éditeur et le client. 
-* L'objectif est de **contrôler la diffusion d'un logiciel** pour en tirer un bénéfice financier.
+* Licence définie par un **CLUF**, un accord légal entre l'éditeur et l'utilisateur final. 
+* L'objectif de l'éditeur est de **contrôler la diffusion du logiciel** pour en tirer un bénéfice financier.
 * Le code source n'est pas disponible (sauf exceptions contractuelles).
-* **Location temporaire ou perpétuelle de droits d'usage**: 
-  * Il s'agit de **location** et non d'achat (abus de language).
-* Un logiciel peut néanmoins être vendu à une autre société (transfert du droit d'auteur patrimonial)
-    - Exemple : HP vend en 2016 son offre logicielle à Microfocus pour 8,8&nbsp;milliards de dollars US.
-
     
 ---
 
 ## Les CLUF
 
-* Accord légal entre un éditeur et un client. 
+* Type de licence mais orientée uniquement vers les utilisateurs finaux. 
+* **Location temporaire ou perpétuelle de droits d'usage**: 
+  * Il s'agit de **location** et non d'achat (abus de language).
+* Un logiciel peut néanmoins être vendu à une autre société (transfert du droit d'auteur patrimonial)
+    - Exemple : HP vend en 2016 son offre logicielle à Microfocus pour 8,8&nbsp;milliards de dollars US.
 
 * Contient principalement : 
   * les **droits d'utilisation**,
   * les **restrictions**, 
   * le **dégagement de responsabilité**
   * les **garanties**, la **résiliation**
-  * la **protection des données personnelles**).
+  * la **protection des données personnelles** (prise en compte RGPD).
 
 <div class='admonition note'>
     <b>CLUF : </b>Contrat de Licence Utilisateur Final.<br/>
@@ -303,7 +303,7 @@ htmlManagerServlet.appsExpire=Expire sessions
 <div class='admonition warning'><p class="title">Attention, freeware != logiciel libre (ici "free" signifie "gratuit")</div>
      
 * Les grands logiciels/progiciels proposent souvent plusieurs gammes du logiciel dont le prix croit avec les fonctionnalités :
-    - Quelque fois la version de base gratuite (Freemium).
+    - Quelque fois la version de base gratuite (Freemium). Exemple de Zoom: réunions gratuites jusqu'à 40 minutes / maximum 100 participants.
     - Puis versions « Silver », « Gold Elite », « Platinium » ou similaires.
 * Ordre de grandeur : 
     - Base Oracle Enterprise : [$47K /CPU](https://www.oracle.com/assets/technology-price-list-070617.pdf) minimum  + environ 20% de support par an.
@@ -509,9 +509,11 @@ Exemples : <b>BerkeleyDB, Ghostscript, iText, Mattermost, MongoDB jusqu'en 2018,
 ### Zoom sur la licence CeCILL
 * Écrite par le CEA CNRS INRIA Logiciel Libre.
 * Licence issue de la Recherche française, adaptation de la GPL au droit français.
+* Redigée en français (respect de la loi Toubon)
 * Licence en français et en anglais, pouvant être utilisée partout dans le monde. En cas de litige, le droit français s’applique.
 * V1 en 2004, V2 en mai 2005, CeCILL-B et CeCILL-C en 2006
-* Complètement compatible GPL (donc copyleftée).
+* Complètement compatible GPL V3 (donc copyleftée).
+* A utiliser si besoin d'une comptibilité maximale avec le droit français.
 * Il est possible de redistribuer du code CeCILL en GPL.
 <div class='admonition note'>
 Exemples : <b>Scilab, VLDocking Framework.</b>
@@ -544,7 +546,7 @@ Les administrations peuvent utiliser d'autres licences, liste autorisée <a href
 * Dites aussi _lax_ ou _liberal_.
 * Les plus courantes : **BSD**, **MIT**, **Apache**.
 * Pas de copyleft.
-* Clauses de publicité des auteurs (attribution).
+* Clauses de paternité des auteurs (attribution).
 * Clause de conservation des notices de licences.
 * Excellente compatibilité entre les licences permissives et lors d'utilisation par un logiciel en licence copyleft ou un logiciel propriétaire.
 
@@ -560,7 +562,8 @@ Attention : ce n'est pas du domaine public !</div>
     - Les auteurs ont le droit de **changer la licence** des futures versions ou d’utiliser plusieurs licences pour toute version ancienne ou future leur appartenant.
     - L’auteur a le droit (il est même encouragé) de tirer **profit** pécuniairement de sa création, sans limite supérieure du prix.
 * Devoirs
-    - Les auteurs doivent **fournir le code source** gratuitement ou contre rémunération (limitée au prix de la copie binaire).
+    - Les auteurs sont tenus de **fournir le code source** gratuitement.
+    - En revanche, ils peuvent vendre les binaires (ex: RHEL) ou des prestations de services associés.
     - **Responsabilité limitée** : les licences libres possèdent toutes des clauses de dégagement de responsabilité (tout comme la quasi-totalité des logiciels propriétaires).
 ---
 
@@ -631,7 +634,7 @@ pour : documents, musique, images, photos…
 ## Le code trouvé sur Internet
 * **StackOverflow** : Tout le code est en licence documentaire **[CC BY-SA](https://stackoverflow.com/help/licensing)** (version de 2.5 à 4.0 suivant la date des posts)
     - La CC BY-SA 4.0 est <a href='https://creativecommons.org/2015/10/08/cc-by-sa-4-0-now-one-way-compatible-with-gplv3/'>comptatible avec la GPL V3</a> même si son utilisation pour du code est déconseillé par la FSF (pour éviter de multiplier le nombre de licences).
-    - Devant un tribunal, possible de plaider le «&nbsp;Fair trade&nbsp;» (code trivial si quelques lignes) mais jurisprudence au cas par cas...
+    - Si quelques lignes triviales, possible de plaider devant un tribunal français la «&nbsp; bonne foi ou la «&nbsp;banalité/non-originalité&nbsp;» et devant un tribunal américain le «&nbsp;fair use&nbsp;»  mais jurisprudence au cas par cas...
 * Les sites qui ne précisent pas de licence : le **copyright par défaut « All rights reserved »** s'applique
     - Il est néanmoins possible de demander une **autorisation écrite à l'auteur**.
     - Sinon, il faut **réécrire complètement le code**.
