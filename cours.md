@@ -129,20 +129,25 @@ Pour un logiciel, sauf clauses contractuelles spécifiques, <b>seul le droits de
 
 * **Uniquement indicative** juridiquement (mais fortement conseillée).
 * Depuis Convention universelle sur le droit d’auteur en 1952: signale un droit exclusif sur l'oeuvre : un droit d'auteur ou un copyright selon le pays.
-* En entête de chaque fichier source + un fichier `COPYRIGHT` à la racine du projet.
+* En entête de chaque fichier source + (optionnel) un fichier `COPYRIGHT` ou `COPYING` à la racine du projet.
 
-* Format: `[Copyright] © <année de publication>[,chaque année avec au moins une modification]-[année de la dernière modification] <auteurice>`
-
+* Format international en anglais: `[Copyright] © <année de publication>[,chaque année avec au moins une modification]-[année de la dernière modification] <auteurice>`
  * Exemple complet : `Copyright © 2020,2022-2023 Isabelle Durand`
 
-* Avantages: 
-    * **Dissuasion** : Signale clairement aux tiers que l'œuvre est protégée par le droit d'auteur et que des permissions peuvent être nécessaires pour son utilisation.
-    * **Preuve** : En cas de litige, la notice peut servir de preuve que le titulaire avait l'intention de protéger ses droits d'auteur.
-    * **Informations sur le titulaire** : Elle fournit des informations utiles sur qui contacter pour obtenir des permissions ou des licences.
-    * **Etat de l'art** : Dans de nombreuses industries dont l'informatique, il est courant et/ou attendu de l'inclure même si ce n'est pas strictement nécessaire.
+* En français : `© 2025 Isabelle Durand. Tous droits réservés.`
+  * Avec une licence Open Source : `© 2025 Isabelle Durand. Distribué sous licence MIT.`
 
 ---
 
+## Avantages de la notice ©
+
+* **Dissuasion** : Signale clairement aux tiers que l'œuvre est protégée par le droit d'auteur et que des permissions peuvent être nécessaires pour son utilisation.
+* **Preuve** : En cas de litige, la notice peut servir de preuve que le titulaire avait l'intention de protéger ses droits d'auteur.
+* **Informations sur le titulaire** : Elle fournit des informations utiles sur qui contacter pour obtenir des permissions ou des licences.
+* **Etat de l'art** : Dans de nombreuses industries dont l'informatique, il est courant et/ou attendu de l'inclure même si ce n'est pas strictement nécessaire.
+
+
+---
 ## Exemple d'entête complète du noyau Linux
 
 Extrait du [fichier header de ext4](https://github.com/torvalds/linux/blob/master/fs/ext4/ext4.h) du noyau Linux :
@@ -194,6 +199,16 @@ htmlManagerServlet.appsAvailable=Running
 htmlManagerServlet.appsExpire=Expire sessions
 [...]
 ```
+
+---
+
+## Les notices de licences
+
+* La notice de copyright est optionelle mais pour les logiciels libres, il faut toujours fournir la/les **notices de licences** utilisées.
+* La ou les licences du logiciel.
+* Toutes les licenses utilisées par les dependances du logiciel ou code incorporé.
+* En général dans un fichier `LICENSE` à la racine du projet ou un répertoire `LICENSES` contenant les licences.
+  * Exemple kernel Linus : https://github.com/torvalds/linux/tree/master/LICENSES
 
 ---
 
@@ -523,7 +538,6 @@ Variantes CeCILL-B (BSD-like) et CeCILL-C (MPL-like).<a href="https://directory.
 </div>
                                                                                                   
 ---
-
 
 ### Zoom sur les licence OUVERTE
 
