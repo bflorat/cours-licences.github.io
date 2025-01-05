@@ -83,7 +83,7 @@ a) Les analyses et courtes citations justifiées par le caractère critique, pol
     - l'agence française INPI (Institut National de la Propriété Industrielle) via une enveloppe [e-Soleau](https://www.inpi.fr/fr/services-et-prestations/e-soleau) par exemple.
 * Dépôt à un notaire.
 * Courrier en recommandé à soi-même (moins sûr juridiquement).
-* Émergent : l'horodatage par la **[Blockchain](https://www.app.asso.fr/centre-information/publications/blockchain-et-propriete-intellectuelle)**.
+* Émergent : l'horodatage par la **[Blockchain](https://www.app.asso.fr/centre-information/publications/blockchain-et-propriete-intellectuelle)**. Exemples: KODAKOne, ProofofExistence.
 
 ---
 ## Les droits patrimoniaux du logiciel en France
@@ -121,7 +121,7 @@ Pour un logiciel, sauf clauses contractuelles spécifiques, <b>seul le droits de
     - Droit d'auteur : avant tout protection des _auteurs_.
     - Copyright : avant tout protection des _œuvres_.
 * Harmonisation par **convention de Berne** pour la protection des œuvres littéraires et artistiques (1886, dernière révision en 1979), ratifiée par 181 états en 2025.
-  * **Obtention gratuite et automatique** du droit d'auteur.
+* **Obtention gratuite et automatique** du droit d'auteur.
     
 ---
 
@@ -208,11 +208,11 @@ htmlManagerServlet.appsExpire=Expire sessions
 * La ou les licences du logiciel.
 * Toutes les licenses utilisées par les dependences du logiciel ou code incorporé.
 * En général dans un fichier `LICENSE` à la racine du projet ou un répertoire `LICENSES` contenant les licences.
-  * Exemple kernel Linus : https://github.com/torvalds/linux/tree/master/LICENSES
+  * Exemple kernel Linux : https://github.com/torvalds/linux/tree/master/LICENSES
 
 ---
 
-## Les brevets 
+## Les brevets : une notion différente
 * Le droit d'auteur/copyright concerne **des œuvres**.
 * Les brevets concernent **des inventions** (idées/concepts innovants).
 * Le brevet est une propriété industrielle : donne le droit exclusif d'exploiter une invention pendant 20 ans en général
@@ -235,7 +235,7 @@ htmlManagerServlet.appsExpire=Expire sessions
 ---
 
 ## Les licences
-* Contrats entre un ou plusieurs auteurs (ou leurs ayant-droits) et des utilisateurs.
+* Contrats entre un ou plusieurs auteurs/autrices (ou leurs ayant-droits) et des utilisateurs.
 * L'utilisation du logiciel implique l'adhésion à ce contrat.
 * L'auteur concède des droits contre rémunération ou à titre gracieux.
 * Exemple de droits : 
@@ -424,6 +424,21 @@ Définition ([Wikipedia](https://fr.wikipedia.org/wiki/Logiciel_libre)) :
 * 1994 : Sortie de Linux 1.0 en GPL v2, apparition du système GNU/Linux.
 * 1998 : Scission de l’Open Source Initiative (OSI) orientée business.
 * 2007 : GPL v3.
+---
+
+### Qui produit du logiciel libre de nos jours ?
+
+* Des bénévoles (en général développeurs/développeuses rémunéré.e.s par ailleurs) ;
+* Des fondations incluant :
+  * Linux Foundation : Support Linux (emploi Linus Torvalds comme BDFL), Kubernetes, Node.js
+  * Free Software Foundation (FSF) : Licence GPL, GNU
+  * Eclipse Foundation : Eclipse IDE, Jakarta EE
+  * Apache Software Foundation (ASF) : Serveur Web Apache, Jarkarta EE, ...
+  * Mozilla Foundation (Firefox, Thunderbird, Rust, Doc MDN...)
+  * Cloud Native Computing Foundation (CNCF) : Kubernetes, Prometheus, Helm...
+* Des éditeurs : Redhat, Canonical, JetBrains, Oracle, SUSE...
+* Des géants du Web : Meta, Google, Microsoft...
+
 ---
 
 ### Les quatre libertés fondamentales
