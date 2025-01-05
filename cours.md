@@ -26,7 +26,7 @@ dans ce cours. <br/>Ces opinions doivent être considérées comme propres à l�
 ## Motivations 
 * Puis-je réutiliser un bout de code trouvé sur StackOverflow, GitHub ou généré par ChatGPT ?
 * Y-a-t’il une licence par défaut ?
-* Qu'est ce que le Copyright, dois-je le mentionner ?
+* Qu'est-ce que le Copyright, dois-je le mentionner ?
 * A qui appartient le code que j’écris en entreprise ?
 * Quelle différences entre Libre, Open Source et gratuit ?
 * Puis-je intégrer du code libre dans un logiciel ?
@@ -128,7 +128,7 @@ Pour un logiciel, sauf clauses contractuelles spécifiques, <b>seul le droits de
 ## La notice ©
 
 * **Uniquement indicative** juridiquement (mais fortement conseillée).
-* Depuis Convention universelle sur le droit d’auteur en 1952: signale un droit exclusif sur l'oeuvre : un droit d'auteur ou un copyright selon le pays.
+* Depuis Convention universelle sur le droit d’auteur en 1952: signale un droit exclusif sur l'œuvre : un droit d'auteur ou un copyright selon le pays.
 * En entête de chaque fichier source + (optionnel) un fichier `COPYRIGHT` ou `COPYING` à la racine du projet.
 
 * Format international en anglais: `[Copyright] © <année de publication>[,chaque année avec au moins une modification]-[année de la dernière modification] <auteurice>`
@@ -204,9 +204,9 @@ htmlManagerServlet.appsExpire=Expire sessions
 
 ## Les notices de licences
 
-* La notice de copyright est optionelle mais pour les logiciels libres, il faut toujours fournir la/les **notices de licences** utilisées.
+* La notice de copyright est optionnelle mais pour les logiciels libres, il faut toujours fournir la/les **notices de licences** utilisées.
 * La ou les licences du logiciel.
-* Toutes les licenses utilisées par les dependances du logiciel ou code incorporé.
+* Toutes les licenses utilisées par les dependences du logiciel ou code incorporé.
 * En général dans un fichier `LICENSE` à la racine du projet ou un répertoire `LICENSES` contenant les licences.
   * Exemple kernel Linus : https://github.com/torvalds/linux/tree/master/LICENSES
 
@@ -216,7 +216,7 @@ htmlManagerServlet.appsExpire=Expire sessions
 * Le droit d'auteur/copyright concerne **des œuvres**.
 * Les brevets concernent **des inventions** (idées/concepts innovants).
 * Le brevet est une propriété industrielle : donne le droit exclusif d'exploiter une invention pendant 20 ans en général
-* Le propriétaire peut **exploiter** l'invention pour lui-même, de **conséder des licences** moyenant royalties ou de **vendre** le brevet.
+* Le propriétaire peut **exploiter** l'invention pour lui-même, de **concéder des licences** moyennant royalties ou de **vendre** le brevet.
 * En France, les logiciels ne sont pas brevetables (L 611-10 du CPI, loi du 2 janvier 1968), pas de caractère industriel.
 * Interdiction réaffirmée au niveau européen en 2005 (après une longue lutte notamment des mouvements du Logiciel Libre).
 * Exception : logiciels au sein d'une invention non logicielle brevetable (exemple : ABS dans un véhicule).
@@ -227,7 +227,7 @@ htmlManagerServlet.appsExpire=Expire sessions
     
     - expiration ;
     - renonciation ;
-    - inapplicabilité (ex: les oeuvre datant d'avant le droit d'auteur en 1791 ou œuvres créées par un non humain comme [un animal](https://fr.wikipedia.org/wiki/Selfies_de_singe) ou une [IA](https://fr.wikipedia.org/wiki/Intelligence_artificielle_et_droit_d%27auteur_dans_l%27art).
+    - inapplicabilité (ex: les œuvre datant d'avant le droit d'auteur en 1791 ou œuvres créées par un non humain comme [un animal](https://fr.wikipedia.org/wiki/Selfies_de_singe) ou une [IA](https://fr.wikipedia.org/wiki/Intelligence_artificielle_et_droit_d%27auteur_dans_l%27art).
 
 * Tout logiciel tombe dans le domaine public à l'échéance des droits patrimoniaux.
 * En droit français, il n'est pas possible de renoncer totalement à ses droits moraux.
@@ -255,7 +255,7 @@ htmlManagerServlet.appsExpire=Expire sessions
 * 2008 : Microsoft gagne 1.8&nbsp;M€ contre un réseau de contrefaçon (cour d'appel de Paris).
 * 2009 : 8000&nbsp;€ de frais de justice pour Edu4 et perte du contrat pour avoir fait passé VLC (logiciel libre) comme un développement interne.
 * 2014 : Oracle demande 12 M€ à l'AFPA pour utilisation non prévue d'un de ses logiciels (mais Oracle a été débouté).
-* 2017 : TGI de Bayonne : cinq pirates condamnés à 4.6 M€ + 12-18 mois avec sursis pour piratage à grande echelle de Windows XP.
+* 2017 : TGI de Bayonne : cinq pirates condamnés à 4.6 M€ + 12-18 mois avec sursis pour piratage à grande échelle de Windows XP.
 * 2019-2021 : Procès de la Société Entr’ouvert contre Orange qui a utilisé sa librairie pour un projet DGME sans respecter sa licence (GPL V2). Perdu par Entr'ouvert en [2019](https://www.legalis.net/jurisprudences/tgi-de-paris-3eme-ch-3eme-section-jugement-du-21-juin-2019/) mais gagné en appel en [mars 2021](https://www.legalis.net/jurisprudences/cour-dappel-de-paris-pole-5-ch-2-arret-du-19-mars-2021/) (160K€ de dédommagement).
 
 ---
@@ -272,7 +272,7 @@ htmlManagerServlet.appsExpire=Expire sessions
 
 * Type de licence mais orientée uniquement vers les utilisateurs finaux. 
 * **Location temporaire ou perpétuelle de droits d'usage**: 
-  * Il s'agit de **location** et non d'achat (abus de language).
+  * Il s'agit de **location** et non d'achat (abus de langage).
 * Un logiciel peut néanmoins être vendu à une autre société (transfert du droit d'auteur patrimonial)
     - Exemple : HP vend en 2016 son offre logicielle à Microfocus pour 8,8&nbsp;milliards de dollars US.
 
@@ -356,7 +356,7 @@ htmlManagerServlet.appsExpire=Expire sessions
 ---
 ### Quid en cas de faillite d'un éditeur ?
 
-* Exemple: cas AGD ;
+* Exemple : cas AGD ;
 * prévoir _contrat d’escrow_ (sources déposées chez tiers de confiance) ;
 * pire si plateforme de développement (PaaS et FaaS) comme Google App Engine, Heroku, Azure App Service... : les applications sont à réécrire ;
 - SaaS : prévoir contractuellement des solutions de réversibilité ;
@@ -368,7 +368,7 @@ htmlManagerServlet.appsExpire=Expire sessions
 * **Clés** (fournies par l'éditeur et à installer) ;
 * **Serveurs de licences** (_on premise_) ;
 * Appels d'**API** sur Internet ;
-* Hardware exécutant des binaires avec **DRM** pour empécher les modifications (_tivoïsation_) ;
+* Hardware exécutant des binaires avec **DRM** pour empêcher les modifications (_tivoïsation_) ;
 * **Audits** par des consultants ;
 * **Mouchards** (dans les mises à jour par exemple).
 ---
@@ -475,7 +475,7 @@ Afin d’assurer ces libertés, les logiciels Open Source se basent sur&nbsp;:
 * Il est aussi possible (**bien que fortement déconseillé**) d'intégrer du code GPL dans un logiciel **interne** de licence incompatible (propriétaire par exemple) à condition de ne pas distribuer ce logiciel.
 
 <div class='admonition warning'>
-<p>Etre <b>TRES prudent</b> car cela peut mettre l'entreprise à risque en cas de changement de situation du logiciel (par exemple si l'organisation décide de vendre un logiciel précédement purement interne sans savoir qu'il contient du code GPL).</p>
+<p>Etre <b>TRES prudent</b> car cela peut mettre l'entreprise à risque en cas de changement de situation du logiciel (par exemple si l'organisation décide de vendre un logiciel antérieurement interne sans savoir qu'il contient du code GPL).</p>
 </div>
 
 ---
@@ -528,7 +528,7 @@ Exemples : <b>BerkeleyDB, Ghostscript, iText, Mattermost, MongoDB jusqu'en 2018,
 * Licence en français et en anglais, pouvant être utilisée partout dans le monde. En cas de litige, le droit français s’applique.
 * V1 en 2004, V2 en mai 2005, CeCILL-B et CeCILL-C en 2006
 * Complètement compatible GPL V3 (donc copyleftée).
-* A utiliser si besoin d'une comptibilité maximale avec le droit français.
+* A utiliser si besoin d'une compatibilité maximale avec le droit français.
 * Il est possible de redistribuer du code CeCILL en GPL.
 <div class='admonition note'>
 Exemples : <b>Scilab, VLDocking Framework.</b>
@@ -630,7 +630,7 @@ Licence A compatible avec B n'implique pas B compatible avec A.</div>
 ### Les licences orientées contenu (2/2) : Les licences Creative Commons
 <img style="float: right;padding:20px;" src="resources/cc.png">
 
-pour : documents, musique, images, photos…
+Concerne : documents, musique, images, photos…
 
 |Licence        | Caractéristiques                                                                  | Libre&nbsp;?
 |---------------|-----------------------------------------------------------------------------------|-------------
@@ -647,7 +647,7 @@ pour : documents, musique, images, photos…
 
 ## Le code trouvé sur Internet
 * **StackOverflow** : Tout le code est en licence documentaire **[CC BY-SA](https://stackoverflow.com/help/licensing)** (version de 2.5 à 4.0 suivant la date des posts)
-    - La CC BY-SA 4.0 est <a href='https://creativecommons.org/2015/10/08/cc-by-sa-4-0-now-one-way-compatible-with-gplv3/'>comptatible avec la GPL V3</a> même si son utilisation pour du code est déconseillé par la FSF (pour éviter de multiplier le nombre de licences).
+    - La CC BY-SA 4.0 est <a href='https://creativecommons.org/2015/10/08/cc-by-sa-4-0-now-one-way-compatible-with-gplv3/'>compatible avec la GPL V3</a> même si son utilisation pour du code est déconseillé par la FSF (pour éviter de multiplier le nombre de licences).
     - Si quelques lignes triviales, possible de plaider devant un tribunal français la «&nbsp; bonne foi ou la «&nbsp;banalité/non-originalité&nbsp;» et devant un tribunal américain le «&nbsp;fair use&nbsp;»  mais jurisprudence au cas par cas...
 * Les sites qui ne précisent pas de licence : le **copyright par défaut « All rights reserved »** s'applique
     - Il est néanmoins possible de demander une **autorisation écrite à l'auteur**.
@@ -656,11 +656,19 @@ pour : documents, musique, images, photos…
 
 ## Le code généré par des IA génératives
 
-* Législation dépassée. A ce jour, le code généré par une IA comme ChatGPT n'est pas soumis à droit d'auteur même si le modèle a été entrainé sur du code soumis à droit d'auteur (au moins GitHub).
+* Législation dépassée. A ce jour, le code généré par un LLM comme ChatGPT n'est pas soumis à droit d'auteur même si le modèle a été entrainé sur du code soumis à droit d'auteur (au moins GitHub).
   * [Confirmé](https://www.federalregister.gov/documents/2023/03/16/2023-05321/copyright-registration-guidance-works-containing-material-generated-by-artificial-intelligence) par un juge en mars 2023 aux USA.
 * Risques de contrefactions involontaires.
-* L'AI Act a été validé le 8 décembre 2023, devrait être au journal officiel au primptemps 2024 [1](https://www.credo.ai/blog/eu-ai-act-political-agreement-what-you-need-to-know-for-2024). Devrait imposer le respect du doit d'auteur par les IA et de rendre public les sources d'entrainement. 
-* Ce que dit ChatGPT du code qu'il génère : "En général, le code généré par des modèles de langage comme GPT-4 d'OpenAI est considéré comme étant généré de manière algorithmique et ne bénéficie donc pas de protection par le droit d'auteur."
+* La réglementation européenne AI Act est arrivé au journal officiel en août 2024.
+** Le code généré appartient à l'utilisateur, pas au fournisseur de service LLM.
+** Le fournisseur de service LLM est tenu lister les données d’entraînement (transparence).
+** Le fournisseur de service LLM est tenu d'éviter la contrefaçon (pas toujours respecté actuellement, zone grise).
+** L'usager est tenu également de vérifier le code produit (il existe des outils).
+
+<div class='admonition note'>
+D'expérience, plus vous partez d'une base de code personnelle, plus vous limitez le risque de contrefaçon.
+</div>
+
 ---
 
 ### Modèle économique du libre
@@ -681,7 +689,7 @@ Le marché mondial de l'Open Source atteint environ <b>57&nbsp;Mrds de $ en 2020
 - Rémunérations très faibles en général (ex: dons)
 - Crowdsourcing
 - Rémunération forfaitaire pour développement spécifique (Bounty)
-- Don de matériel (serveurs, postes de développement etc..)
+- Don de matériel (serveurs, postes de développement etc.)
 - Merchandising (t-shirts...)
 - Surtout des motivations intrinsèques (sans retour directs) : créativité, liberté, altruisme, réputation/CV,...
 
@@ -693,7 +701,7 @@ Le marché mondial de l'Open Source atteint environ <b>57&nbsp;Mrds de $ en 2020
     - le plus important : **nombre d'utilisateurs effectifs**.
 * Solution gratuite mais **support exorbitant ou contraignant** ;
 * Penser que nos **Merge Requests** seront toujours prises en compte ;
-* **Risques juridiques** en cas de non respect des licences ;
+* **Risques juridiques** en cas de non-respect des licences ;
 * Risques de **changement de licence** (exemple: MongoDB en 2018 -> SSPL).
 ---
 
@@ -732,7 +740,7 @@ Voir aussi [la liste officielle sur gnu.org](https://www.gnu.org/licenses/licens
 
 * Cours "Les licences logicielles" IUT de Nantes par Damien Raude-Morvan
 * Liste SPDX de toutes les licences : https://spdx.org/licenses/
-* https://www.europarl.europa.eu/news/fr/headlines/society/20230601STO93804/loi-sur-l-ia-de-l-ue-premiere-reglementation-de-l-intelligence-artificielle
+* Textes de l'AI Act: https://artificialintelligenceact.eu/fr/l-acte/
 * https://www.usine-digitale.fr/article/audit-de-licences-logicielles-la-bataille-continue.N381077
 * https://www.cncpi.fr/ba-ba/FAQ_questions_reponses/Comment_peut-on_proteger_un_logiciel/
 * https://www.legalstart.fr/fiches-pratiques/proteger-une-creation/protection-logiciel/
