@@ -333,6 +333,7 @@ htmlManagerServlet.appsExpire=Expire sessions
     - à l'installation (par serveur/station) ;
     - suivant les options utilisées (ex : partitionnement des bases Oracle).
 <img style="float: right; width: 200px;padding:20px;" src="resources/complex.svg">
+
 * Rapidement très technique et complexe : 
     - Quid des machines virtuelles ?
     - Quid des containers ?
