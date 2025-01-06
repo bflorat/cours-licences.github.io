@@ -45,6 +45,7 @@ dans ce cours. <br/>Ces opinions doivent être considérées comme propres à l�
 
 ### Le droit d'auteur
 * Ensemble des **droits d'un.e auteurice sur ses œuvres originales de l'esprit**.
+* * **Ne concerne pas les idées**, mais plutôt leur expression.
 * Domaine d'applicabilité : **toute œuvre de l'esprit** (excluant les objets) **fixée sous une forme tangible** (logiciel, photographie, tableau, film, morceau de musique, discours, spectacle vivant...). 
 * Traité de l’Organisation mondiale de la propriété intellectuelle sur le droit d’auteur (1996) : droit d'auteur/copyright pour les programmes d'ordinateur et des bases de données.
 * Le plagiat est juridiquement nommé ***contrefaçon*** en droit français. C'est le fait de faire passer pour sienne l'œuvre d'une autre personne.
@@ -59,7 +60,6 @@ Attention : ne jamais utiliser de code sans licence explicite !
 ---
 ### Les exceptions au droit d'auteur
 
-* **Ne concerne pas les idées**, mais plutôt leur expression.
 * **Droit de citation** (CPI Art. L. 122-5) ou l'utilisation équitable (_fair use_) dans certains pays, permettant l'utilisation limitée d'œuvres protégées sans la permission de l'auteur dans un contexte de critique, de commentaire, d'information des actualités, d'enseignement, etc. 
 
 ```
