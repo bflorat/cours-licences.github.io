@@ -111,7 +111,7 @@ Ils sont :
 * Aménagés (à la baisse) pour les logiciels.
 
 <div class='admonition note'>
-Pour un logiciel, sauf clauses contractuelles spécifiques, <b>seul le droits de paternité est réellement applicable.</b>
+Pour un logiciel, sauf clauses contractuelles spécifiques, <b>seul le droit de paternité est réellement applicable.</b>
 </div>
     
 ---
