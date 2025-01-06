@@ -129,7 +129,7 @@ Pour un logiciel, sauf clauses contractuelles spécifiques, <b>seul le droit de 
 
 * **Uniquement indicative** juridiquement (mais fortement conseillée).
 * Depuis Convention universelle sur le droit d’auteur en 1952, elle signale un droit exclusif sur l'œuvre : un droit d'auteur ou un copyright selon le pays.
-* En entête de chaque fichier source + (optionnel) un fichier `COPYRIGHT` ou `COPYING` à la racine du projet.
+* En entête de chaque fichier source + (optionnel) un fichier `COPYRIGHT`, `NOTICE` ou `COPYING` à la racine du projet.
 
 * Format international en anglais: `[Copyright] © <année de publication>[,chaque année avec au moins une modification]-[année de la dernière modification] <auteurice>`
  * Exemple complet : `Copyright © 2020,2022-2023 Isabelle Durand`
