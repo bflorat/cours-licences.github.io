@@ -2,13 +2,13 @@
 
 IUT de Nantes – Département Informatique
 
-Cours de BUT 2024-2025
+Cours de BUT 2025-2026
 
 ![Université de Nantes](resources/logo-univ.png)
 
 <small>[https://cours-licences.florat.net/](https://cours-licences.florat.net/) - [version sur une page](./?print-pdf) - [sources](https://github.com/bflorat/cours-licences.github.io)</small>
 
-<div class='smaller'>Copyright © 2019-2025 <a href='http://www.florat.net/contact'>Bertrand Florat</a>, publié en license <br/><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</div>
+<div class='smaller'>Copyright © 2019-2026 <a href='http://www.florat.net/contact'>Bertrand Florat</a>, publié en licence <br/><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</div>
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; padding-right: 20px; vertical-align:middle" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
 
@@ -24,16 +24,18 @@ dans ce cours. <br/>Ces opinions doivent être considérées comme propres à l�
 ---
 
 ## Motivations 
-* Puis-je réutiliser un bout de code trouvé sur StackOverflow, GitHub ou généré par ChatGPT ?
-* Y-a-t’il une licence par défaut ?
-* Qu'est-ce que le Copyright, dois-je le mentionner ?
-* A qui appartient le code que j’écris en entreprise ?
-* Quelle différences entre Libre, Open Source et gratuit ?
-* Puis-je intégrer du code libre dans un logiciel ?
-* Quels risques juridiques pour mon entreprise ?
-* Comment m'assurer que mon code ne sera pas contrefait ?
-* Puis-je utiliser une librairie libre dans un logiciel propriétaire&nbsp;?
-* J'utilise du code libre dans mon entreprise, dois-je redistribuer les modifications ?
+- Puis-je **réutiliser** un **bout de code** trouvé sur **StackOverflow**, **GitHub** ou **généré par ChatGPT** ?
+- Y-a-t’il une **licence par défaut** ?
+- Qu'est-ce que le **Copyright**, dois-je le **mentionner** ?
+- À qui **appartient le code** que j’**écris en entreprise** ?
+- Quelle **différence** entre **Libre**, **Open Source** et **gratuit** ?
+- Puis-je **intégrer du code libre** dans un **logiciel** ?
+- Quels **risques juridiques** pour mon **entreprise** ?
+- Comment **m'assurer** que mon **code** ne sera pas **contrefait** ?
+- Puis-je **utiliser une librairie libre** dans un **logiciel propriétaire** ?
+- J'utilise du **code libre** dans mon **entreprise**, dois-je **redistribuer les modifications** ?
+- À qui **appartient le code généré par un LLM** ?
+
 ---
 
 ## Contexte juridique 
@@ -58,16 +60,16 @@ Attention : ne jamais utiliser de code sans licence explicite !
 
 
 ---
-### Les exceptions au droit d'auteur
+### Les limites au droit d'auteur
 
+* **Il ne concerne pas les idées**, mais plutôt leur expression.
 * **Droit de citation** (CPI Art. L. 122-5) ou l'utilisation équitable (_fair use_) dans certains pays, permettant l'utilisation limitée d'œuvres protégées sans la permission de l'auteur dans un contexte de critique, de commentaire, d'information des actualités, d'enseignement, etc. 
 
 ```
 Art. L. 122-5. [...] Lorsque l'œuvre a été divulguée, l'auteur ne peut interdire :
 
 3° Sous réserve que soient indiqués clairement le nom de l'auteur et la source :
-a) Les analyses et courtes citations justifiées par le caractère critique, polémique, pédagogique, scientifique ou d'information de l'œuvre à laquelle elles sont incorporées ;
-[...]
+a) Les analyses et courtes citations justifiées par le caractère critique, polémique, pédagogique, scientifique ou d'information de l'œuvre à laquelle elles sont incorporées ; [...]
 ```
 ---
 ## Les deux types de droits
@@ -83,7 +85,15 @@ a) Les analyses et courtes citations justifiées par le caractère critique, pol
     - l'agence française INPI (Institut National de la Propriété Industrielle) via une enveloppe [e-Soleau](https://www.inpi.fr/fr/services-et-prestations/e-soleau) par exemple.
 * Dépôt à un notaire.
 * Courrier en recommandé à soi-même (moins sûr juridiquement).
-* Émergent : l'horodatage par la **[Blockchain](https://www.app.asso.fr/centre-information/publications/blockchain-et-propriete-intellectuelle)**. Exemples: KODAKOne, ProofofExistence.
+
+---
+## La preuve d'antériorité par blockchain
+
+* Émergent : l'horodatage par la **[Blockchain](https://www.app.asso.fr/centre-information/publications/blockchain-et-propriete-intellectuelle)**.
+
+* Exemples d'outils :  OpenTimestamps, Woleet
+
+* Première [jurisprudence](https://www.legalis.net/jurisprudences/tribunal-judiciaire-de-marseille-1ere-ch-civile-jugement-du-20-mars-2025/) en France : 20 mars 2025, tribunal de Marseille : AZ FACTORY gagne contre des contrefacteurs chinois (mais seulement un des éléments d'un faisceau d'indices).
 
 ---
 ## Les droits patrimoniaux du logiciel en France
@@ -92,7 +102,7 @@ a) Les analyses et courtes citations justifiées par le caractère critique, pol
 * Droit de **mise sur le marché** : l'auteur peut vendre ou donner son œuvre à sa guise.
 
 * Valables 70 ans après l’année de décès de l’auteur ou du dernier auteur si travail collaboratif (article L122-6 du CPI).
-  * Après le décès de l'auteur, droits exercés par d'éventuels ayants-droits (famille, bénéficiaire testamentaire ou l'Etat par défaut).
+  * Après le décès de l'auteur: droits exercés par d'éventuels ayants-droits (famille, bénéficiaire testamentaire) ou à défaut, l’état.
 
 <div class='admonition warning'>
 <b>Œuvre réalisée sous contrat de travail</b> : Les droits d'auteur patrimoniaux appartiennent à l'employeur (article L113-9 du CPI).
@@ -101,7 +111,7 @@ a) Les analyses et courtes citations justifiées par le caractère critique, pol
 ---
 
 ## Les droits moraux du logiciel en France
-* Droit **de paternité** (même si les droits d'exploitations ont été cédés [affaire Framatome 1993]).
+* Droit **de paternité** (même si les droits d'exploitations ont été cédés [affaire Framatome 1993][Cour d’appel de Paris, 7 septembre 2022]).
 * Droit au **respect** de l'œuvre : possible de s'opposer à toute modification préjudiciable à son honneur ou à sa réputation.
 * Droit à la **divulgation** (décider du moment et des conditions pour rendre l'œuvre publique).
 * Droit de **retrait ou repentir** (stopper la divulgation à condition d'indemniser du préjudice). Pas applicable pour les logiciels [L121-7].
@@ -111,18 +121,26 @@ Ils sont :
 * Aménagés (à la baisse) pour les logiciels.
 
 <div class='admonition note'>
-Pour un logiciel, sauf clauses contractuelles spécifiques, <b>seul le droit de paternité est réellement applicable.</b>
+Pour un logiciel, sauf clauses contractuelles spécifiques, <b>seul le droit de paternité conserve une portée réelle.</b>
 </div>
     
 ---
 
 ## Le Copyright
 * Le droit d'auteur est appliqué dans la plupart des pays Européens non anglo-saxon (civil law) et le Copyright dans les pays anglo-saxons (common law). <img style="float: right;padding:20px;" src="resources/copyright.webp">
-    - Droit d'auteur : avant tout protection des _auteurs_.
-    - Copyright : avant tout protection des _œuvres_.
-* Harmonisation par **convention de Berne** pour la protection des œuvres littéraires et artistiques (1886, dernière révision en 1979), ratifiée par 181 états en 2025.
-* **Obtention gratuite et automatique** du droit d'auteur.
+
+* Droit d'auteur : avant tout protection des **auteurs**.
+* Copyright : avant tout protection des **œuvres**.
     
+---
+
+## La convention de Berne
+
+* Convention pour la protection des œuvres littéraires et artistiques (1886, dernière révision en 1979), ratifiée par 181 états en 2025.
+* La Convention de Berne **n’a pas fusionné** le droit d’auteur et le copyright, mais elle a harmonisé leur protection internationale
+en imposant des **principes communs** et un **socle minimal** de droits (ex: protection œuvres au moins 50 ans).
+* **Obtention gratuite et automatique** du droit d'auteur.
+
 ---
 
 ## La notice ©
@@ -132,10 +150,9 @@ Pour un logiciel, sauf clauses contractuelles spécifiques, <b>seul le droit de 
 * En entête de chaque fichier source + (optionnel) un fichier `COPYRIGHT`, `NOTICE` ou `COPYING` à la racine du projet.
 
 * Format international en anglais: `[Copyright] © <année de publication>[,chaque année avec au moins une modification]-[année de la dernière modification] <auteurice>`
- * Exemple complet : `Copyright © 2020,2022-2023 Isabelle Durand`
-
-* En français : `© 2025 Isabelle Durand. Tous droits réservés.`
-  * Avec une licence Open Source : `© 2025 Isabelle Durand. Distribué sous licence MIT.`
+ 
+ * Exemple complet : `Copyright © 2020,2022-2023 Isabelle Durand`, en français : `© 2025 Isabelle Durand. Tous droits réservés.`
+* Avec une licence Open Source : `© 2025 Isabelle Durand. Distribué sous licence MIT.`
 
 ---
 
@@ -175,6 +192,18 @@ Extrait du [fichier header de ext4](https://github.com/torvalds/linux/blob/maste
 ```
 
 ---
+
+## Les notices de licences
+
+* La notice de copyright est optionnelle mais pour les logiciels libres, il faut TOUJOURS fournir la/les **notices de licences** utilisées.
+* Contenu minimal : 
+  * La ou les licences du logiciel.
+  * Toutes les licenses utilisées par les dépendances du logiciel ou code incorporé.
+* En général dans un fichier `LICENSE` à la racine du projet ou un répertoire `LICENSES` contenant les licences.
+  * Exemple kernel Linux : https://github.com/torvalds/linux/tree/master/LICENSES
+
+---
+
 ## Extrait de Tomcat
 
 Voir [ici](https://github.com/apache/tomcat/blob/main/java/org/apache/catalina/manager/LocalStrings.properties).
@@ -202,15 +231,6 @@ htmlManagerServlet.appsExpire=Expire sessions
 
 ---
 
-## Les notices de licences
-
-* La notice de copyright est optionnelle mais pour les logiciels libres, il faut toujours fournir la/les **notices de licences** utilisées.
-* La ou les licences du logiciel.
-* Toutes les licenses utilisées par les dependences du logiciel ou code incorporé.
-* En général dans un fichier `LICENSE` à la racine du projet ou un répertoire `LICENSES` contenant les licences.
-  * Exemple kernel Linux : https://github.com/torvalds/linux/tree/master/LICENSES
-
----
 
 ## Les brevets : une notion différente
 * Le droit d'auteur/copyright concerne **des œuvres**.
@@ -220,18 +240,22 @@ htmlManagerServlet.appsExpire=Expire sessions
 * En France, les logiciels ne sont pas brevetables (L 611-10 du CPI, loi du 2 janvier 1968), pas de caractère industriel.
 * Interdiction réaffirmée au niveau européen en 2005 (après une longue lutte notamment des mouvements du Logiciel Libre).
 * Exception : logiciels au sein d'une invention non logicielle brevetable (exemple : ABS dans un véhicule).
+
 ---
+
 ## Le domaine public
 * Toute création pour laquelle aucun droit d'auteur ne s'applique pour différents raisons :
 <img style="float: right;padding:20px;" src="resources/public-domain.png">
     
     - expiration ;
     - renonciation ;
-    - inapplicabilité (ex: les œuvre datant d'avant le droit d'auteur en 1791 ou œuvres créées par un non humain comme [un animal](https://fr.wikipedia.org/wiki/Selfies_de_singe) ou une [IA](https://fr.wikipedia.org/wiki/Intelligence_artificielle_et_droit_d%27auteur_dans_l%27art).
+    - inapplicabilité du droit d’auteur :
+        * œuvres humaines créées avant l’apparition du droit d’auteur (ex. avant 1791 en France) ;
+        * créations sans intervention humaine (ex. œuvres produites par un animal ou par une IA autonome).
+
 
 * Tout logiciel tombe dans le domaine public à l'échéance des droits patrimoniaux.
-* En droit français, il n'est pas possible de renoncer totalement à ses droits moraux.
-* Certaines licences permettent de renoncer à tout ce qui est permis par la loi du pays : licences WTFPLv2, Zero Clause BSD, CC0.
+  * Certaines licences permettent de renoncer à tout ce qui est permis par la loi du pays : licences WTFPLv2, Zero Clause BSD, CC0.
 ---
 
 ## Les licences
@@ -249,6 +273,23 @@ htmlManagerServlet.appsExpire=Expire sessions
 
 ---
 
+## L'importance de la diffusion
+
+Les obligations naissent surtout au moment de la diffusion.
+
+Tant qu'on ne diffuse pas un nouveau logiciel :
+
+* Aucun droit de tiers entravé,
+* Aucune obligation de licence activée,
+* Aucune victime (ex: de contrefaçon, de violation de licence...) identifiable.
+
+⚠️ MAIS :
+
+* le jour où le code sort (vente, open source, SaaS),
+* **tout l’historique devient juridiquement pertinent**.
+
+---
+
 ### Des risques importants en cas de non respect des licences
 * Des organismes comme la Business Software Alliance (BSA) poursuivent activement les contrevenants en justice.
 * Piratage de logiciels : le CPI prévoit jusqu'à 300.000&nbsp;€ d'amende et 3&nbsp;ans d’emprisonnement pour les personnes physiques et 750.000&nbsp;€ d'amende pour les personnes morales.
@@ -262,20 +303,17 @@ htmlManagerServlet.appsExpire=Expire sessions
 
 ## Les logiciels propriétaires
 * Synonymes: "non libre", "privatif/privateur", "Closed Source".
-* Licence définie par un **CLUF**, un accord légal entre l'éditeur et l'utilisateur final. 
+* Licence définie par un **CLUF**, ou des **CGU**,  des accords légaux entre l'éditeur et l'utilisateur final. 
 * L'objectif de l'éditeur est de **contrôler la diffusion du logiciel** pour en tirer un bénéfice financier.
 * Le code source n'est pas disponible (sauf exceptions contractuelles).
     
 ---
 
-## Les CLUF
+### Les CLUF et GCU
 
-* Type de licence mais orientée uniquement vers les utilisateurs finaux. 
+* Genre de licences mais orientée uniquement vers les utilisateurs finaux. 
 * **Location temporaire ou perpétuelle de droits d'usage**: 
-  * Il s'agit de **location** et non d'achat (abus de langage).
-* Un logiciel peut néanmoins être vendu à une autre société (transfert du droit d'auteur patrimonial)
-    - Exemple : HP vend en 2016 son offre logicielle à Microfocus pour 8,8&nbsp;milliards de dollars US.
-
+* Nécessitent une acceptation explicite ou implicite (contrats bilatéraux)
 * Contient principalement : 
   * les **droits d'utilisation**,
   * les **restrictions**, 
@@ -285,7 +323,28 @@ htmlManagerServlet.appsExpire=Expire sessions
 
 <div class='admonition note'>
     <b>CLUF : </b>Contrat de Licence Utilisateur Final.<br/>
+    <b>CGU : </b>Conditions Générales d’Utilisation.</br>
     <b>EULA : </b>End User License Agreement en anglais.
+</div>
+
+---
+
+### Ne pas confondre location et achat d'un logiciel
+
+* On **loue** les logiciels aux éditeurs, on ne les achète pas (abus de langage).
+* Un logiciel peut néanmoins être vendu à une autre société (transfert du droit d'auteur patrimonial)
+* Exemple : HP vend en 2016 son offre logicielle à Microfocus pour 8,8&nbsp;milliards de dollars US.
+
+---
+
+### Différences CLU et CGU
+
+* Un CLUF porte sur un logiciel installé en local ("on prem") alors que les CGU portent sur un service.
+
+* Le cloud brouille les limites puisqu'il permet d'exposer des logiciels en tant que service.
+
+<div class='admonition warning'>
+Toujours lire les CGU pour les projets importants !
 </div>
 
 ---
@@ -294,14 +353,14 @@ htmlManagerServlet.appsExpire=Expire sessions
 * Jusqu'au milieu des années 1970 :
     - Pas encore de micro-informatique (seulement des mainframes).
     - Hardware et software vendus ensemble mais c'est surtout le hardware qui est important.
-    <div style="float: right; padding-left:20px;>
+    <div style="float: right; padding-left:20px;">
         <a href="https://scientificwomen.net/women/hopper-grace-45"><img style="width:300px" src="resources/grace-hopper.jpeg"></a>
         <p class='small'>
             <a href="https://scientificwomen.net/women/hopper-grace-45">Grace Hopper, source : History of Scientific Women</a>
         </p>
     </div>
                                                                        
-    - Les programmes sont principalement écrits par des femmes : Ada Lovelace (écrit des programmes au début du 19ème), Joan Clarke (cryptanalyste sur Enigma), Grace Hooper (premier compilateur, COBOL)...
+    - Les programmes sont principalement écrits par des femmes : Ada Lovelace (algorithmes théoriquement executables en 1843), Joan Clarke (cryptanalyste sur Enigma), Grace Hopper (premier compilateur, COBOL)...
     - Le code source est libre d'être étudié ou modifié (mais inutilisable sans le matériel associé).
 * Milieu des années 1970 : 
     - Création du concept de logiciel propriétaire
@@ -337,7 +396,7 @@ htmlManagerServlet.appsExpire=Expire sessions
 * Rapidement très technique et complexe : 
     - Quid des machines virtuelles ?
     - Quid des containers ?
-    - Quid des environnements mouvants ? (ex: auto-scalling Kubernetes / équilibrage de VM comme Live Migration d'OpenStack ou VMotion de VMWare ESXi)
+    - Quid des environnements mouvants ? (ex: auto-scaling Kubernetes / équilibrage de VM comme Live Migration d'OpenStack ou vMotion de VMware ESXi)
     - Quid des environnements hors production ?
 
 * Donc besoin d'experts (métier de **Compliance Manager**) pour limiter les risques juridiques.
@@ -349,7 +408,7 @@ htmlManagerServlet.appsExpire=Expire sessions
 - Fonctionnalité rapidement indispensable mais uniquement disponible dans une version plus chère (exemple : intégration à un fournisseur d'identités) ;
 - Enfermement propriétaire (_vendor locking_). Ex : formats propriétaires ;
 - Contrats complexes favorisant l'utilisation d'options non incluses, puis audits ;
-- Consommation "illimitée" au tarif négocié puis renégociation sur la nouvelle base tous les 5 ans ;
+- Consommation "illimitée" au tarif négocié puis renégociation sur la nouvelle base tous les x années ;
 - Coûts de mises à jour ou les coûts de support très élevés ;
 - Rabais sur des logiciels finalement pas utilisés ;
 - Ventes (quasi) forcées. Ex : moteur BPM + serveur d'application.
@@ -365,7 +424,7 @@ htmlManagerServlet.appsExpire=Expire sessions
 ---
 
 ### Méthodes de contrôle de la diffusion
-* **Contrats** (CLUF) engageant le client ;
+* **Contrats** (CLUF et CGU) engageant le client ;
 * **Clés** (fournies par l'éditeur et à installer) ;
 * **Serveurs de licences** (_on premise_) ;
 * Appels d'**API** sur Internet ;
@@ -380,7 +439,7 @@ htmlManagerServlet.appsExpire=Expire sessions
 * Dépendances quasi totale au **support** de l'éditeur en cas de problème, peu/pas d'aide collaborative en ligne ;
 * **Migrations forcées** par l'éditeur (fin de support) ;
 * **Coûts** souvent très importants (100&nbsp;K€ à plusieurs M€) ;
-    - limite souvent le budget développement dans les ESN.
+    - limite souvent le budget développement sur les projets.
 ---
 
 ### L'impact sur l'architecture 
@@ -392,7 +451,7 @@ htmlManagerServlet.appsExpire=Expire sessions
 * **Besoins d'accès à Internet** depuis des serveurs (complexification / sécurité) ;
 * Architecture pilotée par les coûts au lieu des exigences («&nbsp;pas de cluster, on n'a pas les moyens&nbsp;») ;
 * Contraintes sur les **environnements de développement** et de recette («&nbsp;bricolages&nbsp;» pour partager des licences entre développeurs) ;
-* Peu adapté au **containeurs**.
+* Peu adapté au **conteneurs**.
 
 ---
 
@@ -419,7 +478,7 @@ Définition ([Wikipedia](https://fr.wikipedia.org/wiki/Logiciel_libre)) :
 
   * RMS (Richard Stallman) découvre qu'il n'a pas le droit de modifier un driver d'impression Xerox.
 * 1983 : Lancement du projet GNU (_Gnu’s Not Unix_) par RMS.
-* 1985 : Création de la FSF (_Free Software Fondation_).
+* 1985 : Création de la FSF (_Free Software Foundation_).
 * 1989 : Base légale du libre : la GPL V1 (_GNU General Public License_).
 * 1991 : Linus Torvalds démarre le projet de noyau Linux.
 * 1994 : Sortie de Linux 1.0 en GPL v2, apparition du système GNU/Linux.
@@ -434,7 +493,7 @@ Définition ([Wikipedia](https://fr.wikipedia.org/wiki/Logiciel_libre)) :
   * Linux Foundation : Support Linux (emploi Linus Torvalds comme BDFL), Kubernetes, Node.js
   * Free Software Foundation (FSF) : Licence GPL, GNU
   * Eclipse Foundation : Eclipse IDE, Jakarta EE
-  * Apache Software Foundation (ASF) : Serveur Web Apache, Jarkarta EE, ...
+  * Apache Software Foundation (ASF) : Serveur Web Apache, Jakarta EE, ...
   * Mozilla Foundation (Firefox, Thunderbird, Rust, Doc MDN...)
   * Cloud Native Computing Foundation (CNCF) : Kubernetes, Prometheus, Helm...
 * Des éditeurs : Redhat, Canonical, JetBrains, Oracle, SUSE...
@@ -540,7 +599,7 @@ Exemples : <b>BerkeleyDB, Ghostscript, iText, Mattermost, MongoDB jusqu'en 2018,
 ### Zoom sur la licence CeCILL
 * Écrite par le CEA CNRS INRIA Logiciel Libre.
 * Licence issue de la Recherche française, adaptation de la GPL au droit français.
-* Redigée en français (respect de la loi Toubon)
+* Rédigée en français (respect de la loi Toubon)
 * Licence en français et en anglais, pouvant être utilisée partout dans le monde. En cas de litige, le droit français s’applique.
 * V1 en 2004, V2 en mai 2005, CeCILL-B et CeCILL-C en 2006
 * Complètement compatible GPL V3 (donc copyleftée).
@@ -610,6 +669,15 @@ Attention : ce n'est pas du domaine public !</div>
 Licence A compatible avec B n'implique pas B compatible avec A.</div>
 ---
 
+### SBOM (Software Bill of Materials)
+
+* **Inventaire normalisé de tous les composants d’un logiciel**
+(librairies, versions, licences, dépendances transitives).
+* Formats standards : **SPDX**, **CycloneDX**.
+* Rend la **conformité vérifiable** sur un grand nombre de dépendances.
+* Orienté information sur les CVE (failles) mais peut servir à la sécurité juridiques (ex: [scancode-toolkit](https://scancode-toolkit.readthedocs.io/en/stable/getting-started/home.html))
+---
+
 ### Le multi-licences
 * Un même produit peut disposer de plusieurs licences (_Multi-licensing_).
 * Licence multiple : libre/libre ou libre/propriétaire (exemple: MySQL Community en GPL et MySQL Enterprise Edition propriétaire).
@@ -662,7 +730,7 @@ Concerne : documents, musique, images, photos…
 ---
 
 ## Le code trouvé sur Internet
-* **StackOverflow** : Tout le code est en licence documentaire **[CC BY-SA](https://stackoverflow.com/help/licensing)** (version de 2.5 à 4.0 suivant la date des posts)
+* **StackOverflow** : Tout le code est en licence documentaire **[CC BY-SA 4.0](https://stackoverflow.com/help/licensing)** (version de 2.5 à 4.0 suivant la date des posts)
     - La CC BY-SA 4.0 est <a href='https://creativecommons.org/2015/10/08/cc-by-sa-4-0-now-one-way-compatible-with-gplv3/'>compatible avec la GPL V3</a> même si son utilisation pour du code est déconseillé par la FSF (pour éviter de multiplier le nombre de licences).
     - Si quelques lignes triviales, possible de plaider devant un tribunal français la «&nbsp; bonne foi ou la «&nbsp;banalité/non-originalité&nbsp;» et devant un tribunal américain le «&nbsp;fair use&nbsp;»  mais jurisprudence au cas par cas...
 * Les sites qui ne précisent pas de licence : le **copyright par défaut « All rights reserved »** s'applique
@@ -672,18 +740,29 @@ Concerne : documents, musique, images, photos…
 
 ## Le code généré par des IA génératives
 
-* Législation dépassée. A ce jour, le code généré par un LLM comme ChatGPT n'est pas soumis à droit d'auteur même si le modèle a été entrainé sur du code soumis à droit d'auteur (au moins GitHub).
+* Le statut copyright du contenu généré dépend des pays ; aux USA, une protection exige une contribution humaine identifiable (ex: retouche).
   * [Confirmé](https://www.federalregister.gov/documents/2023/03/16/2023-05321/copyright-registration-guidance-works-containing-material-generated-by-artificial-intelligence) par un juge en mars 2023 aux USA.
 * Risques de contrefactions involontaires.
-* La réglementation européenne AI Act est arrivé au journal officiel en août 2024.
-** Le code généré appartient à l'utilisateur, pas au fournisseur de service LLM.
-** Le fournisseur de service LLM est tenu lister les données d’entraînement (transparence).
-** Le fournisseur de service LLM est tenu d'éviter la contrefaçon (pas toujours respecté actuellement, zone grise).
-** L'usager est tenu également de vérifier le code produit (il existe des outils).
+
+* La propriété du code généré dépend : 
+  - des CGU : prévoient en général que le code appartient à l'utilisateur mais la propriété peut être partagée (ex: Midjourney) ou droit d'usage (ex: OpenIA).
+  - du niveau d'implication humaine dans le code finalement produit (ajustements, intégration, architecture, prompting avancé...).
 
 <div class='admonition note'>
-D'expérience, plus vous partez d'une base de code personnelle, plus vous limitez le risque de contrefaçon.
+Plus vous partez d'une base de code personnelle, plus vous limitez le risque de contrefaçon.
 </div>
+
+---
+
+## L'IA Act
+
+* Réglementation européenne adoptée en 2024, application sur 2025-2026.
+* **Encadre les usages de l’IA** selon leur niveau de risque.
+* Orientée prévention comme le RGPD.
+* Impose des **obligations de transparence** et de “copyright compliance” **aux fournisseurs d'IA** (ex. résumé du contenu d’entraînement, politique copyright), avec un Code of Practice publié/encadré par la Commission pour aider à se conformer.
+* Le fournisseur de service LLM est tenu lister les données d’entraînement (transparence).
+* Le fournisseur de service LLM est tenu d'éviter la contrefaçon (pas toujours respecté actuellement, zone grise).
+* L'usager est tenu également de vérifier le code produit s'il distribue un produit (il existe des outils).
 
 ---
 
@@ -746,7 +825,7 @@ Voir aussi [la liste officielle sur gnu.org](https://www.gnu.org/licenses/licens
 
 | &nbsp; |&nbsp;
 |--------|------
-|<img src="resources/strengths.svg" style="width:80px;vertical-align:middle" > **Forces** <li>Sécurité par l'auditabilité <li>Support communautaire réactif<li>Gratuit (hors support payant)<li>Simple à mettre en œuvre <li>Bonne pérénité tant qu'il y a des utilisateurs| <img src="resources/weaknesses.svg" style="width:80px;vertical-align:middle"> **Faiblesses** <li>Failles de sécurité potentiellement visibles<li>Support payant onéreux 
+|<img src="resources/strengths.svg" style="width:80px;vertical-align:middle" > **Forces** <li>Sécurité par l'auditabilité <li>Support communautaire réactif<li>Gratuit (hors support payant)<li>Simple à mettre en œuvre <li>Bonne pérennité tant qu'il y a des utilisateurs| <img src="resources/weaknesses.svg" style="width:80px;vertical-align:middle"> **Faiblesses** <li>Failles de sécurité potentiellement visibles<li>Support payant onéreux 
 |<img src="resources/opportunities.svg" style="width:80px;vertical-align:middle"> **Opportunités**<li>Contribuer (évolutions/corrections)<li>Tester facilement de nouvelles solutions (POC)<li>Changer facilement de solution | <img src="resources/risks.svg" style="width:80px;vertical-align:middle"> **Risques** <li>Risque juridique si non respect des licences<li>Subir les roadmaps<li>Miser sur un projet dont la communauté se désintéresse
 | &nbsp; |&nbsp;
 
