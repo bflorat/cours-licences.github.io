@@ -538,6 +538,8 @@ Définition ([Wikipedia](https://fr.wikipedia.org/wiki/Logiciel_libre)) :
 * Dans la pratique, presque toutes les licences (GPL, MIT, Apache…) sont à la fois libres et Open Source.
 * **FLOSS** = Free / Libre Open Source Software  : permet de regrouper les deux notions.
 
+---
+
 ### Le Copyleft
 Afin d’assurer ces libertés, les logiciels Open Source se basent sur&nbsp;:
 - (Toujours) le **droit d’auteur** (_copyright_) qui prévient le plagiat ; 
@@ -767,6 +769,8 @@ Concerne : documents, musique, images, photos…
 
 [→ Choisir la meilleure licence Creative Commons](http://creativecommons.org.au/content/licensing-flowchart.pdf)
 
+---
+
 ### Les licences orientées contenu : la Licence Ouverte v2.0
 
 * Issue de l'état français (DINUM/**Etalab**).
@@ -801,7 +805,6 @@ Les administrations peuvent utiliser d'autres licences, liste officielle <a href
 #### Exemples d’usage
 * Cartographie collaborative : OpenStreetMap  
 * Bases enrichies collectivement (géodata, référentiels collaboratifs)  
-
 
 ---
 
@@ -856,7 +859,7 @@ Le marché mondial de l'Open Source atteint environ <b>57&nbsp;Mrds de $ en 2020
 
 ---
 
-# Organisations et bénévolat
+### Organisations et bénévolat
 - Rémunérations très faibles en général (ex: dons)
 - Crowdsourcing
 - Rémunération forfaitaire pour développement spécifique (Bounty)
